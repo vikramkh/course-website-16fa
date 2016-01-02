@@ -1,0 +1,6 @@
+*.lock
+_site/*
+
+.bundle/
+vendor/
+slides/

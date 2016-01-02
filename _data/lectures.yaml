@@ -1,0 +1,340 @@
+-
+  date: 2015-08-27
+  slides: slides/01-intro-and-union-find.pdf
+  title: Intro Lecture
+  highlights:
+    - Welcome to CIS 121
+    - Union-Find
+  reading:
+    -
+      title: Chapter 1.5 in the textbook
+-
+  date: 2015-09-01
+  title: Review of CIS 160
+  slides: resources/l1.pdf
+  speaker: Rajiv Gandhi
+-
+  date: 2015-09-03
+  title: Review of CIS 160
+  slides: resources/l2.pdf
+  speaker: Rajiv Gandhi
+-
+  date: 2015-09-08
+  slides: slides/02-analysis-of-algorithms.key.pdf
+  title: Analysis of Algorithms
+  highlights:
+    - Mathematical Models
+    - Order of Growth Classification
+    - Memory Usage
+  reading:
+    -
+      title: Chapter 1.4 in the textbook
+-
+  date: 2015-09-10
+  slides: slides/03-stacks-and-queues.pdf
+  title: Stacks and Queues
+  highlights:
+    - Resizing Arrays
+    - Applications of Stacks and Queues
+  reading:
+    -
+      title: Chapter 1.3 in the textbook
+-
+  date: 2015-09-15
+  slides: slides/04-intro-to-sorting-and-comparators.pdf
+  title: Elementary Sorts
+  highlights:
+    - Selection Sort
+    - Insertion Sort
+    - Shuffling
+  reading:
+    -
+      title: Chapter 2.1 in the textbook
+-
+  date: 2015-09-17
+  slides: slides/05-mergesort.pdf
+  title: Mergesort
+  highlights:
+    - Bottom-up Mergesort
+    - Sorting Complexity
+    - Comparators
+    - Stability
+  reading:
+    -
+      title: Chapter 2.2 in the textbook
+-
+  date: 2015-09-22
+  slides:
+  title: Optional review lecture given by TAs (Instructor traveling to a conference)
+-
+  date: 2015-09-24
+  slides: slides/06-quicksort.pdf
+  title: Quicksort
+  highlights:
+    - Theory of Algorithms
+    - Selection
+    - Duplicate Keys
+    - System sorts
+  reading:
+    -
+      title: Chapter 2.3 in the textbook
+-
+  date: 2015-09-29
+  slides: slides/07-sorting-wrapup.pdf
+  title: Sorting wrap up
+  highlights:
+    - Selection
+    - Pitfalls of quicksort
+    - The theory of algorithms
+  reading:
+    -
+      title: Chapter 2.3 in the textbook
+-
+  date: 2015-10-01
+  title: Midterm 1
+  highlights:
+    - Java Knowledge
+    - Analysis of Algorithms
+    - Sorting
+  reading:
+    -
+      title: Review chapters 1.3-1.5 and 2.1-2.3 in the textbook
+-
+  date: 2015-10-06
+  slides: slides/08-priority-queues.pdf
+  title: Priority Queues
+  highlights:
+    - Binary Heaps
+    - Heapsort
+  reading:
+    -
+      title: Chapter 2.4 in the textbook
+    -
+      title: Event-driven simulation slides (bonus materials, not on the exam)
+      url: slides/08-priority-queues-supplemental.pdf
+-
+  date: 2015-10-08
+  title: No class (Fall Term Break)
+-
+  date: 2015-10-09
+  title: Drop deadline
+  highlights:
+    - We will make grades for Midterm 1 available by the drop deadline
+-
+  date: 2015-10-13
+  slides: slides/09-symbol-tables-and-binary-trees.pdf
+  title: Symbol Table
+  highlights:
+    - Symbol Table API
+    - Ordered Operations
+    - Binary Search Trees
+  reading:
+    -
+      title: Chapters 3.1 and 3.2 in the textbook
+    -
+      title: Additional slides not covered in lecture (potentially on the exam)
+      url: slides/09-symbol-tables-and-binary-trees-supplemental.pdf
+-
+  date: 2015-10-15
+  slides: slides/10-balanced-search-trees.pdf
+  title: Balanced Search Trees
+  highlights:
+    - 2-3 Search Trees
+    - Red-Black BSTs
+  reading:
+    -
+      title: Chapter 3.3 in the textbook
+-
+  date: 2015-10-20
+  slides: slides/11-hash-tables.pdf
+  title: Hash Tables
+  highlights:
+    - Hash Functions
+    - Separate Chaining
+    - Linear Probing
+    - Symbol Table Applications
+  reading:
+    -
+      title: Chapter 3.4 in the textbook
+    -
+      title: Additional slides not covered in lecture on applications of symbol tables (potentially on the exam)
+      url: slides/11-hash-tables-applications.pdf
+-
+  date: 2015-10-22
+  slides: slides/12-undirected-graphs.pdf
+  title: Undirected Graphs
+  highlights:
+    - Intro to Graphs
+    - Graphs API
+    - Depth-First Search
+    - Breadth-First Search
+    - Connected Components
+    - Graph Challenges
+  reading:
+    -
+      title: Chapter 4.1 in the textbook
+-
+  date: 2015-10-27
+  slides: slides/13-directed-graphs.pdf
+  title: Directed Graphs
+  highlights:
+    - Intro to Digraphs
+    - Digraphs Seach
+    - Topological Sort
+    - Strong Components
+  reading:
+    -
+      title: Chapter 4.2 in the textbook
+-
+  date: 2015-10-29
+  slides: slides/14-minimum-spanning-trees.pdf
+  title: Minimum Spanning Trees
+  highlights:
+    - Greedy Algorithm for MSTs
+    - Edge Weighted Graphs
+    - Kruskal's Algorithm
+    - Prim's Algorithm
+  reading:
+    -
+      title: Chapter 4.3 in the textbook
+-
+  date: 2015-11-03
+  title: Midterm 2
+  highlights:
+    - Priority queues
+    - Search Trees
+    - Hash Tables
+    - Graphs
+  reading:
+    -
+      title: Review chapters 2.4, 3.1-3.5 and 4.1-4.3 of the textbook
+-
+  date: 2015-11-05
+  slides: slides/15-shortest-paths.pdf
+  title: Shortest Paths
+  highlights:
+    - Properties of Shortest Paths
+    - Dijkstra's Algorithm
+    - Edge-Weighted Directed Acyclic Graphs
+    - Negative Weights
+  reading:
+    -
+      title: Chapter 4.4 in the textbook
+-
+  date: 2015-11-06
+  title: Withdraw Deadline
+  highlights:
+    - We will attempt to make grades for Midterm 2 available by the end of the day, before the midnight withdraw deadline
+-
+  date: 2015-11-10
+  slides: slides/16-strings.pdf
+  title: Strings
+  highlights:
+    - Key-Indexed Counting
+    - LSD Radix Sort
+    - MSD Radix Sort
+    - 3-way Radix Quicksort
+    - Suffix Arrays
+  reading:
+    -
+      title: Chapter 5.1 the textbook
+-
+  date: 2015-11-12
+  slides: slides/17-tries.pdf
+  title: Tries
+  highlights:
+    - R-way Tries
+    - Ternary Search Tries
+    - Character-Based Operations
+  reading:
+    -
+      title: Chapter 5.2 the textbook
+-
+  date: 2015-11-17
+  slides: slides/17-tries.pdf
+  title: Tries (continued)
+  highlights:
+    - R-way Tries
+    - Ternary Search Tries
+    - Character-Based Operations
+  reading:
+    -
+      title: Chapter 5.2 the textbook
+-
+  date: 2015-11-19
+  slides: slides/18-data-compression.pdf
+  title: Data Compression 
+  highlights:
+    - Run-Length Coding
+    - Huffman Compression
+    - LZW Compression
+  reading:
+    -
+      title: Chapter 5.5 the textbook
+-
+  date: 2015-11-24    (Thursday Schedule Today)
+  slides: slides/19-substring-search.pdf
+  title: Substring Search
+  highlights:
+    - Brute Force Substring Search
+    - Knuth-Morris-Pratt
+  reading:
+    -
+      title: Chapter 5.3 the textbook
+-
+  date: 2015-11-26
+  title: No class today (Thanksgiving Break)
+-
+  date: 2015-12-01
+  title: Regular Expressions
+  slides: slides/20-regular-expressions.pdf
+  highlights:
+    - Regular Expressions and Non-deterministic Finite State Automata
+    - NFA Simulation
+    - NFA Construction
+  reading:
+    -
+      title: Chapter 5.4 the textbook
+-
+  date: 2015-12-03
+  title: Reductions
+  slides: slides/21-reductions.pdf
+  highlights:
+    - Designing Algorithms
+    - Establishing Lower Bounds
+    - Classifying Problems
+  reading:
+    -
+      title: Chapter 6 the textbook (Reductions)
+-
+  date: 2015-12-08
+  title: Intractability and Course Wrap-up
+  slides: slides/22-intractability-and-wrapup.pdf
+  highlights:
+    - Intractability 
+    - P and NP
+    - 3-SAT and NP-completeness 
+    - What I hope you take away from this course
+-
+  date: 2015-12-15
+  title: Final Exam (9am-11am on Tuesday December 15)
+  highlights:
+    - Roughly 50% of the exam will be drawn from materials after midterm 2, including
+    - Shortest Paths
+    - Radix Sort
+    - Tries
+    - Data compression
+    - Substring search
+    - Regular expressions
+    - The remaining 50% will cover topics from earlier parts of the class, including
+    - Java knowledge
+    - Order of growth classification
+    - Sorting
+    - Priority queues
+    - Balanced search trees
+    - Hash tables
+    - Graph algorithms
+    - MSTs
+  reading:
+    -
+      title: Review chapters 5.1-5.5 from the textbook, plus chapters 1-4
