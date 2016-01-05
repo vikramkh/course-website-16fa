@@ -20,12 +20,12 @@ Time and place:
 : Lectures are Tuesdays and Thursdays at 10:30 in Towne 100
 
 Prerequisites:
-: [CIS 120](http://www.seas.upenn.edu/~cis120/) and CIS 160
+: [CIS 120](http://www.seas.upenn.edu/~cis120/) and [CIS 160](http://www.thepigeonholeprinciple.com)
 
 Textbook:
 : The lectures and readings will be based off of
 [Introduction to Algorithms, 3rd edition](http://www.amazon.com/Introduction-Algorithms-3rd-Thomas-Cormen/dp/0262033844/).
-It is strongly recommended that you buy this textbook for the readings. 
+It is strongly recommended that you buy this textbook for the readings. It is available from the Penn Bookstore, as well as various online retailers.  
 
 Grading:
 : The grading for the course will consist of:
@@ -40,14 +40,14 @@ Late day policy:
 programming and written homeworks. At the end of the semester, we will arrange
 your late day usage so that you will receive the optimal homework average. If
 you are out of late days, then you will incur a 25% penalty off the 
-total possible number of pointson the homework for
+total possible number of points on the homework for
 each day late. One "day" here is anywhere between 1 second and 24 hours after
 the homework deadline, and a second "day" is between 24 hours and 48 hours after
 the homework deadline. For example, An assignment is due on Thursday at 10:30 am. 
 You turn it in on Friday at 9:00 am. This would incur a 25 point late penalty 
 if the assignment is out of 100 points. 
-Late written homeworks can be turned in to Britton
-Carnevali in Levine 308. The final project does not have the same late policy;
+Late written homeworks can be turned in to Laura Fox
+in Levine 308. The final project does not have the same late policy;
 it has its own late policy, which will be announced with its release.
 
 Collaboration policy for written homeworks:
@@ -79,6 +79,7 @@ Collaboration policy for programming homeworks:
         from the textbook.
     -   You can NOT use snippets of code from the Internet (e.g.,
         StackOverflow.com and similar).
+    -   You can NOT share test cases.
 -   Post code on, or use code from, public fora (e.g., GitHub,
     StackOverflow)
 -   Look at other people’s information
@@ -106,16 +107,23 @@ Regrade policy for programming homeworks:
     which, when fixed, will allow your programs to pass autograder tests. You
     will need to send an email, by the regrade deadline, which is one week after
     you receive your scores, to
-    [cis121-15fa-staff@googlegroups.com](mailto:cis121-16sp-staff@googlegroups.com).
+    [cis121-16sp-staff@googlegroups.com](mailto:cis121-16sp-staff@googlegroups.com).
     This email must identify exactly the error in your code and include a
     precise description of the fix that needs to be made. A *small error* is a
     problem whose fix should not require changing more than 1--2 lines of code.
     A TA will make the change and rerun the autograder tests. Your new score
     will be the maximum of your original score and 80% of your regraded score.
+    What are some acceptable/common types of "small" errors? 
+
+    - Using `==` instead of `.equals`
+    - Changing a method header that caused a compilation failure
+    - Lack or addition of `!` operators
+
+    Regrade emails to individual TA's are NOT guaranteed to be processed. 
 
 Regrade policy for written homeworks and exams:
 : Please fill out the
 [regrade request form](content/hws/regrade_request_15fa.pdf) and bring it to the
-course administrator, Britton Carnevali, in Levin 310, together with the
+course administrator, Britton Carnevali, in Levine 310, together with the
 assignment or exam by the regrade deadline. Regrades are due *one week* after
 the assignment or exam has been returned with your score.
