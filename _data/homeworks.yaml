@@ -1,6 +1,6 @@
 -
    assignment: Java Warm-Up (Quadtree Compression)
-   active: t
+   active:
    type: programming
    writeup: content/hws/hw1/hw1.pdf
    zip: content/hws/hw1/hw1.zip
@@ -9,7 +9,7 @@
 
 -
    assignment: Stable Matching
-   active: t
+   active:
    type: written
    problem_set: content/hws/hw2/hw2.pdf
    problem_set_zip: content/hws/hw2/hw2_src.zip
