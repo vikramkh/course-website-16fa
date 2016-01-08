@@ -1,18 +1,16 @@
--
-  header: 'The Tutoring Center'
-  links: 
+- header: 'The Tutoring Center'
+  links:
   -
     text: 'Penn offers free tutoring for students. You can seek additional course help here.'
     link: http://www.vpul.upenn.edu/tutoring/
 
--
-  header: 'Java'
+- header: 'Java'
   links:
     -
       text: 'Java 1.8 Documentation'
       link: https://docs.oracle.com/javase/8/docs/api/
--
-  header: 'Books (free, online)'
+
+- header: 'Books (free, online)'
   links:
     -
       text: 'Eck''s "Intro to Programming Using Java"'
@@ -26,8 +24,8 @@
     -
       text: 'Online Java Textbook'
       link: http://www.oopweb.com/Java/Documents/IntroToProgrammingUsingJava/VolumeFrames.html
--
-  header: 'Eclipse'
+
+- header: 'Eclipse'
   links:
     -
       text: '(CIS 120) Installation (go to step 3)'
@@ -38,8 +36,8 @@
     -
       text: 'Maven Eclipse Setup Guide'
       link: https://drive.google.com/open?id=16s3lIgEyCOSpuwO8jkhYQ6p7dlOgQKpLH78YMgFcpJ8
--
-  header: 'JUnit'
+
+- header: 'JUnit'
   links:
     -
       text: 'CIS 121 Testing Guide'
@@ -50,8 +48,8 @@
     -
       text: 'Official JUnit Documentation'
       link: http://junit.sourceforge.net/javadoc/
--
-  header: 'Coding Conventions'
+
+- header: 'Coding Conventions'
   links:
     -
       text: '121 Coding Style Guidelines'
@@ -59,14 +57,14 @@
     -
       text: 'Sun''s Java Coding Conventions'
       link: http://java.sun.com/docs/codeconv/html/CodeConvTOC.doc.html
--
-  header: 'Object Oriented Programming'
+
+- header: 'Object Oriented Programming'
   links:
     -
       text: 'www.oopweb.com'
       link: www.oopweb.com
--
-  header: 'CIS 160 Review Material'
+
+- header: 'CIS 160 Review Material'
   links:
     -
       text: 'Lecture Notes from Val Tannen'
@@ -83,14 +81,14 @@
     -
       text: 'Lecture Notes from Albert Meyer'
       link: https://www.seas.upenn.edu/~cis121/current//resources/AlbertMeyerLectureNotes.pdf
--
-  header: 'Algorithms'
+
+- header: 'Algorithms'
   links:
     -
       text: 'http://www.nist.gov/dads/'
       link: http://www.nist.gov/dads/
--
-  header: 'Quick Reference'
+
+- header: 'Quick Reference'
   links:
     -
       text: 'Theoretical Computer Science Cheat Sheet by Steve Seiden'

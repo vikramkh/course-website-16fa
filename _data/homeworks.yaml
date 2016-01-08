@@ -1,17 +1,14 @@
--
-   assignment: Java Warm-Up (Quadtree Compression)
-   active:
-   type: programming
-   writeup: content/hws/hw1/hw1.pdf
-   zip: content/hws/hw1/hw1.zip
-   release_date: 2016-01-14
-   due_date: 2016-01-28
+- assignment: Java Warm-Up (Quadtree Compression)
+  active:
+  type: programming
+  writeup: content/hws/hw1/hw1.pdf
+  zip: content/hws/hw1/hw1.zip
+  release_date: 2016-01-14
+  due_date: 2016-01-28
 
--
-   assignment: Stable Matching
-   active:
-   type: written
-   problem_set: content/hws/hw2/hw2.pdf
-   problem_set_zip: content/hws/hw2/hw2_src.zip
-   release_date: 2016-01-14
-   due_date: 2016-01-28
+- assignment: Stable Matching
+  active:
+  type: written
+  problem_set: content/hws/hw2/hw2.pdf
+  release_date: 2016-01-14
+  due_date: 2016-01-28
