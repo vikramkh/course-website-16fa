@@ -30,9 +30,9 @@ It is strongly recommended that you buy this textbook for the readings. It is av
 Grading:
 : The grading for the course will consist of:
 
-* 55% for homework assignments and the final project
-* 10% each for 2 midterm exams
-* 20% for the final
+* 40% for homework assignments and the final project
+* 15% each for 2 midterm exams
+* 25% for the final
 * 5% for recitation attendance. Recitation attendance is mandatory.
 
 Late day policy:
@@ -122,8 +122,12 @@ Regrade policy for programming homeworks:
     Regrade emails to individual TA's are NOT guaranteed to be processed. 
 
 Regrade policy for written homeworks and exams:
-: Please fill out the
+: 
+    - Each written assignment and each midterm exam will have a regrade request deadline that will be posted, typically one week after the assignment or exam has been returned with your score. Beyond that deadline, regrades can only be ordered by the course instructor after you discuss with him.
+    - Regrade requests are meant to be for arithmetic mistakes or for a grader not seeing that you continued your solution on the back of the page (as an example), not because you disagree with the grading rubric. The course staff will make its best effort to indicate exactly where points have been taken off, and why you lost them, in the interest of transparency.
+    - For the written assignments and for the midterms we will provide solutions in class. Please consult these carefully before requesting a regrade.
+
+Please fill out the
 [regrade request form](content/hws/regrade_request_15fa.pdf) and bring it to the
 course administrator, Britton Carnevali, in Levine 310, together with the
-assignment or exam by the regrade deadline. Regrades are due *one week* after
-the assignment or exam has been returned with your score.
+assignment or exam by the regrade deadline. 
