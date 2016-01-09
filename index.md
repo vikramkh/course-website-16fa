@@ -87,7 +87,8 @@ Collaboration policy for programming homeworks:
     clarification of the previous rule. This means that you may NOT seek help
     from online forums, like StackOverflow or similar. You may NOT push your
     code to a public repository like GitHub (private repositories, however, are
-    permitted).
+    permitted). You may seek help from online forums for low-level issues as mentioned above. 
+    When in doubt, ask on Piazza.
 -   Look at other people’s information
     -   If you find a terminal on which somebody else has logged in and
         forgot to log out, you *must* log them out
@@ -121,7 +122,8 @@ Regrade policy for programming homeworks:
     This email must identify exactly the error in your code and include a
     precise description of the fix that needs to be made. A *small error* is a
     problem whose fix should not require changing more than 1--2 lines of code.
-    A TA will make the change and rerun the autograder tests. Your new score
+    A TA will make the change and rerun the autograder tests, or you may attach the 
+    revised file and we will compare the submissions. Your new score
     will be the maximum of your original score and 80% of your regraded score.
     What are some acceptable/common types of "small" errors?
 
@@ -137,7 +139,7 @@ Regrade policy for written homeworks and exams:
 : Each written assignment and each midterm exam will have a regrade request
 deadline that will be posted typically one week after the assignment or exam has
 been returned with your score. Beyond that deadline, regrades can only be given
-by permission of the instructor. Regrade requests are meant cases such as
+by permission of the instructor. Regrade requests are meant for cases such as
 arithmetic mistakes in tabulating a final score, or for a grader not seeing that
 you continued your solution on the back of the page (as an example). In the
 interest of transparency, the course staff makes its best effort to indicate
