@@ -4,7 +4,8 @@ title: CIS 121—Spring 2016—Data Structures and Algorithms
 active_tab: main-page
 ---
 
-Course number:
+{: .dl-horizontal}
+Course:
 : CIS 121---Spring 2016
 
 Instructor:
@@ -16,16 +17,17 @@ Teaching Assistants:
 Discussion Forum:
 : [Piazza](https://piazza.com/upenn/spring2016/cis121/)
 
-Time and place:
-: Lectures are Tuesdays and Thursdays at 10:30 in Towne 100
+Lectures:
+: Tuesdays and Thursdays at 10:30am in Towne 100
 
 Prerequisites:
 : [CIS 120](http://www.seas.upenn.edu/~cis120/) and [CIS 160](http://www.thepigeonholeprinciple.com)
 
 Textbook:
-: The lectures and readings will be based off of
-[Introduction to Algorithms, 3rd edition](http://www.amazon.com/Introduction-Algorithms-3rd-Thomas-Cormen/dp/0262033844/).
-It is strongly recommended that you buy this textbook for the readings. It is available from the Penn Bookstore, as well as various online retailers.
+: [Introduction to Algorithms, 3rd edition](http://www.amazon.com/Introduction-Algorithms-3rd-Thomas-Cormen/dp/0262033844/).
+The lectures and the reading will draw from the textbook. It is strongly
+recommended that you buy this textbook. It is available from the Penn Bookstore,
+as well as various online retailers.
 
 ---
 
