@@ -32,10 +32,10 @@ Grading:
 
 : The grading for the course will consist of:
 
-* 40% for homework assignments and the final project
-* 15% each for 2 midterm exams
-* 25% for the final
-* 5% for recitation attendance. Recitation attendance is mandatory.
+    * 40% for homework assignments and the final project
+    * 15% each for 2 midterm exams
+    * 25% for the final
+    * 5% for recitation attendance. Recitation attendance is mandatory.
 
 Late submission policy:
 
@@ -62,54 +62,54 @@ must do that by yourself.
 Collaboration policy for programming homeworks:
 
 : You are allowed to discuss low-level issues like the meaning of Java
- constructs, or how to use the computing environment. You are allowed to discuss
- high-level questions such as what the instructor/lab TA said, the content of
- the textbook or other general resources. You **not** allowed to...
+constructs, or how to use the computing environment. You are allowed to discuss
+high-level questions such as what the instructor/lab TA said, the content of the
+textbook or other general resources. You **not** allowed to...
 
--   Discuss issues directly pertaining to the homework questions or
-    their solutions.
--   See another students homework solutions, or
--   Show your solutions to another student
-    -   This includes asking a classmate to debug your code and agreeing
-        to debug a classmate’s code. If you do this during office hours,
-        know that the TAs are *required* to report your names to the
-        instructor.
--   Share any code except the code that is being made available by us on
-    the course website to be used specifically with your solutions
-    -   Occasionally, a *small* snippet of code *from the textbook* may help
-        your work. You can use such a snippet *with attribution*, i.e.,
-        provided you add a comment in which you make clear you copied it
-        from the textbook.
-    -   You may NOT use snippets of code from the Internet (e.g.,
-        StackOverflow.com and similar).
-    -   You may NOT share test cases.
--   Post your code where it may be accessible to others. This is largely a
-    clarification of the previous rule. This means that you may NOT seek help
-    from online forums, like StackOverflow or similar. You may NOT push your
-    code to a public repository like GitHub (private repositories, however, are
-    permitted). You may seek help from online forums for low-level issues as mentioned above. 
-    When in doubt, ask on Piazza.
--   Look at other people’s information
-    -   If you find a terminal on which somebody else has logged in and
-        forgot to log out, you *must* log them out
-    -   When somebody else is typing a password in front of you *must*
-        look out the window, or at your shoes, or at the picture of Brad
-        Pitt or Angelina Jolie that you carry on your keychain.
--   Use any code downloaded from the Internet or sent to you by email,
-    Facebook, text, Twitter, or even scribbled notes passed from hand to
-    hand :)
--   Share the material that we post for this course with anybody who is
-    not a registered student in this course or a staff member.
-    -   If you find any such material already posted somewhere else you
-        *must* inform the course staff immediately. Same if you are
-        contacted by people who offer to solve your homework for money,
-        or who knows what else. Use your common sense and ask any member
-        of the staff if you are not sure about a resource you are
-        considering.
-    -   You may NOT share course materials without the prior approval of the
-        course staff. You may NOT post course materials on sites such as
-        CourseHero. This infringes upon the copyright of materials authored by
-        the course staff.
+    -   Discuss issues directly pertaining to the homework questions or
+        their solutions.
+    -   See another students homework solutions, or
+    -   Show your solutions to another student
+        -   This includes asking a classmate to debug your code and agreeing
+            to debug a classmate’s code. If you do this during office hours,
+            know that the TAs are *required* to report your names to the
+            instructor.
+    -   Share any code except the code that is being made available by us on
+        the course website to be used specifically with your solutions
+        -   Occasionally, a *small* snippet of code *from the textbook* may help
+            your work. You can use such a snippet *with attribution*, i.e.,
+            provided you add a comment in which you make clear you copied it
+            from the textbook.
+        -   You may NOT use snippets of code from the Internet (e.g.,
+            StackOverflow.com and similar).
+        -   You may NOT share test cases.
+    -   Post your code where it may be accessible to others. This is largely a
+        clarification of the previous rule. This means that you may NOT seek help
+        from online forums, like StackOverflow or similar. You may NOT push your
+        code to a public repository like GitHub (private repositories, however, are
+        permitted). You may seek help from online forums for low-level issues as mentioned above. 
+        When in doubt, ask on Piazza.
+    -   Look at other people’s information
+        -   If you find a terminal on which somebody else has logged in and
+            forgot to log out, you *must* log them out
+        -   When somebody else is typing a password in front of you *must*
+            look out the window, or at your shoes, or at the picture of Brad
+            Pitt or Angelina Jolie that you carry on your keychain.
+    -   Use any code downloaded from the Internet or sent to you by email,
+        Facebook, text, Twitter, or even scribbled notes passed from hand to
+        hand :)
+    -   Share the material that we post for this course with anybody who is
+        not a registered student in this course or a staff member.
+        -   If you find any such material already posted somewhere else you
+            *must* inform the course staff immediately. Same if you are
+            contacted by people who offer to solve your homework for money,
+            or who knows what else. Use your common sense and ask any member
+            of the staff if you are not sure about a resource you are
+            considering.
+        -   You may NOT share course materials without the prior approval of the
+            course staff. You may NOT post course materials on sites such as
+            CourseHero. This infringes upon the copyright of materials authored by
+            the course staff.
 
 Any violation of the collaboration policy will be dealt with severely.
 
