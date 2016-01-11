@@ -18,34 +18,32 @@ Subject to change as the term progresses.
         <td>{{ lecture.date | date: "%b %d" }}</td>
         <td>
           {% if lecture.profile %}
-          Company Profile:
+            Company Profile:
           {% endif %}
-          {% if lecture.slides %}<a href="{{ lecture.slides }}">{{ lecture.title }}</a>
-          {% else %}{{ lecture.title }}{% endif %}
-
+          {% if lecture.slides %}
+            <a href="{{ lecture.slides }}">{{ lecture.title }}</a>
+          {% else %}
+            {{ lecture.title }}
+          {% endif %}
           {% if lecture.speaker %}
-          {% if lecture.speaker_url %} by <a href="{{ lecture.speaker_url }}">{{ lecture.speaker }}</a>
-          {% else %} by {{ lecture.speaker }}{% endif %}
+            {% if lecture.speaker_url %} by <a href="{{ lecture.speaker_url }}">{{ lecture.speaker }}</a>
+            {% else %}
+              by {{ lecture.speaker }}
+            {% endif %}
           {% endif %}
-
           {% if lecture.highlights %}
             <ul>
-             {% for highlight in lecture.highlights %}
-               <span class="text-muted"><li>{{ highlight }}</li></span>
-             {% endfor %}
+              {% for highlight in lecture.highlights %}
+                <li class="text-muted">{{ highlight }}</li>
+              {% endfor %}
             </ul>
           {% endif %}
         </td>
         <td>
           {% if lecture.reading %}
-            <ul class="fa-ul">
+            <ul>
               {% for reading in lecture.reading %}
                 <li>
-                  {% if reading.optional %}
-                    <i class="fa-li fa fa-star"> </i>
-                  {% else %}
-                    <i class="fa-li fa"> </i>
-                  {% endif %}
                   {% if reading.url %}
                     <a href="{{ reading.url }}">{{ reading.title }}</a>
                   {% else %}
@@ -54,12 +52,15 @@ Subject to change as the term progresses.
                   {% if reading.author %}
                     by {{ reading.author }}
                   {% endif %}
+                  {% if reading.optional %}
+                    (optional)
+                  {% endif %}
                 </li>
               {% endfor %}
             </ul>
           {% endif %}
-      </td>
-    </tr>
+        </td>
+      </tr>
     {% endfor %}
   </tbody>
 </table>

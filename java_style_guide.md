@@ -28,27 +28,38 @@ The Basics
 Any code you submit *must* compile. If it does not compile, we won't grade the
 assignment and you will lose all the points for the assignment.
 
-### 80 column limit
-
-No line of code should have more than 80 columns. Using more than 80 columns
-causes your code to wrap around to the next line, which adversely impacts
-readability. You can set a visible margin in Eclipse by going to Preferences \>
-Editors \> Text Editors \> Show print margin.
-
-### Proper indentation
-
-Fortunately, Eclipse makes this really easy for you! Simply press `Ctrl-Shift-F`
-(`Cmd-Shift-F` for Macs) to auto-format tabs and whitespaces.
-
 ### Don't repeat yourself (DRY)
 
 If you find yourself writing the same or similar code two or more times,
 consider whether it could be put in a separate method.
 
+
+Writing Java
+------------
+
+### 100-column limit
+
+No line of code should have more than 100 columns. Using more than 100 columns
+causes your code to wrap around to the next line, which adversely impacts
+readability. You can set a visible margin in Eclipse by going to `"Preferences" >
+"Editors" > "Text Editors" > "Show print margin"`.
+
+### Proper indentation
+
+Do not use tab characters for indentation. Make sure indentation lines up correctly.
+
 ### Always use braces for if-statements and loops
 
 Although curly braces aren't required for one statement, it's good style to
 always include them. Doing so can help you avoid easily prevented bugs.
+
+### Use the code formatter
+
+Fortunately, Eclipse has a code formatter that will automatically fix these
+above three points for you! Simply press `Ctrl-Shift-F` (`Cmd-Shift-F` for Macs)
+to automagically format your code. Set up the formatter by going to
+`"Preferences" > "Java" > "Code Style" > "Formatter"`.
+
 
 Commenting
 ----------
@@ -89,26 +100,22 @@ function---variable naming should be enough.
 When comments are printed on paper, the reader lacks the advantage of color
 highlighting performed by an editor such as Emacs. This makes it important for
 you to distinguish comments from code. When a comment extends beyond one line,
-it should be preceded with a \* similar to the following:
+it should be preceded with a `*` similar to the following:
 
     /*
-    * This is one of those rare but long comments that need
-    * to span multiple lines because the code is unusually
-    * complex and requires extra explanation.
-    */
+     * This is one of those rare but long comments that need
+     * to span multiple lines because the code is unusually
+     * complex and requires extra explanation.
+     */
 
 
 ### Write Javadoc
 
-Ever wonder how the thousands of Java API web pages
-are generated? Using javadoc, an Oracle tool that generates API
-documentation in HTML format! Comment blocks that pertain to an
-entire method or class should be marked as javadoc by beginning the
-block with a double \*:
-
-    /**
-    * A class of linear algebra utility methods.
-    */
+Ever wonder how the thousands of Java API web pages are generated? Using
+Javadoc, an Oracle tool that generates API documentation in HTML format! Refer
+to
+[Oracle's how-to for Javadoc](http://www.oracle.com/technetwork/articles/java/index-137868.html)
+for further details.
 
 
 Naming and Declarations
@@ -206,11 +213,10 @@ Additional Style Resources
     Code](http://www.e-reading-lib.com/bookreader.php/134601/Martin_-_Clean_Code_-_A_Handbook_of_Agile_Software_Craftsmanship.pdf)
     (free book!)
 -   The Elements of Java Style
--   _Effective Java_, by Joshua Bloch: It’s not free, but… _Effective Java_
-    is the go-to book on the Java language and is practically required
-    reading at many major tech companies, such as Google and Palantir.
-    It covers some advanced topics that are more relevant to production
-    code, but is nonetheless an invaluable resource with respect to
-    class design and general programming. In particular, Chapter 4
-    ("Classes and Interfaces"), and Chapter 8 ("General Programming") are relevant
-    to 121.
+-   _Effective Java_, by Joshua Bloch: It is not free, however, _Effective Java_
+    is the go-to book on the Java language and is practically required reading
+    at many major tech companies, such as Google and Palantir. It covers some
+    advanced topics that are more relevant to production code, but is
+    nonetheless an invaluable resource with respect to class design and general
+    programming. In particular, Chapter 4 ("Classes and Interfaces"), and
+    Chapter 8 ("General Programming") are relevant to CIS 121.
