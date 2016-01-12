@@ -72,9 +72,9 @@
     </div>
 
     <footer class="text-center text-muted">
-      <hr/>
-      Last updated {{ site.time | date: "%B %d, %Y %T" }}. <br/>
-      The source code is on <a href="https://github.com/cis121/course-website-16sp">github <i class="fa fa-github-alt"></i></a>. <br/>
+      <hr>
+      Last updated {{ site.time | date: "%B %d, %Y %T" }}.<br>
+      The source code is on <a href="https://github.com/cis121/course-website-16sp">GitHub</a>.
     </footer>
 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
@@ -83,6 +83,9 @@
     <script type="text/javascript">
       $(document).ready(function(){
         $("#{{ page.active_tab }}").addClass("active");
+        {% if page.js_onready %}
+          {{ page.js_onready }}
+        {% endif %}
       });
     </script>
   </body>
