@@ -36,7 +36,7 @@ Grading:
 : The grading for the course will consist of:
 
     * 35% for homework assignments and the final project
-    * 17.5% for each of two midterm exams
+    * 17.5% for each of two midterm exams (2/18 and 4/7)
     * 25% for the final
     * 5% for recitation attendance. Recitation attendance is mandatory.
 
