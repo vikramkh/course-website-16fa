@@ -1,8 +1,8 @@
 -
   date: 2016-1-14
-  title: Review of CIS 160
-  slides: resources/l1.pdf
+  title: Review of CIS 160 Techniques
+  slides: lectures/01-stable-matching.pdf
   highlights:
     - Stable Matching
   reading:
-    - title: TBA
+    - title: See Lecture Notes
