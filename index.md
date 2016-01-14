@@ -45,9 +45,10 @@ Late submission policy:
 
 : The following applies to all homeworks, both written and programming, except
     for the final project, which does not have a late day policy. Each student
-    has two free, no-strings-attached "late days". Homeworks can be submitted at
-    most two days late provided that you have the requisite number of late days.
-    If you are out of late days, then you cannot submit your homework late. One
+    has two free, no-strings-attached "late days" in case of extenuating circumstances. 
+    Homeworks can be submitted at most two days late provided that you have the requisite 
+    number of late days.
+    If you are out of late days, then you will not be able to submit your homework. One
     "day" is defined as anytime between 1 second and 24 hours after the homework
     deadline. Late written homeworks can be turned in to Laura Fox in
     Levine 308. The final project does not have the same late policy; it has its
