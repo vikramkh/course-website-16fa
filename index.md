@@ -35,8 +35,8 @@ Grading:
 
 : The grading for the course will consist of:
 
-    * 40% for homework assignments and the final project
-    * 15% each for 2 midterm exams
+    * 35% for homework assignments and the final project
+    * 17.5% for each of two midterm exams
     * 25% for the final
     * 5% for recitation attendance. Recitation attendance is mandatory.
 
@@ -74,8 +74,8 @@ Collaboration policy for programming homeworks:
 
     -   Discuss issues directly pertaining to the homework questions or
         their solutions.
-    -   See another students homework solutions, or
-    -   Show your solutions to another student
+    -   See another students homework solutions.
+    -   Show your solutions to another student.
         -   This includes asking a classmate to debug your code and agreeing
             to debug a classmate’s code. If you do this during office hours,
             know that the TAs are *required* to report your names to the
@@ -90,20 +90,20 @@ Collaboration policy for programming homeworks:
             StackOverflow.com and similar).
         -   You may NOT share test cases.
     -   Post your code where it may be accessible to others. This is largely a
-        clarification of the previous rule. This means that you may NOT seek help
-        from online forums, like StackOverflow or similar. You may NOT push your
-        code to a public repository like GitHub (private repositories, however, are
-        permitted). You may seek help from online forums for low-level issues as mentioned above.
-        When in doubt, ask on Piazza.
-    -   Look at other people’s information
+        clarification of the previous rule. This means that you may NOT seek
+        help from online forums, like StackOverflow or similar. You may NOT push
+        your code to a public repository like GitHub (private repositories,
+        however, are permitted). You may seek help from online forums for
+        low-level issues as mentioned above. When in doubt, ask on Piazza.
+    -   Look at other people’s information.
         -   If you find a terminal on which somebody else has logged in and
-            forgot to log out, you *must* log them out
+            forgot to log out, you *must* log them out.
         -   When somebody else is typing a password in front of you *must*
             look out the window, or at your shoes, or at the picture of Brad
             Pitt or Angelina Jolie that you carry on your keychain.
     -   Use any code downloaded from the Internet or sent to you by email,
         Facebook, text, Twitter, or even scribbled notes passed from hand to
-        hand :)
+        hand. :)
     -   Share the material that we post for this course with anybody who is
         not a registered student in this course or a staff member.
         -   If you find any such material already posted somewhere else you
