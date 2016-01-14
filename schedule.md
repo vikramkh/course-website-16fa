@@ -10,6 +10,7 @@ js_onready: |
   }
 
 ---
+All office hours will be held in Moore 100A.
 
 <div class="embed-responsive embed-responsive-4by3">
   <iframe id="calendar-schedule" class="embed-responsive-item" scrolling="no"></iframe>
