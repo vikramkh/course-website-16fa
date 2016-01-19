@@ -1,95 +1,86 @@
-- header: 'The Tutoring Center'
+- header: The Tutoring Center
   links:
-  -
-    text: 'Penn offers free tutoring for students. You can seek additional course help here.'
+
+  - text: Penn offers free tutoring for students. You can seek additional course help here.
     link: http://www.vpul.upenn.edu/tutoring/
 
-- header: 'Java'
+- header: Java
   links:
-    -
-      text: 'Java 1.8 Documentation'
+
+    - text: Java 1.8 Documentation
       link: https://docs.oracle.com/javase/8/docs/api/
 
-- header: 'Books (free, online)'
+- header: Books (free and online)
   links:
-    -
-      text: 'Eck''s "Intro to Programming Using Java"'
-      link: http://math.hws.edu/javanotes/
-    -
-      text: '"Java Tutorial" from Sun'
-      link: http://java.sun.com/docs/books/tutorial/index.html
-    -
-      text: '"Thinking in Java" by Bruce Eckel'
-      link: http://www.mindview.net/Books/TIJ/
-    -
-      text: 'Online Java Textbook'
-      link: http://www.oopweb.com/Java/Documents/IntroToProgrammingUsingJava/VolumeFrames.html
 
-- header: 'Eclipse'
+    - text: <cite>Introduction to Programming Using Java</cite> by David J. Eck
+      link: http://math.hws.edu/javanotes/
+
+    - text: The Java Tutorials from Oracle
+      link: http://docs.oracle.com/javase/tutorial/index.html
+
+    - text: <cite>Thinking in Java</cite> by Bruce Eckel
+      link: http://www.mindview.net/Books/TIJ/
+
+- header: Eclipse
   links:
-    -
-      text: '(CIS 120) Installation (go to step 3)'
-      link: http://www.seas.upenn.edu/~cis120/current/ocaml_setup.shtml
-    -
-      text: '(CIS 120) Project Set-up'
-      link: http://www.seas.upenn.edu/~cis120/current/java_project.shtml
-    -
-      text: 'Maven Eclipse Setup Guide'
+
+    - text: (CIS 120) Installation (go to step 3)
+      link: https://www.cis.upenn.edu/~cis120/current/ocaml_setup.shtml
+
+    - text: (CIS 120) Eclipse Project Setup
+      link: https://www.cis.upenn.edu/~cis120/current/java_project.shtml
+
+    - text: Maven Eclipse Setup Guide
       link: https://drive.google.com/open?id=16s3lIgEyCOSpuwO8jkhYQ6p7dlOgQKpLH78YMgFcpJ8
 
-- header: 'JUnit'
+- header: JUnit
   links:
-    -
-      text: 'CIS 121 Testing Guide'
-      link: testing_guide.html
-    -
-      text: 'University of Washington tutorial'
-      link: http://courses.cs.washington.edu/courses/cse143/11wi/eclipse-tutorial/junit.shtml
-    -
-      text: 'Official JUnit Documentation'
-      link: http://junit.sourceforge.net/javadoc/
 
-- header: 'Coding Conventions'
+    - text: CIS 121 Testing Guide
+      link: testing_guide.html
+
+    - text: University of Washington tutorial
+      link: http://courses.cs.washington.edu/courses/cse143/11wi/eclipse-tutorial/junit.shtml
+
+    - text: JUnit Documentation
+      link: http://junit.org/javadoc/latest/
+
+- header: Coding Conventions
   links:
-    -
-      text: '121 Coding Style Guidelines'
+
+    - text: 121 Coding Style Guidelines
       link: java_style_guide.html
-    -
-      text: 'Sun''s Java Coding Conventions'
+
+    - text: Sun's Java Coding Conventions
       link: http://java.sun.com/docs/codeconv/html/CodeConvTOC.doc.html
 
-- header: 'Object Oriented Programming'
+- header: CIS 160 Review Material
   links:
-    -
-      text: 'www.oopweb.com'
-      link: www.oopweb.com
 
-- header: 'CIS 160 Review Material'
-  links:
-    -
-      text: 'Lecture Notes from Val Tannen'
-      link: https://www.seas.upenn.edu/~cis121/current/resources/lectSkelALL.pdf
-    -
-      text: 'Exams, Mock and Actual, with Solutions'
-      link: https://www.seas.upenn.edu/~cis121/current/resources/exALL.pdf
-    -
-      text: 'Homeworks, with Solutions'
-      link: https://www.seas.upenn.edu/~cis121/current/resources/hwALL.pdf
-    -
-      text: 'Quizzes, with Answers and Explanations'
-      link: https://www.seas.upenn.edu/~cis121/current/resources/qzALL.pdf
-    -
-      text: 'Lecture Notes from Albert Meyer'
-      link: https://www.seas.upenn.edu/~cis121/current//resources/AlbertMeyerLectureNotes.pdf
+    - text: Lecture Notes from Val Tannen
+      link: https://www.cis.upenn.edu/~cis121/current/resources/lectSkelALL.pdf
 
-- header: 'Algorithms'
-  links:
-    -
-      text: 'http://www.nist.gov/dads/'
-      link: http://www.nist.gov/dads/
+    - text: Exams (mock and actual), with solutions'
+      link: https://www.cis.upenn.edu/~cis121/current/resources/exALL.pdf
 
-- header: 'Quick Reference'
+    - text: Homeworks, with solutions
+      link: https://www.cis.upenn.edu/~cis121/current/resources/hwALL.pdf
+
+    - text: Quizzes, with answers and explanations'
+      link: https://www.cis.upenn.edu/~cis121/current/resources/qzALL.pdf
+
+    - text: Lecture Notes from Albert Meyer
+      link: https://www.cis.upenn.edu/~cis121/current//resources/AlbertMeyerLectureNotes.pdf
+
+- header: Algorithms
   links:
-    -
-      text: 'Theoretical Computer Science Cheat Sheet by Steve Seiden'
+
+    - text: https://xlinux.nist.gov/dads/
+      link: https://xlinux.nist.gov/dads/
+
+- header: Quick Reference
+  links:
+
+    - text: Theoretical Computer Science Cheat Sheet by Steve Seiden
       link: https://www.seas.upenn.edu/~cis121/current/resources/seiden_cheat.pdf
