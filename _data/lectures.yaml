@@ -1,8 +1,16 @@
--
-  date: 2016-1-14
+- date: 2016-1-14
   title: Review of CIS 160 Techniques
   slides: lectures/01-stable-matching.pdf
   highlights:
     - Stable Matching
   reading:
     - title: See Lecture Notes
+
+- date: 2016-1-19
+  title: GCD, Insertion Sort
+  slides: lectures/gcd.pdf
+  highlights:
+    - GCD
+    - Insertion Sort
+  reading:
+    - title: Sections 2.1, 2.2
