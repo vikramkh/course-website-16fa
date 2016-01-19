@@ -34,7 +34,13 @@ Subject to change as the term progresses.
           {% if lecture.highlights %}
             <ul>
               {% for highlight in lecture.highlights %}
-                <li class="text-muted">{{ highlight }}</li>
+                <li class="text-muted">
+                  {% if highlight.topic %}
+                    <a href="{{ highlight.link }}">{{ highlight.topic }}</a>
+                  {% else %}
+                    {{ highlight }}
+                  {% endif %}
+                </li>
               {% endfor %}
             </ul>
           {% endif %}
@@ -44,16 +50,20 @@ Subject to change as the term progresses.
             <ul>
               {% for reading in lecture.reading %}
                 <li>
-                  {% if reading.url %}
-                    <a href="{{ reading.url }}">{{ reading.title }}</a>
+                  {% if reading.topic %}
+                    {% if reading.link %}
+                      <a href="{{ reading.link }}">{{ reading.topic }}</a>
+                    {% else %}
+                      {{ reading.topic }}
+                    {% endif %}
+                    {% if reading.author %}
+                      by {{ reading.author }}
+                    {% endif %}
+                    {% if reading.optional %}
+                      (optional)
+                    {% endif %}
                   {% else %}
-                    {{ reading.title }}
-                  {% endif %}
-                  {% if reading.author %}
-                    by {{ reading.author }}
-                  {% endif %}
-                  {% if reading.optional %}
-                    (optional)
+                    {{ reading }}
                   {% endif %}
                 </li>
               {% endfor %}
