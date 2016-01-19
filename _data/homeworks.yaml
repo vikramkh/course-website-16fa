@@ -7,7 +7,7 @@
   due_date: 2016-01-21
 
 - assignment: Stable Matching
-  active:
+  active: t
   type: written
   problem_set: content/hws/hw2/hw2.pdf
   release_date: 2016-01-14
