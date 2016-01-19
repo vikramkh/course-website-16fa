@@ -24,7 +24,7 @@ Prerequisites:
 : [CIS 120](http://www.seas.upenn.edu/~cis120/) and [CIS 160](http://www.thepigeonholeprinciple.com)
 
 Textbook:
-: [Introduction to Algorithms, 3rd edition](http://www.amazon.com/Introduction-Algorithms-3rd-Thomas-Cormen/dp/0262033844/).
+: [<cite>Introduction to Algorithms, 3rd edition</cite> by Cormen, Larsen, Rivest, and Stein](http://www.amazon.com/Introduction-Algorithms-3rd-Thomas-Cormen/dp/0262033844/).
 The lectures and the reading will draw from the textbook. It is strongly
 recommended that you buy this textbook. It is available from the Penn Bookstore,
 as well as various online retailers.
@@ -45,8 +45,8 @@ Late submission policy:
 
 : The following applies to all homeworks, both written and programming, except
     for the final project, which does not have a late day policy. Each student
-    has two free, no-strings-attached "late days" in case of extenuating circumstances. 
-    Homeworks can be submitted at most two days late provided that you have the requisite 
+    has two free, no-strings-attached "late days" in case of extenuating circumstances.
+    Homeworks can be submitted at most two days late provided that you have the requisite
     number of late days.
     If you are out of late days, then you will not be able to submit your homework. One
     "day" is defined as anytime between 1 second and 24 hours after the homework
