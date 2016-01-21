@@ -14,3 +14,13 @@
     - Insertion sort
   reading:
     - CLRS sections 2.1, 2.2
+
+
+- date: 2016-1-21
+  title: Running Time and Growth Functions
+  slides: lectures/runtime.pdf
+  highlights:
+    - Running time
+    - Order of growth
+  reading:
+    - CLRS chapter 3, pp. 43--49

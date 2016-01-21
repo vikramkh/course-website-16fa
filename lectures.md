@@ -63,7 +63,7 @@ Subject to change as the term progresses.
                       (optional)
                     {% endif %}
                   {% else %}
-                    {{ reading }}
+                    {{ reading | markdownify }}
                   {% endif %}
                 </li>
               {% endfor %}
