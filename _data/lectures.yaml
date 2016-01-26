@@ -24,3 +24,13 @@
     - Order of growth
   reading:
     - CLRS chapter 3, pp. 43--49
+
+
+- date: 2016-1-26
+  title: Running Time and Recurrence Relations
+  slides: lectures/runtime2.pdf
+  highlights:
+    - Analyzing code snippets
+    - Recurrence Relations
+  reading:
+    - See lecture notes
