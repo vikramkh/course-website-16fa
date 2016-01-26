@@ -12,3 +12,10 @@
   problem_set: content/hws/hw2/hw2.pdf
   release_date: 2016-01-14
   due_date: 2016-01-28
+
+- assignment: Big-Oh
+  active: t
+  type: written 
+  problem_set: content/hws/hw3/hw3.pdf 
+  release_date: 2016-01-26
+  due_date: 2016-02-04
