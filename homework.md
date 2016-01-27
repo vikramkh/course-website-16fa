@@ -7,8 +7,7 @@ active_tab: homework
 Written homeworks *must* include our [cover
 sheet](content/hws/cover_sheet_16sp.pdf) with the requisite information filled
 out in order for them to be graded. Written homeworks *must* be typeset in
-LaTeX. Written homeworks must be submitted online as well as offline in paper
-form in class.
+LaTeX. Written homeworks must be submitted online.
 
 For your convenience, we have a [LaTeX homework template](content/hws/hw121.cls)
 for you to use.
