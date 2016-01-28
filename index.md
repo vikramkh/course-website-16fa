@@ -24,7 +24,7 @@ Prerequisites:
 : [CIS 120](http://www.seas.upenn.edu/~cis120/) and [CIS 160](http://www.thepigeonholeprinciple.com)
 
 Textbook:
-: [<cite>Introduction to Algorithms, 3rd edition</cite> by Cormen, Larsen, Rivest, and Stein](http://www.amazon.com/Introduction-Algorithms-3rd-Thomas-Cormen/dp/0262033844/).
+: [<cite>Introduction to Algorithms, 3rd edition</cite> by Cormen, Leiserson, Rivest, and Stein](http://www.amazon.com/Introduction-Algorithms-3rd-Thomas-Cormen/dp/0262033844/).
 The lectures and the reading will draw from the textbook. It is strongly
 recommended that you buy this textbook. It is available from the Penn Bookstore,
 as well as various online retailers.
