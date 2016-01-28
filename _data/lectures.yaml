@@ -34,3 +34,9 @@
     - Recurrence Relations
   reading:
     - See lecture notes
+
+- date: 2016-1-28
+  title: Divide and Conquer
+  slides: lectures/dc.pdf
+  reading:
+    - CLRS section 2.3.1
