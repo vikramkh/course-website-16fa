@@ -31,12 +31,15 @@
   slides: lectures/runtime2.pdf
   highlights:
     - Analyzing code snippets
-    - Recurrence Relations
+    - Recurrence relations
   reading:
     - See lecture notes
 
 - date: 2016-1-28
   title: Divide and Conquer
+  highlights:
+    - Analyzing recursive functions
+    - Mergesort analysis
   slides: lectures/dc.pdf
   reading:
     - CLRS section 2.3.1
