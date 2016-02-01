@@ -112,7 +112,7 @@ and $n\geq 3^6$. Thus the running time is $\Omega(n\log n)$.
 \paragraph{Example.} Consider the following code fragment.
 \begin{verbatim}
 for i = 0 to n do
-  for j = n to 0 do
+  for j = n down to 0 do
     for k = 1 to j-i do
         print (k)
 \end{verbatim}
@@ -131,6 +131,62 @@ $n/2$ times. Thus the running time is at least
 \[
 (n^2/16)(n/2) = \Omega(n^3)
 \]
+
+\paragraph{Example.}
+Consider the following code fragment.
+\begin{verbatim}
+for i = 1 to n do
+  for j = 1 to i*i do
+    for k = 1 to j do
+        print (k)
+\end{verbatim}
+Give a tight-bound on the running time of this algorithm? We will
+assume that $n$ is a power of 2.
+
+\paragraph{Solution.} Note that the value of $j$ in the second
+for-loop is upper bounded by $n^2$ and the value of $k$ in the
+innermost loop is also bounded by $n^2$. Thus the outermost for-loop
+iterates for $n$ times, the second for-loop iterates for at most $n^2$
+times, and the innermost loop iterates for at most $n^2$ times. Thus
+the running time of the code fragment is $O(n^5)$. 
+
+We will now argue that the running time of the code fragment is
+$\Omega(n^5)$. Consider the following code fragment.
+\begin{verbatim}
+for i = n/2 to n do
+  for j = (n/4)*(n/4) to (n/2)*(n/2)  do
+    for k = 1 to (n/4)*(n/4) do
+        print (k)
+\end{verbatim}
+Note that the values of $i,j,k$ in the above code fragment form a
+subset of the corresponding values in the code fragment in
+question. Thus the running time of the new code fragment is a lower bound
+on the running time of the code fragment in question. Thus the running
+time of the code fragment in question is at least $n/2\cdot 3n^2/16 \cdot
+n^2/16=\Omega(n^5)$.
+
+Thus the running time of the code fragment in question is $\Theta(n^5)$. 
+
+\paragraph{Example.}
+Consider the following code fragment. We will assume that $n$ is a
+power of 2.
+\begin{verbatim}
+for (i = 1; i <= n; i = 2*i) do
+  for j = 1 to i do
+        print (j)
+\end{verbatim}
+Give a tight-bound on the running time of this algorithm? 
+
+\paragraph{Solution.} Observe that for $0\leq k\leq \lg n$, in the $k^{th}$ iteration of the
+outer loop, the value of $i=2^{k}$. Thus the running time $T(n)$ of
+the code fragment can be written as follows.
+\begin{align*}
+T(n) &= \sum_{k=0}^{\lg n}2^{k} \\
+&= 2^{\lg n+1} -1 \\
+&= 2n-1\\
+&=\Theta(n)
+\end{align*}
+ 
 \ni
 \textbf{Discussion:} Consider a problem $X$ with an algorithm $A$.
 \begin{itemize}
