@@ -21,7 +21,7 @@
   due_date: 2016-02-04
 
 - assignment: Recurrences and Divide and Conquer
-  active: 
+  active: t
   type: written 
   problem_set: content/hws/hw3/hw4.pdf 
   release_date: 2016-02-04
