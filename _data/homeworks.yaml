@@ -19,3 +19,10 @@
   problem_set: content/hws/hw3/hw3.pdf 
   release_date: 2016-01-26
   due_date: 2016-02-04
+
+- assignment: Recurrences and Divide and Conquer
+  active: 
+  type: written 
+  problem_set: content/hws/hw3/hw4.pdf 
+  release_date: 2016-02-04
+  due_date: 2016-02-11
