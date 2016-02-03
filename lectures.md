@@ -21,9 +21,9 @@ Subject to change as the term progresses.
             Company Profile:
           {% endif %}
           {% if lecture.slides %}
-            <a href="{{ lecture.slides }}">{{ lecture.title | markdownify }}</a>
+            <a href="{{ lecture.slides }}">{{ lecture.title | inline_markdownify }}</a>
           {% else %}
-            {{ lecture.title | markdownify }}
+            {{ lecture.title | inline_markdownify }}
           {% endif %}
           {% if lecture.speaker %}
             {% if lecture.speaker_url %} by <a href="{{ lecture.speaker_url }}">{{ lecture.speaker }}</a>
@@ -63,7 +63,7 @@ Subject to change as the term progresses.
                       (optional)
                     {% endif %}
                   {% else %}
-                    {{ reading | markdownify }}
+                    {{ reading | inline_markdownify }}
                   {% endif %}
                 </li>
               {% endfor %}
