@@ -21,9 +21,9 @@ Subject to change as the term progresses.
             Company Profile:
           {% endif %}
           {% if lecture.slides %}
-            <a href="{{ lecture.slides }}">{{ lecture.title }}</a>
+            <a href="{{ lecture.slides }}">{{ lecture.title | markdownify }}</a>
           {% else %}
-            {{ lecture.title }}
+            {{ lecture.title | markdownify }}
           {% endif %}
           {% if lecture.speaker %}
             {% if lecture.speaker_url %} by <a href="{{ lecture.speaker_url }}">{{ lecture.speaker }}</a>

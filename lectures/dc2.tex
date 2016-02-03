@@ -1,0 +1,220 @@
+\documentclass[11pt,twoside]{article}
+\usepackage{amsmath,amssymb,graphicx}
+\usepackage{latexsym}
+
+\newcommand{\coursenumber}{CIS 121}
+\newcommand{\coursetitle}{Data Structures and Algorithms}
+\newcommand{\docdate}{February 02, 2016}
+\newcommand{\duedate}{February 02, 2016}
+\newcommand{\doctitle}{Running time, Divide and Conquer}
+\newcommand{\student}{PUT YOUR NAME HERE}
+
+\pagestyle{myheadings}
+\markboth{\hfill\doctitle\hfill\docdate}{\docdate\hfill\doctitle\hfill}
+
+\addtolength{\textwidth}{1.00in}
+\addtolength{\textheight}{1.00in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\topmargin}{-.25in}
+%\setlength{\footskip}{0pt}
+
+\newcommand{\E}{{\mbox {\bf E}}}
+\newcommand{\Var}{{\mbox {Var}}}
+
+\newcommand{\solution}{\bigskip\hrule\bigskip}
+\newcommand{\problembreak}{\bigskip\hrule\bigskip}
+
+\def\ni{\noindent}
+
+\renewcommand{\theenumi}{\textbf{\Alph{enumi}}}
+
+\newcommand{\comment}{$\rhd$\ \ }
+
+\begin{document}
+
+\thispagestyle{empty}
+
+\begin{center}
+\Large\bf\coursetitle\\[2pt]\doctitle\\ \large\docdate
+% \\[2pt]\student       % Uncomment this line to insert your name
+\end{center}
+\vspace*{0.10in}
+%{\noindent{\bf Given:}\ \ \docdate}
+%{\hfill{\bf Due:}\ \ \duedate}
+
+\hrule
+\section*{Quicksort}
+In quick sort, we first decide on the pivot. This could be the element
+at any
+location in the input array. The function \texttt{Partition} is then
+invoked. \texttt{Partition} accomplishes the following: it places the
+pivot in the location that it should be in the output and places all
+elements that are at most the pivot to the left of the pivot and all
+elements greater than the pivot to its right. Then we recurse on both
+parts. The pseudocode for Quick Sort is as follows. 
+\begin{verbatim}
+  QSort(A[lo..hi])
+    if hi <= lo then
+      return
+    else
+      pivotIndex = floor((lo+hi)/2)  (this could have been any location)
+      loc = Partition(A, lo, hi, pIndex)
+      QSort(A[lo..loc-1])
+      QSort(A[loc+1..hi])     
+\end{verbatim} 
+
+One possible implementation of the function \texttt{Partition} is as follows.
+\begin{verbatim}
+  Partition(A, lo, hi, pIndex)
+    pivot = A[pIndex]
+    swap(A, pivotIndex, hi)
+    left = lo
+    right = hi-1
+    while left <= right do
+       if (A[left] <= pivot) then
+          left = left + 1
+       else
+          swap(A, left, right)
+          right = right - 1
+    swap(A, left, hi)
+    return left
+\end{verbatim}
+
+The worst case running time of the algorithm is given by
+\[
+T(n) = \left\{ \begin{array}{ll}
+       1, &  n=1\\
+       T(n-1) + cn, &  n \geq 2 
+      \end{array} \right.
+\]
+Hence the worst case running time of \texttt{QSort} is $\Theta(n^2)$.
+
+An instance where the quick sort algorithm in which the pivot is
+always the first element in the input array performs poorly is an
+array in descending order of its elements.
+ 
+\section*{Randomized Quick Sort}
+In randomized version of quick sort, we pick a pivot uniformly at
+random from all possibilities. We will
+now show that the expected number of comparisons made in randomized
+quick sort equals $2n\ln n + O(n)$.
+
+\paragraph{Theorem.} For any input, the expected number of comparisons
+made by randomized quick sort is $2n\ln n +O(n)$.
+
+\paragraph{Proof.} Let $y_1,y_2, \ldots, y_n$ be the input elements in
+sorted order. Let $X$ be a random variable denoting the total
+number of pair-wise comparisons made between elements of the input
+array $A$. Let $X_{ij}$ be a random variable denoting the total number
+of times elements $y_i$ and $y_j$ are compared during the
+algorithm. Observe the following.
+\begin{itemize}
+\item
+comparisons between elements in the input array are done only in the
+function \texttt{Partition}.
+\item
+there are $n-1$ distinct pivots chosen in the algorithm and hence
+$n-1$ calls to \texttt{Partition}. 
+\item
+two elements are compared only if one of them is a pivot.
+\end{itemize} 
+Let $X_{ij}^{k}$ be a random variable that is 1, if elements $y_i$ and
+$y_j$ are compared in the $k$th call to \texttt{Partition}. Note that 
+\[
+X = \sum_{i=1}^{n-1}\sum_{j=i+1}^{n}X_{ij} \mbox{~~~~~and~~~~~} X_{ij} = \sum_{k=1}^{n-1}X_{ij}^k
+\]
+By the linearity of expectation, we have 
+\begin{equation}
+\label{eqn:Ex}
+\E[X] = \sum_{i=1}^{n-1}\sum_{j=i+1}^{n}\E[X_{ij}]
+\end{equation}
+We will now calculate $\E[X_{ij}]$. By the linearity of expectation,
+we have
+\[
+\E[X_{ij}] = \sum_{k=1}^{n-1}\E[X_{ij}^{k}] = \E[X] = \sum_{k=1}^{n-1}\Pr[X_{ij}^{k}=1]
+\]
+Let $z$ be the first call to \texttt{Partition} during which one of
+the elements from $y_i,y_{i+1}, \ldots, y_n$ is used as the
+pivot. From our observations above, note that for all $h$ and all $\ell$
+such that  $1\leq h < z$ and $z< \ell <n$, $X_{ij}^h=0$ and
+$X_{ij}^{\ell}=0$. If one of $y_i$ or $y_j$ is chosen as the $k^{th}$
+pivot then clearly, $X_{ij}^{k}=1$, otherwise, $X_{ij}^{k}=0$, and
+$y_i$ and $y_j$ will be separated into different sublists and hence will
+never be compared again.  Thus we have
+\begin{equation}
+\label{eqn:Exij}
+\E[X_{ij}] = \Pr[X_{ij}^{k}=1] = \frac{2}{j-i+1}
+\end{equation}
+Combining equations (\ref{eqn:Ex}) and (\ref{eqn:Exij}), we get
+\begin{align*}
+\E[X] &= \sum_{i=1}^{n-1}\sum_{j=i+1}^{n}\E[X_{ij}] \\
+      &= \sum_{i=1}^{n-1}\sum_{j=i+1}^{n}\frac{2}{j-i+1} \\
+      &= \sum_{k=2}^{n}\frac{2(n-k+1)}{k} \\
+      &= (n+1)\sum_{k=2}^{n}\frac{2}{k} - 2(n-1)  \\
+      &= 2(n+1)\sum_{k=1}^{n}\frac{1}{k} - 2(n-1)-2(n+1) \\ 
+      &= 2(n+1)\ln n + c - 4n  \mbox{~~~~~~~~~~~~~~($c$ is a constant less than 1)}\\
+      &= 2n\ln n + \Theta(n)
+\end{align*}
+
+
+\paragraph{Example.} Find the running time expressed by the following
+recurrence. Assume that $n$ is a power of 3.
+\[
+T(n) = \left\{ \begin{array}{ll}
+      5T(n/3) + n^2, &  n \geq 2 \\
+      1, & \mbox{n=1}
+      \end{array} \right.
+\]
+\begin{align*}
+T(n) & =  5T(n/3) + n^2 \\
+& =  5^2T(n/3^2) + 5(n/3)^2 + n^2 \\
+& = 5^3T(n/3^3) + 5^2(n/3^2)^2 + 5n^2/3^2 + n^2 \\
+&  \ldots \\
+&  \ldots \\
+& = 5^kT(n/3^k) + n^2\left (1 + \frac{5}{9} + \left (\frac{5}{9}\right
+)^2 +\ldots + \left(\frac{5}{9} \right )^{k-1}\right ) \\ 
+\end{align*}
+\noindent
+The recursion bottoms out when $n/3^k = 1$, i.e., $k=\log_3 n$. Thus, we get
+\begin{align*}
+T(n) & =  5^{\log_3n}T(1) + n^2\sum_{i=0}^{k-1}(5/9)^i \\
+     & = 5^{\log_3n} + n^2\left (\frac{(5/9)^{\log_3 n}-1}{(5/9) -1} \right ) \\
+     & = 5^{\log_5 n/\log_5 3} + \frac{9n^2}{4}\left (1 - (n^{\log_35}/n^2) \right ) \\
+     & = n^{\log_35} + \frac{9n^2}{4} - \frac{9n^{\log_35}}{4} \\
+     & = \frac{9n^2}{4} - \frac{5n^{\log_35}}{4} \\
+     & = \Theta(n^2)
+\end{align*}
+
+\paragraph{Example.} Solve the following recurrence. Assume that $n$
+is a power of 2.
+\[
+T(n) = \left\{ \begin{array}{ll}
+      3T(n/2) + n, &  n \geq 2 \\
+      1, & \mbox{n=1}
+      \end{array} \right.
+\]
+\paragraph{Solution.}
+\begin{align*}
+T(n) & =  3T(n/2) + n \\
+& =  3^2T(n/2^2) + 3n/2 + n \\ 
+& = 3^3T(n/2^3) + (3/2)^2n + 3n/2 + n \\ 
+&  \ldots \\
+&  \ldots \\
+& = 3^kT(n/2^k) + n\sum_{i=0}^{k-1}(3/2)^i 
+\end{align*}
+\noindent
+The recursion bottoms out when $n/2^k = 1$, i.e., $k=\lg n$. Thus, we get
+\begin{align*}
+T(n) & =  3^{\log_2n}T(1) + n\sum_{i=0}^{\lg n-1}(3/2)^i \\
+     & = 3^{\log_2n} + n\left (\frac{(3/2)^{\lg n}-1}{3/2 -1}\right ) \\
+     & = n^{\frac{\log_3n}{\log_32}} + 2n((3/2)^{\log_{3/2}n/\log_{3/2}2}-1)\\
+     & = n^{\log_23} + 2n(n^{\lg (3/2)}-1) \\
+     & = n^{\log_23} + 2n(n^{\lg 3- \lg 2)}-1) \\
+     & = n^{\log_23} + 2n(n^{\lg 3-1}) - 2n \\
+     & = n^{\log_23} + 2n^{\lg 3} -2n\\
+     & = 3n^{\log_23} -2n\\
+     & = \Theta(n^{\lg 3}) ~~~~~~ (\mbox{can be argued by setting $c=3$ and $n_0=1$})  
+\end{align*}
+
+\end{document}
