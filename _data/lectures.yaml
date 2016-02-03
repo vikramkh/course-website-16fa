@@ -46,9 +46,9 @@
     - CLRS section 2.3.1
 
 - date: 2016-2-2
-  title: Quick Sort---Deterministic and Randomized
+  title: Quicksort---Deterministic and Randomized
   highlights:
-    - Randomized quick sort analysis
+    - Randomized quicksort analysis
   slides: lectures/dc2.pdf
   reading:
     - CLRS chapter 7
