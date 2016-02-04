@@ -52,3 +52,13 @@
   slides: lectures/dc2.pdf
   reading:
     - CLRS chapter 7
+
+- date: 2016-2-4
+  title: Counting Inversions, Deterministic Selection, Master Theorem
+  highlights:
+    - topic: Counting inversions
+      link: lectures/inversions.pdf
+    - Deterministic selection
+    - topic: Master theorem
+      link: lectures/masterTheorem.pdf
+  reading: CLRS section 9.3
