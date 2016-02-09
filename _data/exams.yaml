@@ -1,20 +1,27 @@
-- assignment: Midterm 1 
-  review_date: 2016-2-16
+- assignment: Midterm 1
   exam_location: Towne 100 and College Hall 200
   exam_date: 2016-2-18
-  practice_problems:  
-  practice_problems_solution:  
+  review_date: 2016-2-16
+  review_time: 8--10pm
+  review_location: Wu and Chen
+  practice_problems:
+  practice_problems_solution:
 
 - assignment: Midterm 2
-  review_date: 2016-4-5
   exam_location: Towne 100 and College Hall 200
   exam_date: 2016-4-7
-  practice_problems:  
-  practice_problems_solution:  
+  review_date: 2016-4-5
+  review_time: 8--10pm
+  review_location: Wu and Chen
+  practice_problems:
+  practice_problems_solution:
 
 - assignment: Final
   review_date: TBA
   exam_location: TBA
   exam_date: 2016-5-4
-  practice_problems:  
-  practice_problems_solution:  
+  review_date: TBA
+  review_time: TBA
+  review_location: TBA
+  practice_problems:
+  practice_problems_solution:

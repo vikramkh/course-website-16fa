@@ -10,7 +10,7 @@ active_tab: exams
       <th></th>
       <th>Exam Date</th>
       <th>Exam Location</th>
-      <th>Exam Review Date</th>
+      <th>Exam Review Session</th>
       <th>Practice Problems</th>
     </tr>
     {% for exam in site.data.exams %}
@@ -20,7 +20,7 @@ active_tab: exams
         <!-- Dates -->
         <td>{{ exam.exam_date | date: "%b %d" }}</td>
         <td>{{ exam.exam_location }}</td>
-        <td>{{ exam.review_date | date: "%b %d" }}</td>
+        <td>{{ exam.review_date | date: "%b %d" }}, {{ exam.review_time | inline_markdownify }} in {{ exam.review_location }}</td>
         <!-- Materials -->
         <td>
           <ul class="list-unstyled">
