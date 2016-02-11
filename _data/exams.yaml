@@ -1,27 +1,42 @@
 - assignment: Midterm 1
-  exam_location: Towne 100 and College Hall 200
+  location:
+    - Towne 100 (last names A--O)
+    - College Hall 200 (last names P--Z)
   exam_date: 2016-2-18
-  review_date: 2016-2-16
-  review_time: 8--10pm
-  review_location: Wu and Chen
-  practice_problems:
-  practice_problems_solution:
+  topics:
+  - Everything up to and including lecture on 2/4
+  review:
+    date: 2016-2-16
+    time: 8--10pm
+    location: Wu and Chen
+  practice:
+    active:
+    problems:
+    solutions:
 
 - assignment: Midterm 2
-  exam_location: Towne 100 and College Hall 200
+  location: Towne 100 and College Hall 200
   exam_date: 2016-4-7
-  review_date: 2016-4-5
-  review_time: 8--10pm
-  review_location: Wu and Chen
-  practice_problems:
-  practice_problems_solution:
+  review:
+    date: 2016-4-5
+    time: 8--10pm
+    location: Wu and Chen
+  topics:
+  practice:
+    active:
+    problems:
+    solutions:
 
 - assignment: Final
   review_date: TBA
-  exam_location: TBA
+  location: TBA
   exam_date: 2016-5-4
-  review_date: TBA
-  review_time: TBA
-  review_location: TBA
-  practice_problems:
-  practice_problems_solution:
+  review:
+    # date: TBA
+    # time: TBA
+    # location: TBA
+  topics:
+  practice:
+    active:
+    problems:
+    solutions:

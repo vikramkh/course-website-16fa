@@ -4,38 +4,52 @@ title: CIS 121 Exams
 active_tab: exams
 ---
 
+All exams will be closed-book and closed-notes.
+
 <table class="table table-striped">
   <tbody>
     <tr>
       <th></th>
       <th>Exam Date</th>
       <th>Exam Location</th>
-      <th>Exam Review Session</th>
+      <th>Information</th>
       <th>Practice Problems</th>
     </tr>
     {% for exam in site.data.exams %}
       <tr style="text-align: left">
-        <!-- Homework Name -->
         <td><span>{{ exam.assignment }}</span></td>
-        <!-- Dates -->
         <td>{{ exam.exam_date | date: "%b %d" }}</td>
-        <td>{{ exam.exam_location }}</td>
-        <td>{{ exam.review_date | date: "%b %d" }}, {{ exam.review_time | inline_markdownify }} in {{ exam.review_location }}</td>
-        <!-- Materials -->
         <td>
           <ul class="list-unstyled">
-            {% if exam.active %}
-              {% if exam.writeup %}<li><a href="{{ exam.writeup }}">Write-up</a></li>{% endif %}
-              {% if exam.zip %}<li><a href="{{ exam.zip }}">Files (zip)</a></li>{% endif %}
-              {% if exam.problem_set %}<li><a href="{{ exam.problem_set }}">Problem set</a></li>{% endif %}
-              {% if exam.problem_set_zip %}<li><a href="{{ exam.problem_set_zip }}">Problem set (zip)</a></li>{% endif %}
-              {% if exam.problem_set_tex %}<li><a href="{{ exam.problem_set_tex }}">Problem set (tex)</a></li>{% endif %}
+            {% if exam.location %}
+              {% for loc in exam.location %}
+                <li>{{ loc | inline_markdownify }}</li>
+              {% endfor %}
+            {% else %}
+              Coming soon!
+            {% endif %}
+          </ul>
+        </td>
+        <td>
+          <ul class="list-unstyled">
+            {% if exam.topics %}
+              <li>Topics</li>
+                <ul>{% for topic in exam.topics %}<li>{{ topic }}</li>{% endfor %}</ul>
+            {% endif %}
+            {% if exam.review %}
+              <li>Review session on {{ exam.review.date | date: "%b %d" }}, {{ exam.review.time | inline_markdownify }} in {{ exam.review.location }}</li>
+            {% endif %}
+        </td>
+        <td>
+          <ul class="list-unstyled">
+            {% if exam.practice and exam.practice.active %}
+              <li><a href="{{ exam.practice.problems }}">Practice exam</a></li>
+              <li><a href="{{ exam.problem.solutions }}">Practice exam solutions</a></li>
             {% else %}
                <li>Coming soon!</li>
             {% endif %}
           </ul>
         </td>
-
       </tr>
     {% endfor %}
   </tbody>
