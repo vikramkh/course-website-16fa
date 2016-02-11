@@ -1,17 +1,20 @@
 - date: 2016-01-25
   name: Introduction to Problem Solving
-  link_name: intro.pdf
-  link: content/labs/intro/intro.pdf
-  solutions_link: protected_content/labs/intro/intro_sols.pdf
+  problems:
+    name: intro.pdf
+    link: content/labs/intro/intro.pdf
+  solutions: protected_content/labs/intro/intro_sols.pdf
 
 - date: 2016-02-01
   name: Big-Oh Analysis
-  link_name: big_oh.pdf
-  link: content/labs/big_oh/big_oh.pdf
-  solutions_link: protected_content/labs/big_oh/big_oh_sols.pdf
+  problems:
+    name: big_oh.pdf
+    link: content/labs/big_oh/big_oh.pdf
+  solutions: protected_content/labs/big_oh/big_oh_sols.pdf
 
 - date: 2016-02-08
   name: Recurrences
-  link_name: recurrences.pdf
-  link: content/labs/recurrences/recurrences.pdf
-  solutions_link: protected_content/labs/recurrences/recurrences_sols.pdf
+  problems:
+    name: recurrences.pdf
+    link: content/labs/recurrences/recurrences.pdf
+  solutions: protected_content/labs/recurrences/recurrences_sols.pdf

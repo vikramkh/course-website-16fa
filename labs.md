@@ -18,13 +18,19 @@ active_tab: labs
         <td><span>{{ lab.name }}</span></td>
         <td>
           <ul class="list-unstyled">
-            <li><a href="{{ lab.link }}">{{ lab.link_name }}</a></li>
-            {% if lab.extra_link %}
-              <li><a href="{{ lab.extra_link }}">{{ lab.extra_link_name }}</a></li>
+            <li><a href="{{ lab.problems.link }}">{{ lab.problems.name }}</a></li>
+            {% if lab.extra %}
+              <li><a href="{{ lab.extra.link }}">{{ lab.extra.name }}</a></li>
             {% endif %}
           </ul>
         </td>
-        <td>{% if lab.solutions_link %}<a href = "{{ lab.solutions_link }}">Solutions</a>{% else %}Coming soon!{% endif %}</td>
+        <td>
+          {% if lab.solutions %}
+            <a href="{{ lab.solutions }}">Solutions</a>
+          {% else %}
+            Coming soon!
+          {% endif %}
+        </td>
       </tr>
     {% endfor %}
   </tbody>
