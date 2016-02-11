@@ -64,9 +64,17 @@
   reading: CLRS section 9.3
 
 - date: 2016-2-9
-  title: Stacks and Queues (and Heaps)
-  slides: lectures/stacksQueues.pdf
+  title: Stacks and Queues and Heaps
   highlights:
-    - Stacks
-    - Queues
+    - topic: Stacks and queues
+      link: lectures/stacksQueues.pdf
+    - Heaps
   reading: CLRS sections 6.1, 6.2
+
+- date: 2016-2-11
+  title: Heaps and Huffman Coding
+  slides: lectures/huffman1.pdf
+  highlights:
+    - Heaps
+    - Huffman coding
+  reading: CLRS sections 6.3, 6.4, 6.5
