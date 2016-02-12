@@ -44,7 +44,7 @@ All exams will be closed-book and closed-notes.
           <ul class="list-unstyled">
             {% if exam.practice and exam.practice.active %}
               <li><a href="{{ exam.practice.problems }}">Practice exam</a></li>
-              <li><a href="{{ exam.problem.solutions }}">Practice exam solutions</a></li>
+              <!-- <li><a href="{{ exam.problem.solutions }}">Practice exam solutions</a></li> -->
             {% else %}
                <li>Coming soon!</li>
             {% endif %}

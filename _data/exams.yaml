@@ -9,9 +9,9 @@
     date: 2016-2-16
     time: 8--10pm
     location: Wu and Chen
-  practice:
-    active:
-    problems:
+  practice: 
+    active: t
+    problems: content/exams/mid1/practiceExam1.pdf
     solutions:
 
 - assignment: Midterm 2
