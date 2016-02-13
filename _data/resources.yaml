@@ -31,6 +31,9 @@
     - text: (CIS 120) Eclipse Project Setup
       link: https://www.cis.upenn.edu/~cis120/current/java_project.shtml
 
+    - text: Java 8 Setup Guide
+      link: https://docs.google.com/document/d/1v9X3Qw4V5rPYrCNXw2fT5Ch5hVcM51bK_kucZwncDIM/edit?usp=sharing
+
     - text: Maven Eclipse Setup Guide
       link: https://drive.google.com/open?id=16s3lIgEyCOSpuwO8jkhYQ6p7dlOgQKpLH78YMgFcpJ8
 
