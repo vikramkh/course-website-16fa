@@ -126,7 +126,7 @@ Regrade policy for programming homeworks:
     which, when fixed, will allow your programs to pass autograder tests. You
     will need to send an email, by the regrade deadline, which is one week after
     you receive your scores, to
-    [cis121-16sp-staff@googlegroups.com](mailto:cis121-16sp-staff@googlegroups.com).
+    [cis121-16sp-staff+regrade@googlegroups.com](mailto:cis121-16sp-staff+regrade@googlegroups.com).
     This email must identify exactly the error in your code and include a
     precise description of the fix that needs to be made. A *small error* is a
     problem whose fix should not require changing more than 1--2 lines of code.
