@@ -18,3 +18,10 @@
     name: recurrences.pdf
     link: content/labs/recurrences/recurrences.pdf
   solutions: protected_content/labs/recurrences/recurrences_sols.pdf
+
+- date: 2016-02-15
+  name: Stacks and Queues
+  problems:
+    name: stacks_and_queues.pdf
+    link: content/labs/stacks_and_queues/stacks_and_queues.pdf
+  solutions:
