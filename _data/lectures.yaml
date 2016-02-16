@@ -78,3 +78,10 @@
     - Heaps
     - Huffman coding
   reading: CLRS sections 6.3, 6.4, 6.5
+
+- date: 2016-2-16
+  title: Huffman Coding
+  slides: lectures/huffman2.pdf
+  highlights:
+    - Huffman coding
+  reading: CLRS sections 16.3
