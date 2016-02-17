@@ -9,10 +9,10 @@
     date: 2016-2-16
     time: 8--10pm
     location: Wu and Chen
-  practice: 
+  practice:
     active: t
     problems: content/exams/mid1/practiceExam1.pdf
-    solutions:
+    solutions: exams/solPracticeExam1.pdf
 
 - assignment: Midterm 2
   location: Towne 100 and College Hall 200
