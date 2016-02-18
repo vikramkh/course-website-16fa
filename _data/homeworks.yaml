@@ -34,3 +34,10 @@
   zip: content/hws/hw5/hw5.zip
   release_date: 2016-02-09
   due_date: 2016-02-20
+
+- assignment: Heaps and Huffman coding
+  active: t
+  type: written
+  problem_set: content/hws/hw6/hw6.pdf
+  release_date: 2016-02-18
+  due_date: 2016-02-25
