@@ -35,7 +35,7 @@
   release_date: 2016-02-09
   due_date: 2016-02-20
 
-- assignment: Heaps and Huffman coding
+- assignment: Heaps and Huffman Coding
   active: t
   type: written
   problem_set: content/hws/hw6/hw6.pdf
