@@ -85,3 +85,12 @@
   highlights:
     - Huffman coding
   reading: CLRS sections 16.3
+
+- date: 2016-2-23
+  title: Breadth-First Search
+  highlights:
+    - topic: Breadth-First Search
+      link: lectures/bfs.pdf
+    - topic: Bipartiteness
+      link: lectures/bipartite.pdf
+  reading: CLRS sections 22.1, 22.2
