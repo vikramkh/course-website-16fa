@@ -41,3 +41,11 @@
   problem_set: content/hws/hw6/hw6.pdf
   release_date: 2016-02-18
   due_date: 2016-02-26
+
+- assignment: Huffman Coding
+  active: t
+  type: programming
+  writeup: content/hws/hw7/hw7.pdf
+  zip: content/hws/hw7/hw7.zip
+  release_date: 2016-2-24
+  due_date: 2016-3-4
