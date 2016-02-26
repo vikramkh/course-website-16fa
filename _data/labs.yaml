@@ -31,3 +31,5 @@
   problems:
     name: heaps.pdf
     link: content/labs/heaps/heaps.pdf
+  solutions: protected_content/labs/heaps/heaps_sols.pdf
+
