@@ -33,3 +33,8 @@
     link: content/labs/heaps/heaps.pdf
   solutions: protected_content/labs/heaps/heaps_sols.pdf
 
+- date: 2016-02-29
+  name: Graphs
+  problems:
+    name: graphs.pdf
+    link: content/labs/graphs/graphs.pdf
