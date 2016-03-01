@@ -89,8 +89,24 @@
 - date: 2016-2-23
   title: Breadth-First Search
   highlights:
-    - topic: Breadth-First Search
+    - topic: Breadth-first search
       link: lectures/bfs.pdf
     - topic: Bipartiteness
       link: lectures/bipartite.pdf
   reading: CLRS sections 22.1, 22.2
+
+- date: 2016-2-25
+  title: Depth-First Search
+  highlights:
+    - Depth-first search
+  reading: CLRS sections 22.3
+
+
+- date: 2016-3-1
+  title: Depth-First Search, Topological Sort, Shortest Paths
+  highlights:
+    - Depth-first search
+    - topic: Topological sort
+      link: lectures/topSort.pdf
+    - Shortest paths
+  reading: CLRS sections 22.3, 22.4
