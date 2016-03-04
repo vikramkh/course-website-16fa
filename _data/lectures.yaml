@@ -101,7 +101,6 @@
     - Depth-first search
   reading: CLRS sections 22.3
 
-
 - date: 2016-3-1
   title: Depth-First Search, Topological Sort, Shortest Paths
   highlights:
@@ -110,3 +109,12 @@
       link: lectures/topSort.pdf
     - Shortest paths
   reading: CLRS sections 22.3, 22.4
+
+- date: 2016-3-3
+  title: Shortest Paths, Minimum Spanning Trees
+  highlights: 
+    - topic: Shortest Paths
+      link: lectures/dijkstra.pdf
+    - topic: Min Spanning Trees 
+      link: lectures/mst1.pdf
+  reading: CLRS sections 24.3, 23
