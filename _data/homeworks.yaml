@@ -51,8 +51,9 @@
   due_date: 2016-3-4
 
 - assignment: Project Milestone 1
-  active: 
+  active: t
   type: programming
+  writeup: content/hws/project/project.pdf
   release_date: 2016-03-04
   due_date: 2016-03-18
 
@@ -95,3 +96,8 @@
   zip: 
   release_date: 2016-04-12
   due_date: 2016-04-21
+
+- assignment: Project Final 
+  active: 
+  type: programming
+  due_date: 2016-04-27
