@@ -32,9 +32,9 @@
   location: TBA
   exam_date: 2016-5-4
   review:
-    # date: TBA
-    # time: TBA
-    # location: TBA
+    date: 2016-05-04
+    time: 12-2pm
+    location: CHEM 102
   topics:
   practice:
     active:
