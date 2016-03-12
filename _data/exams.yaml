@@ -28,13 +28,12 @@
     solutions:
 
 - assignment: Final
-  review_date: TBA
-  location: TBA
-  exam_date: 2016-5-4
+  location: CHEM 102, 12-2pm
+  exam_date: 2016-05-04
   review:
-    date: 2016-05-04
-    time: 12-2pm
-    location: CHEM 102
+    date: TBA
+    time: TBA
+    location: TBA 
   topics:
   practice:
     active:
