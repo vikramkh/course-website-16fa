@@ -39,3 +39,9 @@
     name: graphs.pdf
     link: content/labs/graphs/graphs.pdf
   solutions: protected_content/labs/graphs/graphs_sols.pdf
+
+- date: 2016-03-14
+  name: Dijkstra and Prim
+  problems: 
+    name: dijkstra_prim.pdf
+    link: content/labs/dijkstra_prim/dijkstra_prim.pdf
