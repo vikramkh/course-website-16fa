@@ -117,4 +117,23 @@
       link: lectures/dijkstra.pdf
     - topic: Min Spanning Trees 
       link: lectures/mst1.pdf
-  reading: CLRS sections 24.3, 23
+  reading: CLRS sections 24.3, 
+
+- date: 2016-3-15
+  title: Minimum Spanning Trees
+  highlights: 
+    - topic: Min Spanning Trees
+      link: lectures/mst.pdf
+  reading: CLRS Chapter 23 
+
+- date: 2016-3-17 
+  title: Strongly Connected Components 
+
+- date: 2016-3-22
+  title: Union-Find 
+
+- date: 2016-3-24 
+  title: Hashing I
+
+- date: 2016-3-29
+  title: Hashing II
