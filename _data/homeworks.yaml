@@ -59,11 +59,11 @@
   due_date: 2016-03-18
 
 - assignment: BFS and Min Spanning Trees
-  active: 
+  active: t
   type: programming
-  writeup: coming soon
-  zip: coming soon
-  release_date: 2016-03-15
+  writeup: content/hws/hw8/hw8.pdf
+  zip: content/hws/hw8/hw8.zip
+  release_date: 2016-03-16
   due_date: 2016-03-24
 
 - assignment: Graphs
