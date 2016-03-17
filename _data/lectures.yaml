@@ -127,7 +127,11 @@
   reading: CLRS Chapter 23 
 
 - date: 2016-3-17 
-  title: Strongly Connected Components 
+  title: Union-Find
+  highlights:
+    - topic: Union-Find 
+      link: lectures/unionFind.pdf
+      
 
 - date: 2016-3-22
   title: Union-Find 
