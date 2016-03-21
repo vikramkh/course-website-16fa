@@ -67,9 +67,9 @@
   due_date: 2016-03-24
 
 - assignment: Graphs
-  active: 
+  active: t
   type: written 
-  problem_set: 
+  problem_set: content/hws/hw9/hw9.pdf
   release_date: 2016-03-22 
   due_date: 2016-03-31
 
