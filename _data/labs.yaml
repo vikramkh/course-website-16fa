@@ -45,3 +45,9 @@
   problems: 
     name: dijkstra_prim.pdf
     link: content/labs/dijkstra_prim/dijkstra_prim.pdf
+
+- date: 2016-03-21
+  name: Union-Find and MSTs
+  problems: 
+    name: mst_scc.pdf
+    link: content/labs/mst_scc/mst_scc.pdf
