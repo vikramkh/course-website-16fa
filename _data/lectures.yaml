@@ -112,31 +112,35 @@
 
 - date: 2016-3-3
   title: Shortest Paths, Minimum Spanning Trees
-  highlights: 
+  highlights:
     - topic: Shortest Paths
       link: lectures/dijkstra.pdf
-    - topic: Min Spanning Trees 
+    - topic: Min Spanning Trees
       link: lectures/mst1.pdf
-  reading: CLRS sections 24.3, 
+  reading: CLRS sections 24.3,
 
 - date: 2016-3-15
   title: Minimum Spanning Trees
-  highlights: 
+  highlights:
     - topic: Min Spanning Trees
       link: lectures/mst.pdf
-  reading: CLRS Chapter 23 
+  reading: CLRS Chapter 23
 
-- date: 2016-3-17 
+- date: 2016-3-17
   title: Union-Find
   highlights:
-    - topic: Union-Find 
+    - topic: Union-Find
       link: lectures/unionFind.pdf
-      
+
 
 - date: 2016-3-22
-  title: Union-Find 
+  title: Union-Find, Strongly Connected Components
+  highlights:
+    - Union-find
+    - Strongly connected components
+  reading: CLRS 22.5
 
-- date: 2016-3-24 
+- date: 2016-3-24
   title: Hashing I
 
 - date: 2016-3-29
