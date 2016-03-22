@@ -14,7 +14,7 @@ Subject to change as the term progresses.
       <th>Readings</th>
     </tr>
     {% for lecture in site.data.lectures %}
-      <tr>
+      <tr {% if lecture.preview %} class="text-muted" {% endif %}>
         <td>{{ lecture.date | date: "%b %d" }}</td>
         <td>
           {% if lecture.profile %}
