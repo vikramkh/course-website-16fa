@@ -42,14 +42,21 @@
 
 - date: 2016-03-14
   name: Dijkstra and Prim
-  problems: 
+  problems:
     name: dijkstra_prim.pdf
     link: content/labs/dijkstra_prim/dijkstra_prim.pdf
   solutions: protected_content/labs/dijkstra_prim/dijkstra_prim_sols.pdf
 
 - date: 2016-03-21
   name: Union-Find and MSTs
-  problems: 
+  problems:
     name: mst_scc.pdf
     link: content/labs/mst_scc/mst_scc.pdf
   solutions: protected_content/labs/mst_scc/mst_scc_sols.pdf
+
+- date: 2016-03-28
+  name: Strongly connected components
+  problems:
+    name: scc.pdf
+    link: content/labs/scc/scc.pdf
+  solutions: # protected_content/labs/scc/scc_sols.pdf
