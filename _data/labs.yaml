@@ -59,4 +59,4 @@
   problems:
     name: scc.pdf
     link: content/labs/scc/scc.pdf
-  solutions: # protected_content/labs/scc/scc_sols.pdf
+  solutions: protected_content/labs/scc/scc_sols.pdf
