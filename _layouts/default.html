@@ -64,6 +64,7 @@
         </div>
     </header>
     <div class="container">
+    <h2 id="score">You shall pass <span> 0 </span> times</h2>
         <div id="pigeon" class = 'pigeon' style="position:absolute;"><img src="assets/img/pigeon.png" /></div>
         <div id="biggerpigeonbecausewhynot" class = 'pigeon' style="position:absolute;"><img src="assets/img/pigeon.png" style='width:200px'></div>
 
@@ -100,10 +101,11 @@
         animateDiv('#biggerpigeonbecausewhynot');
 
         $('.pigeon').click(function() {
-          var newdiv = "<div id=rajiv" + counter + " style='position:absolute;''><img src='assets/img/youshallnotpass.jpg'/></div>";
+          var newdiv = "<div id=rajiv" + counter + " style='position:absolute;''><img src='assets/img/rajiv.jpg'/></div>";
           $('#pigeon').after(newdiv);
           animateDiv('#rajiv' + counter);
           counter = counter + 1;
+          $('#score span').text(counter);
         })
 
 
