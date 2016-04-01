@@ -64,8 +64,8 @@
         </div>
     </header>
     <div class="container">
-        <div id="pigeon" style="position:absolute;"><img src="assets/img/pigeon.png" /></div>
-        <div id="biggerpigeonbecausewhynot" style="position:absolute;"><img src="assets/img/pigeon.png" style='width:200px'></div>
+        <div id="pigeon" class = 'pigeon' style="position:absolute;"><img src="assets/img/pigeon.png" /></div>
+        <div id="biggerpigeonbecausewhynot" class = 'pigeon' style="position:absolute;"><img src="assets/img/pigeon.png" style='width:200px'></div>
 
         {% if page.img %}
         <div class="row">
@@ -84,9 +84,8 @@
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <script type="text/javascript">
     $(document).ready(function() {
-        $("#{{ page.active_tab }}").addClass("active"); { %
-            if page.js_onready %
-        } {
+        $("#{{ page.active_tab }}").addClass("active");
+        { %if page.js_onready%} {
             {
                 page.js_onready
             }
@@ -95,8 +94,18 @@
     });
     </script>
     <script type="text/javascript">
+    var counter = 0;
     $(document).ready(function() {
-        animateDiv();
+        animateDiv('#pigeon');
+        animateDiv('#biggerpigeonbecausewhynot');
+
+        $('.pigeon').click(function() {
+          var newdiv = "<div id=rajiv" + counter + " style='position:absolute;''><img src='assets/img/youshallnotpass.jpg'/></div>";
+          $('#pigeon').after(newdiv);
+          animateDiv('#rajiv' + counter);
+          counter = counter + 1;
+        })
+
 
     });
 
@@ -113,20 +122,13 @@
 
     }
 
-    function animateDiv() {
+    function animateDiv(divSelector) {
         var newq = makeNewPosition();
-        $('#pigeon').animate({
+        $(divSelector).animate({
             top: newq[0],
             left: newq[1]
         }, function() {
-            animateDiv();
-        });
-        var newq = makeNewPosition();
-        $('#biggerpigeonbecausewhynot').animate({
-            top: newq[0],
-            left: newq[1]
-        }, function() {
-            animateDiv();
+            animateDiv(divSelector);
         });
 
     };
