@@ -21,10 +21,10 @@
     date: 2016-4-5
     time: 8--10pm
     location: Wu and Chen
-  topics:
+  topics: Everything from Midterm 1 through SCC Lecture (No Hashing)
   practice:
-    active:
-    problems:
+    active: t
+    problems:  content/exams/mid2/practiceExam2.pdf
     solutions:
 
 - assignment: Final
