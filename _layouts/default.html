@@ -1,98 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ page.title }}</title>
+
     <!-- CSS -->
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
     <link href="{{ site.baseurl }}/assets/css/style.css" rel="stylesheet">
     <link href="{{ site.baseurl }}/assets/css/syntax.css" rel="stylesheet">
+
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
     <![endif]-->
-</head>
-
-<body style='font-family: Comic Sans MS'>
+  </head>
+  <body>
     <a class="sr-only" href="#content">Skip to main content</a>
+
     <!-- Docs master nav -->
     <header class="navbar navbar-static-top navbar-default" role="banner">
-        <div class="container">
-            <div class="row">
-                <div class="navbar-header">
-                    <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <ul class="nav navbar-nav">
-                        <div class="hidden-sm hidden-xs">
-                            <li id="main-page"><a href="{{ site.baseurl }}/index.html" class="navbar-brand">CIS 121—Data Structures and Algorithms</a></li>
-                        </div>
-                        <div class="visible-sm visible-xs">
-                            <li id="main-page"><a href="{{ site.baseurl }}/index.html" class="navbar-brand">CIS 121</a></li>
-                        </div>
-                    </ul>
-                </div>
-                <nav class="collapse navbar-collapse" role="navigation">
-                    <ul class="nav navbar-nav">
-                        <li id="lectures"><a href="{{ site.baseurl }}/lectures.html">Lectures</a></li>
-                        <li id="labs"><a href="{{ site.baseurl }}/labs.html">Labs</a></li>
-                        <li id="homework">
-                            <!-- <a href="homework.html">Homework</a> -->
-                            <a class="dropdown-toggle" data-toggle="dropdown" href="{{ site.baseurl }}/homework.html">Homework <span class="caret"></span></a>
-                            <ol class="dropdown-menu">
-                                <li><a href="{{ site.baseurl }}/homework.html">Homework Materials</a></li>
-                                <li><a href="https://fling.seas.upenn.edu/~cis121/cgi-bin/16sp/submit.cgi">Submission</a></li>
-                                <li><a href="https://webdav.seas.upenn.edu/~cis121/webdav/maven2/site/">CIS 121 Javadocs (Maven Site)</a></li>
-                                <li><a href="{{ site.baseurl }}/java_style_guide.html">Java Style Guide</a></li>
-                                <li><a href="{{ site.baseurl }}/testing_guide.html">Testing Guide</a></li>
-                            </ol>
-                        </li>
-                        <li id="exams"><a href="{{ site.baseurl }}/exams.html">Exams</a></li>
-                        <li id="staff"><a href="{{ site.baseurl }}/staff.html">Staff</a></li>
-                        <li id="schedule"><a href="{{ site.baseurl }}/schedule.html">Schedule</a></li>
-                        <li id="resources"><a href="{{ site.baseurl }}/resources.html">Resources</a></li>
-                    </ul>
-                </nav>
-            </div>
+      <div class="container">
+        <div class="row">
+        <div class="navbar-header">
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <ul class="nav navbar-nav">
+            <div class="hidden-sm hidden-xs"><li id="main-page"><a href="{{ site.baseurl }}/index.html" class="navbar-brand">CIS 121—Data Structures and Algorithms</a></li></div>
+            <div class="visible-sm visible-xs"><li id="main-page"><a href="{{ site.baseurl }}/index.html" class="navbar-brand">CIS 121</a></li></div>
+          </ul>
         </div>
+        <nav class="collapse navbar-collapse" role="navigation">
+          <ul class="nav navbar-nav">
+            <li id="lectures"><a href="{{ site.baseurl }}/lectures.html">Lectures</a></li>
+            <li id="labs"><a href="{{ site.baseurl }}/labs.html">Labs</a></li>
+            <li id="homework"><!-- <a href="homework.html">Homework</a> -->
+              <a class="dropdown-toggle" data-toggle="dropdown" href="{{ site.baseurl }}/homework.html">Homework <span class="caret"></span></a>
+              <ol class="dropdown-menu">
+                <li><a href="{{ site.baseurl }}/homework.html">Homework Materials</a></li>
+                <li><a href="https://fling.seas.upenn.edu/~cis121/cgi-bin/16sp/submit.cgi">Submission</a></li>
+                <li><a href="https://webdav.seas.upenn.edu/~cis121/webdav/maven2/site/">CIS 121 Javadocs (Maven Site)</a></li>
+                <li><a href="{{ site.baseurl }}/java_style_guide.html">Java Style Guide</a></li>
+                <li><a href="{{ site.baseurl }}/testing_guide.html">Testing Guide</a></li>
+              </ol>
+            </li>
+            <li id="exams"><a href="{{ site.baseurl }}/exams.html">Exams</a></li>
+            <li id="staff"><a href="{{ site.baseurl }}/staff.html">Staff</a></li>
+            <li id="schedule"><a href="{{ site.baseurl }}/schedule.html">Schedule</a></li>
+            <li id="resources"><a href="{{ site.baseurl }}/resources.html">Resources</a></li>
+          </ul>
+        </nav>
+      </div>
+      </div>
     </header>
+
     <div class="container">
-    <h2 id="score">You shall pass <span> 0 </span> times</h2>
-        <div id="pigeon" class = 'pigeon' style="position:absolute;"><img src="assets/img/pigeon.png" /></div>
+    <div id="pigeon" class = 'pigeon' style="position:absolute;"><img src="assets/img/pigeon.png" /></div>
         <div id="biggerpigeonbecausewhynot" class = 'pigeon' style="position:absolute;"><img src="assets/img/pigeon.png" style='width:200px'></div>
 
-        {% if page.img %}
+      {% if page.img %}
         <div class="row">
-            <div class="col-sm-10">
-                {{ content }}
-            </div>
+          <div class="col-sm-10">
+            {{ content }}
+          </div>
         </div>
-        {% else %} {{ content }} {% endif %}
+      {% else %}
+        {{ content }}
+      {% endif %}
     </div>
+
     <footer class="text-center text-muted">
-        <hr> Last updated {{ site.time | date: "%B %d, %Y %T" }}.
-        <br> The source code is on <a href="https://github.com/cis121/course-website-16sp">GitHub</a>.
+      <hr>
+      Last updated {{ site.time | date: "%B %d, %Y %T" }}.<br>
+      The source code is on <a href="https://github.com/cis121/course-website-16sp">GitHub</a>.
     </footer>
+
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <!-- <script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script> -->
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <script type="text/javascript">
-    $(document).ready(function() {
+      $(document).ready(function(){
         $("#{{ page.active_tab }}").addClass("active");
-        { %if page.js_onready%} {
-            {
-                page.js_onready
-            }
-        } { % endif %
-        }
-    });
+        {% if page.js_onready %}
+          {{ page.js_onready }}
+        {% endif %}
+      });
     </script>
     <script type="text/javascript">
     var counter = 0;
@@ -136,6 +134,5 @@
     };
 
     </script>
-</body>
-
+  </body>
 </html>
