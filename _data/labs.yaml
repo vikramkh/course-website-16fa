@@ -60,3 +60,10 @@
     name: scc.pdf
     link: content/labs/scc/scc.pdf
   solutions: protected_content/labs/scc/scc_sols.pdf
+
+- date: 2016-4-4
+  name: Hashing
+  problems:
+    name: hashing.pdf
+    link: content/labs/hashing/hashing.pdf
+  solutions: # protected_content/labs/scc/scc_sols.pdf
