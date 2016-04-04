@@ -145,5 +145,15 @@
   reading: CLRS 22.5
 
 - date: 2016-3-29
-  title: Hashing II
-  preview: t
+  title: Hashing with Chaining
+  highlights: 
+    - topic: Hashing 
+      link: lectures/hash1.pdf
+  reading: CLRS 11.2
+
+- date: 2016-3-31
+  title: Hashing with Chaining, Open Addressing
+  highlights: 
+    - topic: Hashing II
+      link: lectures/hash2.pdf
+  reading: CLRS pg 269-273
