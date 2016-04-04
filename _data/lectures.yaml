@@ -146,14 +146,14 @@
 
 - date: 2016-3-29
   title: Hashing with Chaining
-  highlights: 
-    - topic: Hashing 
+  highlights:
+    - topic: Separate chaining
       link: lectures/hash1.pdf
   reading: CLRS 11.2
 
 - date: 2016-3-31
   title: Hashing with Chaining, Open Addressing
-  highlights: 
-    - topic: Hashing II
+  highlights:
+    - topic: Open addressing
       link: lectures/hash2.pdf
-  reading: CLRS pg 269-273
+  reading: CLRS pp. 269--273
