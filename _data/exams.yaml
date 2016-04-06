@@ -25,7 +25,7 @@
   practice:
     active: t
     problems:  content/exams/mid2/practiceExam2.pdf
-    solutions:
+    solutions: protected_content/exams/mid2/solPracticeExam2.pdf
 
 - assignment: Final
   location: CHEM 102, 12-2pm
