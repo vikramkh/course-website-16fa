@@ -68,37 +68,37 @@
 
 - assignment: Graphs
   active: t
-  type: written 
+  type: written
   problem_set: content/hws/hw9/hw9.pdf
-  release_date: 2016-03-22 
+  release_date: 2016-03-22
   due_date: 2016-04-01
 
 - assignment: Project Milestone 2
-  active: 
-  type: programming 
+  active: t
+  type: programming
   due_date: 2016-04-03
 
-- assignment: Hashing and Trees 
-  active: 
-  type: written 
-  problem_set: 
-  release_date: 2016-03-29
-  due_date: 2016-04-09
-
 - assignment: Project Milestone 3
-  active: 
+  active: t
   type: programming
   due_date: 2016-04-15
 
-- assignment: Hashing and Tries 
-  active: 
-  type: programming 
-  writeup: 
-  zip: 
-  release_date: 2016-04-12
+- assignment: Hashing and Tries (programming)
+  active:
+  type: programming
+  writeup:
+  zip:
+  release_date: 2016-04-14
   due_date: 2016-04-21
 
-- assignment: Project Final 
-  active: 
+- assignment: Hashing and Tries (written)
+  active:
+  type: written
+  problem_set:
+  release_date:
+  due_date:
+
+- assignment: Project Final
+  active:
   type: programming
   due_date: 2016-04-27
