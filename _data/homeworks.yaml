@@ -83,6 +83,14 @@
   type: programming
   due_date: 2016-04-15
 
+- assignment: Hashing and Tries (written)
+  active: t
+  type: written
+  problem_set: content/hws/hw10/hw10.pdf
+  release_date: 2016-04-12
+  due_date: 2016-04-26
+
+
 - assignment: Hashing and Tries (programming)
   active:
   type: programming
@@ -91,12 +99,7 @@
   release_date: 2016-04-14
   due_date: 2016-04-21
 
-- assignment: Hashing and Tries (written)
-  active:
-  type: written
-  problem_set:
-  release_date:
-  due_date:
+
 
 - assignment: Project Final
   active:
