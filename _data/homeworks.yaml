@@ -92,12 +92,12 @@
 
 
 - assignment: Hashing and Tries (programming)
-  active:
+  active: t
   type: programming
-  writeup:
-  zip:
+  writeup: content/hws/hw11/hw11.pdf
+  zip: content/hws/hw11/hw11.zip
   release_date: 2016-04-14
-  due_date: 2016-04-21
+  due_date: 2016-04-23
 
 
 
