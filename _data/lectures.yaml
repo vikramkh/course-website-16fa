@@ -157,3 +157,27 @@
     - topic: Open addressing
       link: lectures/hash2.pdf
   reading: CLRS pp. 269--273
+
+- date: 2016-04-05
+  title: Hashing and BSTs
+  highlights: 
+    - Hashing with open addressing
+    - Binary Search Trees
+  reading: CLRS 11.4, 12.1, 12.2
+
+- date: 2016-04-07
+  title: Midterm 2
+
+- date: 2016-04-12
+  title: BSTs and Tries
+  highlights: 
+    - topic: BST 
+      link: lectures/bst2.pdf
+    - topic: Tries
+      link: lectures/tries.pdf
+
+- date: 2016-04-14
+  title: Suffix Tries
+  highlights: 
+    - topic: Suffix Tries
+      link: lectures/tries.pef
