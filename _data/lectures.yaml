@@ -160,7 +160,7 @@
 
 - date: 2016-04-05
   title: Hashing and BSTs
-  highlights: 
+  highlights:
     - Hashing with open addressing
     - Binary Search Trees
   reading: CLRS 11.4, 12.1, 12.2
@@ -170,14 +170,20 @@
 
 - date: 2016-04-12
   title: BSTs and Tries
-  highlights: 
-    - topic: BST 
+  highlights:
+    - topic: BST
       link: lectures/bst2.pdf
     - topic: Tries
       link: lectures/tries.pdf
 
 - date: 2016-04-14
   title: Suffix Tries
-  highlights: 
-    - topic: Suffix Tries
+  highlights:
+    - topic: Suffix tries
       link: lectures/tries.pdf
+
+- date: 2016-04-19
+  title: AVL Trees
+  highlights:
+    - topic: AVL trees
+      link: lectures/avl.pdf
