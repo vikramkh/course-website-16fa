@@ -187,3 +187,9 @@
   highlights:
     - topic: AVL trees
       link: lectures/avl.pdf
+
+- date: 2016-04-21
+  title: Skip Lists
+  highlights:
+    - topic: Skip lists
+      link: lectures/skiplists.pdf
