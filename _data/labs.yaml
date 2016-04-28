@@ -73,4 +73,4 @@
   problems:
     name: tries.pdf
     link: content/labs/tries/tries.pdf
-  solutions:
+  solutions: protected_content/labs/tries/tries_soln.pdf
