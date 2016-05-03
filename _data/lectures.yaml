@@ -193,3 +193,16 @@
   highlights:
     - topic: Skip lists
       link: lectures/skiplists.pdf
+
+- date: 2016-04-26
+  title: Skip lists, Min-Cut, Interval Scheduling
+  slides: lectures/last-lecture-notes-all.pdf
+  highlights:
+    - topic: Greedy interval scheduling
+      link: lectures/intervalgraphs.pdf
+    - topic: Weighted interval scheduling
+      link: lectures/dp1.pdf
+    - topic: Principles of dynamic programming
+      link: lectures/dp2.pdf
+    - topic: Randomized min-cut
+      link: lectures/mincut.pdf
