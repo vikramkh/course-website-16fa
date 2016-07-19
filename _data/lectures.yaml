@@ -1,208 +1,351 @@
-- date: 2016-1-14
-  title: Review of CIS 160 Techniques
-  slides: lectures/01-stable-matching.pdf
+-
+  date: 2016-08-30
+  slides: lectures/01-intro-and-union-find.pdf
+  title: Stacks and Queues
   highlights:
-    - Stable matching
+    - Resizing Arrays
+    - Applications of Stacks and Queues
+    - Welcome to CIS 121
   reading:
-    - See lecture notes
-
-- date: 2016-1-19
-  title: GCD and Insertion Sort
+    -
+      title: Chapter 1.3 in the textbook
+-
+  date: 2016-09-01
+  slides: lectures/02-analysis-of-algorithms.key.pdf
+  title: Analysis of Algorithms
   highlights:
-    - topic: GCD
-      link: lectures/gcd.pdf
-    - Insertion sort
+    - Mathematical Models
+    - Order of Growth Classification
+    - Memory Usage
   reading:
-    - CLRS sections 2.1, 2.2
-
-
-- date: 2016-1-21
-  title: Running Time and Growth Functions
-  slides: lectures/runtime.pdf
-  highlights:
-    - Running time
-    - Order of growth
-  reading:
-    - CLRS chapter 3, pp. 43--49
-
-
-- date: 2016-1-26
-  title: Running Time and Recurrence Relations
-  slides: lectures/runtime2.pdf
-  highlights:
-    - Analyzing code snippets
-    - Recurrence relations
-    - Practice problems
-  reading:
-    - See lecture notes
-
-- date: 2016-1-28
-  title: Divide and Conquer
-  highlights:
-    - Analyzing recursive functions
-    - Mergesort analysis
-  slides: lectures/dc.pdf
-  reading:
-    - CLRS section 2.3.1
-
-- date: 2016-2-2
-  title: Quicksort---Deterministic and Randomized
-  highlights:
-    - Randomized quicksort analysis
-  slides: lectures/dc2.pdf
-  reading:
-    - CLRS chapter 7
-
-- date: 2016-2-4
-  title: Counting Inversions, Deterministic Selection, Master Theorem
-  highlights:
-    - topic: Counting inversions
-      link: lectures/inversions.pdf
-    - Deterministic selection
-    - topic: Master theorem
-      link: lectures/masterTheorem.pdf
-  reading: CLRS section 9.3
-
-- date: 2016-2-9
-  title: Stacks and Queues and Heaps
-  highlights:
-    - topic: Stacks and queues
-      link: lectures/stacksQueues.pdf
-    - Heaps
-  reading: CLRS sections 6.1, 6.2
-
-- date: 2016-2-11
-  title: Heaps and Huffman Coding
-  slides: lectures/huffman1.pdf
-  highlights:
-    - Heaps
-    - Huffman coding
-  reading: CLRS sections 6.3, 6.4, 6.5
-
-- date: 2016-2-16
-  title: Huffman Coding
-  slides: lectures/huffman2.pdf
-  highlights:
-    - Huffman coding
-  reading: CLRS sections 16.3
-
-- date: 2016-2-23
-  title: Breadth-First Search
-  highlights:
-    - topic: Breadth-first search
-      link: lectures/bfs.pdf
-    - topic: Bipartiteness
-      link: lectures/bipartite.pdf
-  reading: CLRS sections 22.1, 22.2
-
-- date: 2016-2-25
-  title: Depth-First Search
-  highlights:
-    - Depth-first search
-  reading: CLRS sections 22.3
-
-- date: 2016-3-1
-  title: Depth-First Search, Topological Sort, Shortest Paths
-  highlights:
-    - Depth-first search
-    - topic: Topological sort
-      link: lectures/topSort.pdf
-    - Shortest paths
-  reading: CLRS sections 22.3, 22.4
-
-- date: 2016-3-3
-  title: Shortest Paths, Minimum Spanning Trees
-  highlights:
-    - topic: Shortest Paths
-      link: lectures/dijkstra.pdf
-    - topic: Min Spanning Trees
-      link: lectures/mst1.pdf
-  reading: CLRS sections 24.3,
-
-- date: 2016-3-15
-  title: Minimum Spanning Trees
-  highlights:
-    - topic: Min Spanning Trees
-      link: lectures/mst.pdf
-  reading: CLRS Chapter 23
-
-- date: 2016-3-17
+    -
+      title: Chapter 1.4 in the textbook
+-
+  date: 2016-09-06
+  slides: lectures/01-intro-and-union-find.pdf
   title: Union-Find
   highlights:
-    - topic: Union-Find
-      link: lectures/unionFind.pdf
-
-
-- date: 2016-3-22
-  title: Union-Find, Strongly Connected Components
+    - Union-Find
+  reading:
+    -
+      title: Chapter 1.5 in the textbook
+-
+  date: 2016-09-08
+  slides: lectures/04-intro-to-sorting-and-comparators.pdf
+  title: Elementary Sorts
   highlights:
-    - Union-find
-    - Strongly connected components
-  reading: CLRS 22.5
-
-- date: 2016-3-24
-  title: Strongly Connected Components
-  reading: CLRS 22.5
-
-- date: 2016-3-29
-  title: Hashing with Chaining
+    - Selection Sort
+    - Insertion Sort
+    - Shuffling
+  reading:
+    -
+      title: Chapter 2.1 in the textbook
+-
+  date: 2016-09-13
+  slides: lectures/05-mergesort.pdf
+  title: Mergesort
   highlights:
-    - topic: Separate chaining
-      link: lectures/hash1.pdf
-  reading: CLRS 11.2
-
-- date: 2016-3-31
-  title: Hashing with Chaining, Open Addressing
+    - Bottom-up Mergesort
+    - Sorting Complexity
+    - Comparators
+    - Stability
+  reading:
+    -
+      title: Chapter 2.2 in the textbook
+-
+  date: 2016-09-15
+  slides: lectures/06-quicksort.pdf
+  title: Quicksort
   highlights:
-    - topic: Open addressing
-      link: lectures/hash2.pdf
-  reading: CLRS pp. 269--273
-
-- date: 2016-04-05
-  title: Hashing and BSTs
+    - Theory of Algorithms
+    - Selection
+    - Duplicate Keys
+    - System sorts
+  reading:
+    -
+      title: Chapter 2.3 in the textbook
+-
+  date: 2016-09-20
+  slides: lectures/07-sorting-wrapup.pdf
+  title: Sorting wrap up
   highlights:
-    - Hashing with open addressing
+    - Selection
+    - Pitfalls of quicksort
+    - The theory of algorithms
+  reading:
+    -
+      title: Chapter 2.3 in the textbook
+-
+  date: 2016-09-22
+  title: Review Session for Midterm 1
+  highlights:
+    - Java Knowledge
+    - Analysis of Algorithms
+    - Sorting
+  reading:
+    -
+      title: Review chapters 1.3-1.5 and 2.1-2.3 in the textbook
+-
+  date: 2016-09-27
+  title: Midterm 1
+  highlights:
+    - Java Knowledge
+    - Analysis of Algorithms
+    - Sorting
+  reading:
+    -
+      title: Review chapters 1.3-1.5 and 2.1-2.3 in the textbook
+-
+  date: 2016-09-29
+  slides: lectures/08-priority-queues.pdf
+  title: Priority Queues
+  highlights:
+    - Binary Heaps
+    - Heapsort
+  reading:
+    -
+      title: Chapter 2.4 in the textbook
+    -
+      title: Event-driven simulation slides (bonus materials, not on the exam)
+      url: lectures/08-priority-queues-supplemental.pdf
+-
+  date: 2016-10-04
+  slides: lectures/09-symbol-tables-and-binary-trees.pdf
+  title: Symbol Table
+  highlights:
+    - Symbol Table API
+    - Ordered Operations
     - Binary Search Trees
-  reading: CLRS 11.4, 12.1, 12.2
-
-- date: 2016-04-07
+  reading:
+    -
+      title: Chapters 3.1 and 3.2 in the textbook
+    -
+      title: Additional slides not covered in lecture (potentially on the exam)
+      url: lectures/09-symbol-tables-and-binary-trees-supplemental.pdf
+-
+  date: 2016-10-06
+  title: No class (Fall Term Break)
+-
+  date: 2016-10-10
+  title: Drop deadline
+  highlights:
+    - We will make grades for Midterm 1 available by the drop deadline
+-
+  date: 2016-10-11
+  slides: lectures/10-balanced-search-trees.pdf
+  title: Balanced Search Trees
+  highlights:
+    - 2-3 Search Trees
+    - Red-Black BSTs
+  reading:
+    -
+      title: Chapter 3.3 in the textbook
+-
+  date: 2016-10-13
+  slides: lectures/11-hash-tables.pdf
+  title: Hash Tables
+  highlights:
+    - Hash Functions
+    - Separate Chaining
+    - Linear Probing
+    - Symbol Table Applications
+  reading:
+    -
+      title: Chapter 3.4 in the textbook
+    -
+      title: Additional slides not covered in lecture on applications of symbol tables (potentially on the exam)
+      url: lectures/11-hash-tables-applications.pdf
+-
+  date: 2016-10-18
+  slides: lectures/12-undirected-graphs.pdf
+  title: Undirected Graphs
+  highlights:
+    - Intro to Graphs
+    - Graphs API
+    - Depth-First Search
+    - Breadth-First Search
+    - Connected Components
+    - Graph Challenges
+  reading:
+    -
+      title: Chapter 4.1 in the textbook
+-
+  date: 2016-10-20
+  slides: lectures/13-directed-graphs.pdf
+  title: Directed Graphs
+  highlights:
+    - Intro to Digraphs
+    - Digraphs Seach
+    - Topological Sort
+    - Strong Components
+  reading:
+    -
+      title: Chapter 4.2 in the textbook
+-
+  date: 2016-10-25
+  slides: lectures/14-minimum-spanning-trees.pdf
+  title: Minimum Spanning Trees
+  highlights:
+    - Greedy Algorithm for MSTs
+    - Edge Weighted Graphs
+    - Kruskal's Algorithm
+    - Prim's Algorithm
+  reading:
+    -
+      title: Chapter 4.3 in the textbook
+-
+  date: 2016-10-27
+  slides: lectures/15-shortest-paths.pdf
+  title: Shortest Paths
+  highlights:
+    - Properties of Shortest Paths
+    - Dijkstra's Algorithm
+    - Edge-Weighted Directed Acyclic Graphs
+    - Negative Weights
+  reading:
+    -
+      title: Chapter 4.4 in the textbook
+-
+  date: 2016-11-01
+  title: Review session for Midterm 2
+  highlights:
+    - Priority queues
+    - Search Trees
+    - Hash Tables
+    - Graphs
+    - MSTs
+    - Shortest Paths
+  reading:
+    -
+      title: Review chapters 2.4, 3.1-3.5 and 4.1-4.4 of the textbook      
+-
+  date: 2016-11-03
   title: Midterm 2
-
-- date: 2016-04-12
-  title: BSTs and Tries
   highlights:
-    - topic: BST
-      link: lectures/bst2.pdf
-    - topic: Tries
-      link: lectures/tries.pdf
-
-- date: 2016-04-14
-  title: Suffix Tries
+    - Priority queues
+    - Search Trees
+    - Hash Tables
+    - Graphs
+    - MSTs
+    - Shortest Paths
+  reading:
+    -
+      title: Review chapters 2.4, 3.1-3.5 and 4.1-4.4 of the textbook     
+-
+  date: 2016-11-08
+  slides: lectures/16-strings.pdf
+  title: Strings
   highlights:
-    - topic: Suffix tries
-      link: lectures/tries.pdf
-
-- date: 2016-04-19
-  title: AVL Trees
+    - Key-Indexed Counting
+    - LSD Radix Sort
+    - MSD Radix Sort
+    - 3-way Radix Quicksort
+    - Suffix Arrays
+  reading:
+    -
+      title: Chapter 5.1 the textbook
+-
+  date: 2016-11-10
+  title: Withdraw Deadline
   highlights:
-    - topic: AVL trees
-      link: lectures/avl.pdf
-
-- date: 2016-04-21
-  title: Skip Lists
+    - We will attempt to make grades for Midterm 2 available by the end of the day
+-
+  date: 2016-11-10
+  slides: lectures/17-tries.pdf
+  title: Tries
   highlights:
-    - topic: Skip lists
-      link: lectures/skiplists.pdf
-
-- date: 2016-04-26
-  title: Skip lists, Min-Cut, Interval Scheduling
-  slides: lectures/last-lecture-notes-all.pdf
+    - R-way Tries
+    - Ternary Search Tries
+    - Character-Based Operations
+  reading:
+    -
+      title: Chapter 5.2 the textbook
+-
+  date: 2016-11-15
+  slides: lectures/17-tries.pdf
+  title: Tries (continued)
   highlights:
-    - topic: Greedy interval scheduling
-      link: lectures/intervalgraphs.pdf
-    - topic: Weighted interval scheduling
-      link: lectures/dp1.pdf
-    - topic: Principles of dynamic programming
-      link: lectures/dp2.pdf
-    - topic: Randomized min-cut
-      link: lectures/mincut.pdf
+    - R-way Tries
+    - Ternary Search Tries
+    - Character-Based Operations
+  reading:
+    -
+      title: Chapter 5.2 the textbook
+-
+  date: 2016-11-17
+  slides: lectures/18-data-compression.pdf
+  title: Data Compression 
+  highlights:
+    - Run-Length Coding
+    - Huffman Compression
+    - LZW Compression
+  reading:
+    -
+      title: Chapter 5.5 the textbook
+-
+  date: 2016-11-22    (Thursday Schedule Today)
+  slides: lectures/19-substring-search.pdf
+  title: Substring Search
+  highlights:
+    - Brute Force Substring Search
+    - Knuth-Morris-Pratt
+  reading:
+    -
+      title: Chapter 5.3 the textbook
+-
+  date: 2016-11-24
+  title: No class today (Thanksgiving Break)
+-
+  date: 2016-11-29
+  title: Regular Expressions
+  slides: lectures/20-regular-expressions.pdf
+  highlights:
+    - Regular Expressions and Non-deterministic Finite State Automata
+    - NFA Simulation
+    - NFA Construction
+  reading:
+    -
+      title: Chapter 5.4 the textbook
+-
+  date: 2016-12-01
+  title: Reductions
+  slides: lectures/21-reductions.pdf
+  highlights:
+    - Designing Algorithms
+    - Establishing Lower Bounds
+    - Classifying Problems
+  reading:
+    -
+      title: Chapter 6 the textbook (Reductions)
+-
+  date: 2016-12-06
+  title: Intractability and Course Wrap-up
+  slides: lectures/22-intractability-and-wrapup.pdf
+  highlights:
+    - Intractability 
+    - P and NP
+    - 3-SAT and NP-completeness 
+    - What I hope you take away from this course
+-
+  date: 2016-12-08
+  title: Review Session for Final Exam
+  highlights:
+    - Roughly 50% of the exam will be drawn from materials after midterm 2, including
+    - Radix Sort
+    - Tries
+    - Data compression
+    - Substring search
+    - Regular expressions
+    - The remaining 50% will cover topics from earlier parts of the class, including
+    - Java knowledge
+    - Order of growth classification
+    - Sorting
+    - Priority queues
+    - Balanced search trees
+    - Hash tables
+    - Graph algorithms
+    - MSTs
+    - Shortest 15-shortest-paths
+  reading:
+    -
+      title: Review chapters 5.1-5.5 from the textbook, plus chapters 1-4    

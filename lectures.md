@@ -1,12 +1,20 @@
 ---
 layout: default
-title: CIS 121 Lectures
+title: Lectures
 active_tab: lectures
 ---
 
-Subject to change as the term progresses.
 
-<table class="table table-striped">
+
+<!-- Create a HTML anchor for the most recent lecture -->
+{% assign anchor_created = false %}
+{% capture now %}{{'now' | date: '%s'}}{% endcapture %}
+<!-- End create a HTML anchor for the most recent lecture -->
+
+
+The lecture schedule is subject to change as the term progresses.
+
+<table class="table table-striped"> 
   <tbody>
     <tr>
       <th>Date</th>
@@ -14,63 +22,60 @@ Subject to change as the term progresses.
       <th>Readings</th>
     </tr>
     {% for lecture in site.data.lectures %}
-      <tr {% if lecture.preview %} class="text-muted" {% endif %}>
-        <td>{{ lecture.date | date: "%b %d" }}</td>
-        <td>
-          {% if lecture.profile %}
-            Company Profile:
-          {% endif %}
-          {% if lecture.slides %}
-            <a href="{{ lecture.slides }}">{{ lecture.title | inline_markdownify }}</a>
-          {% else %}
-            {{ lecture.title | inline_markdownify }}
-          {% endif %}
-          {% if lecture.speaker %}
-            {% if lecture.speaker_url %} by <a href="{{ lecture.speaker_url }}">{{ lecture.speaker }}</a>
+
+<!-- Create a HTML anchor for the most recent lecture -->
+{% capture lecture_date %}{{lecture.date | date: '%s'}}{% endcapture %}
+{% assign lecture_date = lecture_date | plus: 0 %}
+{% assign now = now | minus: 14400 %}
+
+{% if anchor_created != true and lecture_date >= now %}
+   {% assign anchor_created = true %}
+<tr id="now">
+   {% else %}
+<tr>
+{% endif %}
+<!-- End create a HTML anchor for the most recent lecture -->
+      <td>{{ lecture.date | date: "%A, %B %-d, %Y" }}</td>
+      <td>
+        {% if lecture.slides %}<a href="{{ lecture.slides }}">{{ lecture.title }}</a>
+        {% else %}{{ lecture.title }}{% endif %}
+
+	{% if lecture.speaker %}
+        {% if lecture.speaker_url %} by <a href="{{ lecture.speaker_url }}">{{ lecture.speaker }}</a>
+        {% else %} by {{ lecture.speaker }}{% endif %}
+	{% endif %}
+
+	{% if lecture.highlights %}
+	  <ul>
+	   {% for highlight in lecture.highlights %}	
+	   <span class="text-muted"><li>
+	   {{ highlight }}
+	   </li></span>
+          {% endfor %}
+        {% endif %}
+      </td>
+      <td>
+        {% if lecture.reading %}
+          <ul class="fa-ul">
+          {% for reading in lecture.reading %}
+            <li>
+            {% if reading.optional %}<i class="fa-li fa fa-star"> </i>
+            {% else %}<i class="fa-li fa"> </i> {% endif %}
+            {% if reading.url %}
+            <a href="{{ reading.url }}">{{ reading.title }}</a>
             {% else %}
-              by {{ lecture.speaker }}
+            {{ reading.title }} 
             {% endif %}
-          {% endif %}
-          {% if lecture.highlights %}
-            <ul>
-              {% for highlight in lecture.highlights %}
-                <li class="text-muted">
-                  {% if highlight.topic %}
-                    <a href="{{ highlight.link }}">{{ highlight.topic }}</a>
-                  {% else %}
-                    {{ highlight }}
-                  {% endif %}
-                </li>
-              {% endfor %}
-            </ul>
-          {% endif %}
-        </td>
-        <td>
-          {% if lecture.reading %}
-            <ul>
-              {% for reading in lecture.reading %}
-                <li>
-                  {% if reading.topic %}
-                    {% if reading.link %}
-                      <a href="{{ reading.link }}">{{ reading.topic }}</a>
-                    {% else %}
-                      {{ reading.topic }}
-                    {% endif %}
-                    {% if reading.author %}
-                      by {{ reading.author }}
-                    {% endif %}
-                    {% if reading.optional %}
-                      (optional)
-                    {% endif %}
-                  {% else %}
-                    {{ reading | inline_markdownify }}
-                  {% endif %}
-                </li>
-              {% endfor %}
-            </ul>
-          {% endif %}
-        </td>
-      </tr>
+	    {% if reading.author %}
+            by {{ reading.author }}
+            {% endif %}
+            </li>
+          {% endfor %}
+          </ul>
+        {% endif %}
+      </td>
+    </tr>
     {% endfor %}
   </tbody>
 </table>
+
