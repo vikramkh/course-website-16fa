@@ -17,6 +17,7 @@
     - Mathematical Models
     - Order of Growth Classification
     - Memory Usage
+    - Big O, Big Theta, and Big Omega notation
   reading:
     -
       title: Chapter 1.4 in the textbook
