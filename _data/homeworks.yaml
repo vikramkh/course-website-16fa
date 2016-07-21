@@ -1,107 +1,117 @@
-- assignment: Java Warm-Up (Quadtree Compression)
-  active: t
-  type: programming
-  writeup: content/hws/hw1/hw1.pdf
-  zip: content/hws/hw1/hw1.zip
-  release_date: 2016-01-14
-  due_date: 2016-01-21
-
-- assignment: Stable Matching
-  active: t
-  type: written
-  problem_set: content/hws/hw2/hw2.pdf
-  release_date: 2016-01-14
-  due_date: 2016-01-28
-
-- assignment: Big-Oh
-  active: t
-  type: written
-  problem_set: content/hws/hw3/hw3.pdf
-  release_date: 2016-01-26
-  due_date: 2016-02-04
-
-- assignment: Recurrences and Divide and Conquer
-  active: t
-  type: written
-  problem_set: content/hws/hw4/hw4.pdf
-  release_date: 2016-02-04
-  due_date: 2016-02-11
-
-- assignment: Shunting Yard
-  active: t
-  type: programming
-  writeup: content/hws/hw5/hw5.pdf
-  zip: content/hws/hw5/hw5.zip
-  release_date: 2016-02-09
-  due_date: 2016-02-20
-
-- assignment: Heaps and Huffman Coding
-  active: t
-  type: written
-  problem_set: content/hws/hw6/hw6.pdf
-  release_date: 2016-02-18
-  due_date: 2016-02-26
-
-- assignment: Huffman Coding
-  active: t
-  type: programming
-  writeup: content/hws/hw7/hw7.pdf
-  zip: content/hws/hw7/hw7.zip
-  release_date: 2016-2-24
-  due_date: 2016-3-4
-
-- assignment: Project Milestone 1
-  active: t
-  type: programming
-  writeup: content/hws/project/project.pdf
-  zip: content/hws/project/project.zip
-  release_date: 2016-03-04
-  due_date: 2016-03-18
-
-- assignment: BFS and Min Spanning Trees
-  active: t
-  type: programming
-  writeup: content/hws/hw8/hw8.pdf
-  zip: content/hws/hw8/hw8.zip
-  release_date: 2016-03-16
-  due_date: 2016-03-24
-
-- assignment: Graphs
-  active: t
-  type: written
-  problem_set: content/hws/hw9/hw9.pdf
-  release_date: 2016-03-22
-  due_date: 2016-04-01
-
-- assignment: Project Milestone 2
-  active: t
-  type: programming
-  due_date: 2016-04-03
-
-- assignment: Project Milestone 3
-  active: t
-  type: programming
-  due_date: 2016-04-15
-
-- assignment: Hashing and Tries (written)
-  active: t
-  type: written
-  problem_set: content/hws/hw10/hw10.pdf
-  release_date: 2016-04-12
-  due_date: 2016-04-26
-
-
-- assignment: Hashing and Tries (programming)
-  active: t
-  type: programming
-  writeup: content/hws/hw11/hw11.pdf
-  zip: content/hws/hw11/hw11.zip
-  release_date: 2016-04-14
-  due_date: 2016-04-23
-
-
-
-- assignment: Project Final
-  active:
-  type: programming
-  due_date: 2016-04-27
+-
+   assignment: Quiz on class policies
+   type: written
+   writeup: 
+   zip: 
+   release_date: 2016-08-30
+   due_date: 2016-09-01
+-
+   assignment: Java Warm-Up (Quadtree Compression)
+   type: programming
+   writeup: content/hws/hw1/hw1.pdf
+   zip: content/hws/hw1/hw1.zip
+   release_date: 2016-09-01
+   due_date: 2016-09-08
+-
+   assignment: Analysis of Algorithms
+   type: written
+   problem_set: content/hws/hw2/hw2.pdf
+   problem_set_zip: content/hws/hw2/hw2_src.zip
+   release_date: 2016-09-08
+   due_date: 2016-09-15
+-
+   assignment: Dequeues and Dijkstra's "Shunting Yard" Algorithm
+   writeup: content/hws/hw3/hw3.pdf
+   zip: content/hws/hw3/hw3.zip
+   type: programming
+   release_date: 2016-09-17
+   due_date: 2016-09-24
+-
+   assignment: Sorting
+   problem_set: content/hws/hw4/hw4.pdf
+   problem_set_zip: content/hws/hw4/hw4_src.zip
+   type: written
+   release_date: 2016-09-24
+   due_date: 2016-10-01
+-
+   assignment: Midterm 1
+   type: in-class exam
+   release_date: 2016-10-01
+   due_date: 2016-10-01
+-
+   assignment: Heaps/Priority Queues
+   problem_set: content/hws/hw5/hw5.pdf
+   problem_set_tex: content/hws/hw5/hw5.tex
+   type: written
+   release_date: 2016-10-07
+   due_date: 2016-10-15
+-
+   assignment: Whole Term Project assigned—small deliverable due in 1 week
+   writeup: content/hws/project/project.pdf
+   zip: content/hws/project/project.zip
+   type: programming
+   release_date: 2016-10-15
+   due_date: 2016-10-23
+-
+   assignment: Hashing
+   writeup: content/hws/hw6/hw6.pdf
+   zip: content/hws/hw6/hw6.zip
+   type: programming
+   release_date: 2016-10-22
+   due_date: 2016-10-29
+-
+   assignment: Breadth-First Search and Minimum Spanning Trees
+   writeup: content/hws/hw7/hw7.pdf
+   zip: content/hws/hw7/hw7.zip
+   type: programming
+   release_date: 2016-10-26
+   due_date: 2016-11-05
+-
+   assignment: Midterm 2
+   type: in-class exam
+   release_date: 2016-11-03
+   due_date: 2016-11-03
+-
+   assignment: "Term project: Milestone 2"
+   writeup: content/hws/project/project.pdf
+   zip:
+   type: programming
+   release_date: 2016-11-05
+   due_date: 2016-11-12
+-
+   assignment: Tries and Boggle
+   writeup: content/hws/hw8/hw8.pdf
+   zip: content/hws/hw8/hw8.zip
+   type: programming
+   release_date: 2016-11-12
+   due_date: 2016-11-19
+-
+   assignment: "Term project: Milestone 3"
+   writeup: content/hws/project/project.pdf
+   zip:
+   type: programming
+   release_date: 2016-11-22
+   due_date: 2016-12-01
+-
+   assignment: Compression
+   writeup: content/hws/hw9/hw9.pdf
+   zip: content/hws/hw9/hw9.zip
+   type: programming
+   release_date: 2016-11-20
+   due_date: 2016-12-03
+-
+   assignment: Term project due on last day of class
+   active:
+   writeup:
+   zip:
+   type: programming
+   release_date: 2016-10-13
+   due_date: 2016-12-08
+-
+   assignment: Final exam (9am-11am on Tuesday, December 15)
+   active:
+   writeup:
+   zip:
+   type: in-class exam
+   release_date: 2016-12-15
+   due_date: 2016-12-15

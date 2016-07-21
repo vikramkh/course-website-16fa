@@ -9,25 +9,23 @@ Course:
 : CIS 121---Spring 2016
 
 Instructor:
-: [Rajiv Gandhi](mailto:rajivg100@gmail.com)
+: [Chris Callison-Burch](http://www.cis.upenn.edu/~ccb/)
 
 Teaching Assistants:
 : [Course staff](staff.html)
 
 Discussion Forum:
-: [Piazza](https://piazza.com/upenn/spring2016/cis121/)
+: [Piazza]()
 
 Lectures:
 : Tuesdays and Thursdays at 10:30am in Towne 100
 
 Prerequisites:
-: [CIS 120](http://www.seas.upenn.edu/~cis120/) and [CIS 160](http://www.thepigeonholeprinciple.com)
+: [CIS 120](http://www.seas.upenn.edu/~cis120/) and [CIS 160](http://www.cis.upenn.edu/~cis160/)
 
 Textbook:
-: [<cite>Introduction to Algorithms, 3rd edition</cite> by Cormen, Leiserson, Rivest, and Stein](http://www.amazon.com/Introduction-Algorithms-3rd-Thomas-Cormen/dp/0262033844/).
-The lectures and the reading will draw from the textbook. It is strongly
-recommended that you buy this textbook. It is available from the Penn Bookstore,
-as well as various online retailers.
+: [Algorithms (4th Edition) by Robert Sedgewick, Kevin Wayne](https://www.amazon.com/Algorithms-4th-Robert-Sedgewick/dp/032157351X/).
+The lectures and the required reading will draw from the textbook. It is available from the Penn Bookstore, as well as various online retailers.
 
 ---
 
@@ -35,17 +33,17 @@ Grading:
 
 : The grading for the course will consist of:
 
-    * 35% for homework assignments and the final project
-    * 17.5% for each of two midterm exams (2/18 and 4/7)
-    * 25% for the final
-    * 5% for recitation attendance. Recitation attendance is mandatory.
+    * 55% for homework assignments and the final project
+    * 10% for each of two midterm exams
+    * 20% for the final
+    * 5% for attendance of lectures and recitation. 
 
 
 Late submission policy:
 
 : The following applies to all homeworks, both written and programming, except
     for the final project, which does not have a late day policy. Each student
-    has two free, no-strings-attached "late days" in case of extenuating circumstances.
+    has five free, no-strings-attached "late days" in case of extenuating circumstances.
     Homeworks can be submitted at most two days late provided that you have the requisite
     number of late days.
     If you are out of late days, then you will not be able to submit your homework. One
