@@ -78,26 +78,6 @@
       title: Chapter 2.3 in the textbook
 -
   date: 2016-09-22
-  title: Review Session for Midterm 1
-  highlights:
-    - Java Knowledge
-    - Analysis of Algorithms
-    - Sorting
-  reading:
-    -
-      title: Review chapters 1.3-1.5 and 2.1-2.3 in the textbook
--
-  date: 2016-09-27
-  title: Midterm 1
-  highlights:
-    - Java Knowledge
-    - Analysis of Algorithms
-    - Sorting
-  reading:
-    -
-      title: Review chapters 1.3-1.5 and 2.1-2.3 in the textbook
--
-  date: 2016-09-29
   slides: lectures/08-priority-queues.pdf
   title: Priority Queues
   highlights:
@@ -109,6 +89,26 @@
     -
       title: Event-driven simulation slides (bonus materials, not on the exam)
       url: lectures/08-priority-queues-supplemental.pdf
+-
+  date: 2016-09-27
+  title: Review Session for Midterm 1
+  highlights:
+    - Java Knowledge
+    - Analysis of Algorithms
+    - Sorting
+  reading:
+    -
+      title: Review chapters 1.3-1.5 and 2.1-2.3 in the textbook
+-
+  date: 2016-09-29
+  title: Midterm 1
+  highlights:
+    - Java Knowledge
+    - Analysis of Algorithms
+    - Sorting
+  reading:
+    -
+      title: Review chapters 1.3-1.5 and 2.1-2.3 in the textbook
 -
   date: 2016-10-04
   slides: lectures/09-symbol-tables-and-binary-trees.pdf
