@@ -30,7 +30,7 @@
    assignment: Study for Midterm 1 (9/27)
    type: in-class exam
    release_date: 2016-09-20
-   due_date: 2016-09-27
+   due_date: 2016-09-29T12:00:00EDT
 -
    assignment: Sorting
    problem_set: content/hws/hw4/hw4.pdf
@@ -63,7 +63,7 @@
    assignment: Study for Midterm 2 (11/3)
    type: in-class exam
    release_date: 2016-10-25
-   due_date: 2016-11-03
+   due_date: 2016-11-03T12:00:00EDT
 -
    assignment: Breadth-First Search and Minimum Spanning Trees
    writeup: content/hws/hw7/hw7.pdf

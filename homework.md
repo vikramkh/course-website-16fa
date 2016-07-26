@@ -49,8 +49,8 @@ for you to use.
           </ul>
         </td>
         <!-- Dates -->
-        <td>{{ homework.release_date | date: "%b %d" }}</td>
-        <td>{{ homework.due_date | date: "%b %d" }}</td>
+        <td>{{ homework.release_date | date: "%a %b %d" }}</td>
+        <td>{{ homework.due_date | date: "%a %b %-d" }} by {{ homework.due_date | date: "%I:%M%p" }}</td>
       </tr>
     {% endfor %}
   </tbody>
