@@ -6,10 +6,6 @@
     date: TBA
     time: 8 - 10 PM
     location: Wu and Chen Auditorium
-  practice:
-    active: t
-    problems: content/exams/mid1/practiceExam1.pdf
-    solutions: protected_content/exams/mid1/solPracticeExam1.pdf
 
 - assignment: Midterm 2
   location: TBA
@@ -19,10 +15,6 @@
     time: 8 - 10 PM
     location: Wu and Chen Auditorium
   topics: TBA
-  practice:
-    active: t
-    problems: TBA
-    solutions: TBA
 
 - assignment: Final
   location: TBA
@@ -32,7 +24,3 @@
     time: TBA
     location: TBA 
   topics: TBA
-  practice:
-    active:
-    problems:
-    solutions:
