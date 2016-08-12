@@ -102,6 +102,7 @@
 -
   date: 2016-09-29
   title: Midterm 1
+  type: exam
   highlights:
     - Java Knowledge
     - Analysis of Algorithms
@@ -129,6 +130,7 @@
 -
   date: 2016-10-10
   title: Drop deadline
+  type: deadline
   highlights:
     - We will make grades for Midterm 1 available by the drop deadline
 -
@@ -222,6 +224,7 @@
 -
   date: 2016-11-03
   title: Midterm 2
+  type: exam
   highlights:
     - Priority queues
     - Search Trees
@@ -248,6 +251,7 @@
 -
   date: 2016-11-10
   title: Withdraw Deadline
+  type: deadline
   highlights:
     - We will attempt to make grades for Midterm 2 available by the end of the day
 -
