@@ -7,18 +7,21 @@ active_tab: exams
 All exams will be closed-book and closed-notes.
 
 <table class="table table-striped">
-  <tbody>
+  <thead>
     <tr>
-      <th></th>
-      <th>Exam Date</th>
-      <th>Exam Location</th>
+      <th>Name</th>
+      <th>Date</th>
+      <th>Location</th>
       <th>Information</th>
       <th>Practice Problems</th>
     </tr>
+  </thead>
+  
+  <tbody>
     {% for exam in site.data.exams %}
       <tr style="text-align: left">
         <td><span>{{ exam.assignment }}</span></td>
-        <td>{{ exam.exam_date | date: "%b %d" }}</td>
+        <td>{{ exam.exam_date | date: "%a, %b %-d" }}</td>
         <td>
           <ul class="list-unstyled">
             {% if exam.location %}
@@ -30,27 +33,38 @@ All exams will be closed-book and closed-notes.
             {% endif %}
           </ul>
         </td>
+        
         <td>
           <ul class="list-unstyled">
-            {% if exam.topics %}
-              <li>Topics</li>
-                <ul>{% for topic in exam.topics %}<li>{{ topic }}</li>{% endfor %}</ul>
-            {% endif %}
-            {% if exam.review %}
-              <li>Review session on {{ exam.review.date | date: "%b %d" }}, {{ exam.review.time | inline_markdownify }} in {{ exam.review.location }}</li>
-            {% endif %}
+          {% if exam.topics %}
+            <li>Topics</li>
+              <ul>
+              {% for topic in exam.topics %}
+                <li>{{ topic }}</li>
+              {% endfor %}
+              </ul>
+          {% endif %}
+          </ul>
+            
+          {% if exam.review %}
+            <li>Review session on {{ exam.review.date | date: "%a, %b %-d" }}, {{ exam.review.time | inline_markdownify }} in {{ exam.review.location }}</li>
+          {% endif %}
         </td>
+        
         <td>
           <ul class="list-unstyled">
             {% if exam.practice and exam.practice.active %}
               <li><a href="{{ exam.practice.problems }}">Practice Problems</a></li>
-              {% if exam.practice.solutions %}<li><a href="{{ exam.practice.solutions }}">Solutions</a></li>{% endif %}
+              {% if exam.practice.solutions %}
+                <li><a href="{{ exam.practice.solutions }}">Solutions</a></li>
+              {% endif %}
             {% else %}
-               <li>Coming soon!</li>
+              <li>Coming soon!</li>
             {% endif %}
           </ul>
         </td>
       </tr>
     {% endfor %}
+    
   </tbody>
 </table>
