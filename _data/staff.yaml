@@ -1,125 +1,151 @@
-- name: Rajiv Gandhi
-  pic: rajiv.jpg
-  email: rajiv@seas
+- name: Chris Callison-Burch
+  pic: ccb.jpg
+  email: ccb@upenn
   extra_title: Instructor
-  office_hours: Tuesday 12--1 and Friday 4--5 (both in Levine 512)
-
-- name: David Xu
-  pic: david_xu.jpg
-  extra_title: Head TA
-  email: davix@seas
-  lab: 206 (Monday 5--6)
-  office_hours: Wednesday 7--9
+  office_hours: TBA
 
 - name: Fifi Yeung
-  pic: fifi.png
-  email: eyeung@seas
+  pic: eyeung.png
   extra_title: Head TA
-  lab: 205 (Monday 4--5)
-  office_hours: Monday 6--8
+  email: eyeung@seas
+  lab: 206 (Monday 2-3)
+  office_hours: Wednesday 6-8
 
 - name: Carolina Zheng
-  pic: carolina.jpg
+  pic: carzheng.jpg
   email: carzheng@seas
   extra_title: Head TA
-  lab: 210 (Tuesday 5-6)
-  office_hours: Tuesday 8--10
-
-- name: Trevin Gandhi
-  pic: trevin.jpg
-  email: gandhit@seas
-  lab: 201 (Monday 12--1)
-  office_hours: Sunday 6--8
-
-- name: Wenli Zhao
-  pic: wenli.jpg
-  email: wenliz@seas
-  lab: 202 (Monday 1--2)
-  office_hours: Thursday 6--8
-
-- name: David Freifelder
-  pic: david_freifelder.jpg
-  email: dfrei@seas
-  lab: 203 (Monday 2--3)
-  office_hours: Wednesday 8--10
-
-- name: JT Cho
-  pic: jt.jpg
-  email: joncho@seas
-  lab: 204 (Monday 3--4)
-  office_hours: Wednesday 6--8
-
-- name: John Hewitt
-  pic: john.jpg
-  email: johnhew@seas
-  lab: 207 (Tuesday 2--3)
-  office_hours: Tuesday 8--10
-
-- name: Kevin Huo
-  pic: kevin.jpg
-  email: kevinhuo@seas
-  lab: 208 (Tuesday 3--4)
-  office_hours: Tuesday 6--8
-
-- name: Rachel Qiao Han
-  pic: rachel.jpg
-  email: hanqiao@seas
-  lab: 209 (Tuesday 4--5)
-  office_hours: Sunday 6--8
-
-- name: Benson Chen
-  pic: benson.jpg
-  email: bensonc@seas
-  lab: 211 (Tuesday 6--7)
-  office_hours: Thursday 6--8
+  lab: 204 (Monday 5-6)
+  office_hours: Monday 6-8
 
 - name: Veronica Wharton
-  pic: veronica.jpg
+  pic: whartonv.jpg
   email: whartonv@seas
-  lab: 212 (Monday 6--7)
-  office_hours: Thursday 8--10
-
-- name: Jim (Quanze) Chen
-  pic: jim.jpg
-  email: cquanze@seas
-  office_hours: Monday 8--10
-
-- name: Natasha Narang
-  pic: natasha.jpg
-  email: nnarang@seas
-  office_hours: Thursday 8--10
-
-- name: Anna O'Malley
-  pic: anna.jpg
-  email: omalleya@seas
-  office_hours: Monday 6--8
+  extra_title: Head TA
+  lab: 213 (Tuesday 6-7)
+  office_hours: Thursday 8-10
 
 - name: Amit Patel
-  pic: amit.jpg
+  pic: amitpate.jpg
   email: amitpate@seas
-  office_hours: Tuesday 6--8
+  lab: 205 (Tuesday 12-1)
+  office_hours: Monday 8-10
 
-- name: Ben Sandler
-  pic: ben.jpg
-  email: sandlerb@seas
-  office_hours: Monday 8--10
-
-- name: Ian Sibner
-  pic: ian.jpg
-  email: isibner@seas
-  office_hours: Wednesday 8--10
-
-- name: Angela Sun
-  pic: angela.jpg
-  email: anges@wharton
-  office_hours: Tuesday 7--9
-
-- name: Fan Yin
-  pic: fan.jpeg
-  email: fanyin@seas
-  office_hours: Sunday 8--10
+- name: Anna O'Malley
+  pic: omalleya.jpg
+  email: omalleya@seas
+  lab: 203 (Monday 4-5)
+  office_hours: Wednesday 8-10
 
 - name: Daniel Zhang
-  pic: daniel.jpg
+  pic: danielz.jpg
   email: danielzh@sas
-  office_hours: Wednesday 6--8
+  lab: 211 (Monday 3-4)
+  office_hours: Tuesday 8-10
+
+- name: David Liao
+  email: liaod@seas
+  office_hours: Wednesday 4-6
+
+- name: Dylan Mann
+  pic: mannd.jpg
+  email: mannd@seas
+  lab: 207 (Tuesday 3-4)
+  office_hours: Sunday 4-6
+
+- name: Gianluca Gross
+  pic: ggross.png
+  email: ggross@seas
+  office_hours: Sunday 8-10
+
+- name: Grace Huang
+  pic: ghua.png
+  email: ghua@seas
+  office_hours: Wednesday 8-10
+
+- name: Jaimie Carlson
+  email: jaimiec@seas
+  office_hours: Wednesday 4-6
+
+- name: Jane Lee
+  pic: janehlee.jpg
+  email: janehlee@sas
+  lab: 202 (Monday 2-3)
+  office_hours: Sunday 4-6
+
+- name: Jared Winograd
+  pic: jwino.png
+  email: jwino@seas
+  lab: 215 (Tuesday 1-2)
+  office_hours: Wednesday 4-6
+
+- name: Joey Popelka
+  pic: jpopelka.jpeg
+  email: jpopelka@seas
+  office_hours: Monday 8-10
+
+- name: Joseph Gao
+  pic: gaoj.jpg
+  email: gaoj@seas
+  lab: 212 (Monday 6-7)
+  office_hours: Thursday 6-8
+
+- name: Kevin Huo
+  pic: kevinhuo.jpg
+  email: kevinhuo@seas
+  office_hours: Saturday 2-4
+
+- name: Liam Gallagher
+  pic: liamg.jpg
+  email: liamg@seas
+  lab: 201 (Monday 12-1)
+  office_hours: Tuesday 6-8
+
+- name: Mara Levy
+  pic: maralevy.png
+  email: maralevy@seas
+  office_hours: Monday 6-8
+
+- name: Pia Kochar
+  pic: pkochar.jpg
+  email: pkochar@sas
+  office_hours: Saturday 4-6
+
+- name: Rachel Han
+  pic: hanqiao.jpg
+  email: hanqiao@seas
+  lab: 208 (Tuesday 4-5)
+  office_hours: Sunday 8-10
+
+- name: Robert Zajac
+  pic: rzajac.jpg
+  email: rzajac@seas
+  lab: 214 (Monday 11-12)
+  office_hours: Saturday 4-6
+
+- name: Sadat Shaik
+  pic: sshaik.jpg
+  email: sshaik@seas
+  lab: 209 (Tuesday 5-6)
+  office_hours: Thursday 6-8
+
+- name: Sumit Shyamsukha
+  pic: ssumit.jpg
+  email: ssumit@seas
+  lab: 210 (Monday 1-2)
+  office_hours: Saturday 2-4
+
+- name: Tony Kang
+  pic: taekan.png
+  email: taekan@seas
+  office_hours: Tuesday 6-8
+
+- name: Trevor Huang
+  pic: trehuang.jpg
+  email: trehuang@seas
+  office_hours: Tuesday 8-10
+
+- name: Zen Luo
+  pic: zhengyil.jpg
+  email: zhengyil@seas
+  office_hours: Thursday 8-10
