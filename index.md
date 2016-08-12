@@ -18,7 +18,7 @@ Discussion Forum:
 : [Piazza]()
 
 Lectures:
-: Tuesdays and Thursdays at 10:30 AM in Towne 100
+: Tuesdays and Thursdays at 10:30 AM in Chem 102
 
 Prerequisites:
 : [CIS 120](http://www.seas.upenn.edu/~cis120/) and [CIS 160](http://www.cis.upenn.edu/~cis160/)
