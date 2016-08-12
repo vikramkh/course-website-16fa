@@ -43,7 +43,7 @@ The lecture schedule is subject to change as the term progresses.
     >
 
     <!-- End create a HTML anchor for the most recent lecture -->
-      <td>{{ lecture.date | date: "%A, %B %-d, %Y" }}</td>
+      <td>{{ lecture.date | date: '%a, %b %-d, %y' }}</td>
       <td>
         {% if lecture.slides %}
           <a href="{{ lecture.slides }}">{{ lecture.title }}</a>
