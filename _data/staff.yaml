@@ -4,13 +4,6 @@
   extra_title: Instructor
   office_hours: TBA
 
-- name: Fifi Yeung
-  pic: eyeung.png
-  extra_title: Head TA
-  email: eyeung@seas
-  lab: 206 (Monday 2-3)
-  office_hours: Wednesday 6-8
-
 - name: Carolina Zheng
   pic: carzheng.jpg
   email: carzheng@seas
@@ -24,6 +17,13 @@
   extra_title: Head TA
   lab: 213 (Tuesday 6-7)
   office_hours: Thursday 8-10
+
+- name: Fifi Yeung
+  pic: eyeung.png
+  extra_title: Head TA, Emeritus
+  email: eyeung@seas
+  lab: 206 (Monday 2-3)
+  office_hours: Wednesday 6-8
 
 - name: Amit Patel
   pic: amitpate.jpg
@@ -43,29 +43,11 @@
   lab: 211 (Monday 3-4)
   office_hours: Tuesday 8-10
 
-- name: David Liao
-  email: liaod@seas
-  office_hours: Wednesday 4-6
-
 - name: Dylan Mann
   pic: mannd.jpg
   email: mannd@seas
   lab: 207 (Tuesday 3-4)
   office_hours: Sunday 4-6
-
-- name: Gianluca Gross
-  pic: ggross.png
-  email: ggross@seas
-  office_hours: Sunday 8-10
-
-- name: Grace Huang
-  pic: ghua.png
-  email: ghua@seas
-  office_hours: Wednesday 8-10
-
-- name: Jaimie Carlson
-  email: jaimiec@seas
-  office_hours: Wednesday 4-6
 
 - name: Jane Lee
   pic: janehlee.jpg
@@ -79,37 +61,17 @@
   lab: 215 (Tuesday 1-2)
   office_hours: Wednesday 4-6
 
-- name: Joey Popelka
-  pic: jpopelka.jpeg
-  email: jpopelka@seas
-  office_hours: Monday 8-10
-
 - name: Joseph Gao
   pic: gaoj.jpg
   email: gaoj@seas
   lab: 212 (Monday 6-7)
   office_hours: Thursday 6-8
 
-- name: Kevin Huo
-  pic: kevinhuo.jpg
-  email: kevinhuo@seas
-  office_hours: Saturday 2-4
-
 - name: Liam Gallagher
   pic: liamg.jpg
   email: liamg@seas
   lab: 201 (Monday 12-1)
   office_hours: Tuesday 6-8
-
-- name: Mara Levy
-  pic: maralevy.png
-  email: maralevy@seas
-  office_hours: Monday 6-8
-
-- name: Pia Kochar
-  pic: pkochar.jpg
-  email: pkochar@sas
-  office_hours: Saturday 4-6
 
 - name: Rachel Han
   pic: hanqiao.jpg
@@ -134,6 +96,44 @@
   email: ssumit@seas
   lab: 210 (Monday 1-2)
   office_hours: Saturday 2-4
+
+- name: David Liao
+  email: liaod@seas
+  office_hours: Wednesday 4-6
+
+- name: Gianluca Gross
+  pic: ggross.png
+  email: ggross@seas
+  office_hours: Sunday 8-10
+
+- name: Grace Huang
+  pic: ghua.png
+  email: ghua@seas
+  office_hours: Wednesday 8-10
+
+- name: Jaimie Carlson
+  email: jaimiec@seas
+  office_hours: Wednesday 4-6
+
+- name: Joey Popelka
+  pic: jpopelka.jpeg
+  email: jpopelka@seas
+  office_hours: Monday 8-10
+
+- name: Kevin Huo
+  pic: kevinhuo.jpg
+  email: kevinhuo@seas
+  office_hours: Saturday 2-4
+
+- name: Mara Levy
+  pic: maralevy.png
+  email: maralevy@seas
+  office_hours: Monday 6-8
+
+- name: Pia Kochar
+  pic: pkochar.jpg
+  email: pkochar@sas
+  office_hours: Saturday 4-6
 
 - name: Tony Kang
   pic: taekan.png
