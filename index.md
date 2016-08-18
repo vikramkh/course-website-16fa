@@ -27,6 +27,9 @@ Textbook:
 : [Algorithms (4th Edition) by Robert Sedgewick, Kevin Wayne](https://www.amazon.com/Algorithms-4th-Robert-Sedgewick/dp/032157351X/).
 The lectures and the required reading will draw from the textbook. It is available from the Penn Bookstore, as well as various online retailers.
 
+Materials:
+: We require everyone in the course to have their own clicker.  You can re-use the one that you have from CIS 110 or 120, or you can purchase one from the bookstore if you don't have noe.
+
 ---
 
 Grading:
