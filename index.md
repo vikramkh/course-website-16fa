@@ -57,7 +57,7 @@ Late submission policy:
 
 Cheating policy:
 
-: We take cheating very seriously. Students who are suspected of copying homework assignments or of violating the collaboration policies will be automatically referred to the Office of Student Conduct (OSC).  All homework written and programming assignments are run through plagiarism detection software.  The software checks for similarity between assignments submitted this term and in previous terms.  When the software flags assignments as having suspiciously high overlap, we pass the assignments to the OSC to adjudicate whether the collaboration policy was violated.  Students will receive a 0 on the homework for the first offense, and an F in the course if there is a second offense. 
+: We take cheating very seriously. Students who are suspected of copying homework assignments or of violating the collaboration policies will be automatically referred to the [Office of Student Conduct (OSC)](https://secure.www.upenn.edu/osc/index.html).  All homework written and programming assignments are run through plagiarism detection software.  The software checks for similarity between assignments submitted this term and in previous terms.  When the software flags assignments as having suspiciously high overlap, we pass the assignments to the OSC to adjudicate whether the collaboration policy was violated.  Students will receive a 0 on the homework for the first violation, and an F in the course if there is a second violation. 
 
 Collaboration policy for written homeworks:
 
