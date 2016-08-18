@@ -54,12 +54,12 @@ Late submission policy:
     deadline. Late written homeworks can be turned in to Laura Fox in
     Levine 308. The final project does not have the same late policy; it has its
     own late policy, which will be announced with its release.
-
+    
 
 Collaboration policy for written homeworks:
 
-: You are allowed to discuss solutions to problems in groups of three,
-    *documenting* who you discussed with at the top of your assignment. You are
+: You are allowed to discuss solutions to problems in pairs,
+    *documenting* who you collaborated with at the top of your assignment. You are
     allowed to ask anyone for LaTeX help (for instance, "How do I center a stack
     of equations?"). You are **not** allowed to write up the solutions together.
     You must do that by yourself.
