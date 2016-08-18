@@ -27,7 +27,11 @@ for you to use.
       <th>Due Date</th>
     </tr>
     {% for homework in site.data.homeworks %}
-      <tr style="text-align: left">
+      <tr style="text-align: left"
+        {% if homework.type == 'in-class exam' %}
+        class="info" 
+        {% endif %}
+      >
         <!-- Homework Name -->
         <td><span>{{ homework.assignment }}</span></td>
         <!-- Type -->
@@ -49,8 +53,8 @@ for you to use.
           </ul>
         </td>
         <!-- Dates -->
-        <td>{{ homework.release_date | date: "%a %b %d" }}</td>
-        <td>{{ homework.due_date | date: "%a %b %-d" }} by {{ homework.due_date | date: "%I:%M%p" }}</td>
+        <td>{{ homework.release_date | date: "%a, %b %-d" }}</td>
+        <td>{{ homework.due_date | date: "%a, %b %-d" }} by {{ homework.due_date | date: "%I:%M %p" }}</td>
       </tr>
     {% endfor %}
   </tbody>

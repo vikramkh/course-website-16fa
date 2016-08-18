@@ -1,41 +1,26 @@
 - assignment: Midterm 1
-  location:
-    - Towne 100 (last names A--O)
-    - College Hall 200 (last names P--Z)
-  exam_date: 2016-2-18
-  topics:
-  - Everything up to and including lecture on 2/4
+  location: TBA
+  exam_date: 2016-09-29
+  topics: TBA
   review:
-    date: 2016-2-16
-    time: 8--10pm
-    location: Wu and Chen
-  practice:
-    active: t
-    problems: content/exams/mid1/practiceExam1.pdf
-    solutions: protected_content/exams/mid1/solPracticeExam1.pdf
+    date: TBA
+    time: 8 - 10 PM
+    location: Wu and Chen Auditorium
 
 - assignment: Midterm 2
-  location: Towne 100 and College Hall 200
-  exam_date: 2016-4-7
+  location: TBA
+  exam_date: 2016-11-03
   review:
     date: 2016-4-5
-    time: 8--10pm
-    location: Wu and Chen
-  topics: Everything from Midterm 1 through SCC Lecture (No Hashing)
-  practice:
-    active: t
-    problems:  content/exams/mid2/practiceExam2.pdf
-    solutions: protected_content/exams/mid2/solPracticeExam2.pdf
+    time: 8 - 10 PM
+    location: Wu and Chen Auditorium
+  topics: TBA
 
 - assignment: Final
-  location: CHEM 102, 12-2pm
-  exam_date: 2016-05-04
+  location: TBA
+  exam_date: TBA
   review:
     date: TBA
     time: TBA
     location: TBA 
-  topics:
-  practice:
-    active:
-    problems:
-    solutions:
+  topics: TBA

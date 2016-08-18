@@ -4,54 +4,67 @@ title: Lectures
 active_tab: lectures
 ---
 
-
-
 <!-- Create a HTML anchor for the most recent lecture -->
 {% assign anchor_created = false %}
 {% capture now %}{{'now' | date: '%s'}}{% endcapture %}
 <!-- End create a HTML anchor for the most recent lecture -->
 
-
 The lecture schedule is subject to change as the term progresses.
 
 <table class="table table-striped"> 
-  <tbody>
+  <thead>
     <tr>
       <th>Date</th>
       <th>Topic</th>
       <th>Readings</th>
     </tr>
+  </thead>
+  <tbody>
     {% for lecture in site.data.lectures %}
 
-<!-- Create a HTML anchor for the most recent lecture -->
-{% capture lecture_date %}{{lecture.date | date: '%s'}}{% endcapture %}
-{% assign lecture_date = lecture_date | plus: 0 %}
-{% assign now = now | minus: 14400 %}
+    <!-- Create a HTML anchor for the most recent lecture -->
+    {% capture lecture_date %}{{lecture.date | date: '%s'}}{% endcapture %}
+    {% assign lecture_date = lecture_date | plus: 0 %}
+    {% assign now = now | minus: 14400 %}
 
-{% if anchor_created != true and lecture_date >= now %}
-   {% assign anchor_created = true %}
-<tr id="now">
-   {% else %}
-<tr>
-{% endif %}
-<!-- End create a HTML anchor for the most recent lecture -->
-      <td>{{ lecture.date | date: "%A, %B %-d, %Y" }}</td>
+    <tr
+    {% if anchor_created != true and lecture_date >= now %}
+      {% assign anchor_created = true %}
+      id="now" 
+    {% endif %}
+    
+    {% if lecture.type %}
+      {% if lecture.type and lecture.type == 'exam' %}
+        class="info" 
+      {% else if lecture.type == 'deadline' %}
+        class="warning"
+      {% endif %}
+    {% endif %}
+    >
+
+    <!-- End create a HTML anchor for the most recent lecture -->
+      <td>{{ lecture.date | date: '%a, %b %-d, %y' }}</td>
       <td>
-        {% if lecture.slides %}<a href="{{ lecture.slides }}">{{ lecture.title }}</a>
-        {% else %}{{ lecture.title }}{% endif %}
+        {% if lecture.slides %}
+          <a href="{{ lecture.slides }}">{{ lecture.title }}</a>
+        {% else %}
+          {{ lecture.title }}
+        {% endif %}
 
-	{% if lecture.speaker %}
-        {% if lecture.speaker_url %} by <a href="{{ lecture.speaker_url }}">{{ lecture.speaker }}</a>
-        {% else %} by {{ lecture.speaker }}{% endif %}
-	{% endif %}
+	    {% if lecture.speaker %}
+          {% if lecture.speaker_url %}
+            by <a href="{{ lecture.speaker_url }}">{{ lecture.speaker }}</a>
+          {% else %} 
+          by {{ lecture.speaker }}
+          {% endif %}
+	    {% endif %}
 
-	{% if lecture.highlights %}
-	  <ul>
-	   {% for highlight in lecture.highlights %}	
-	   <span class="text-muted"><li>
-	   {{ highlight }}
-	   </li></span>
+	    {% if lecture.highlights %}
+	      <ul>
+	      {% for highlight in lecture.highlights %}	
+	      <span class="text-muted"><li>{{ highlight }}</li></span>
           {% endfor %}
+          </ul>
         {% endif %}
       </td>
       <td>
@@ -66,8 +79,8 @@ The lecture schedule is subject to change as the term progresses.
             {% else %}
             {{ reading.title }} 
             {% endif %}
-	    {% if reading.author %}
-            by {{ reading.author }}
+	        {% if reading.author %}
+              by {{ reading.author }}
             {% endif %}
             </li>
           {% endfor %}
@@ -76,6 +89,7 @@ The lecture schedule is subject to change as the term progresses.
       </td>
     </tr>
     {% endfor %}
+    
   </tbody>
 </table>
 
