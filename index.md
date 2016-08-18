@@ -54,7 +54,10 @@ Late submission policy:
     deadline. Late written homeworks can be turned in to Laura Fox in
     Levine 308. The final project does not have the same late policy; it has its
     own late policy, which will be announced with its release.
-    
+
+Cheating policy:
+
+: We take cheating very seriously. Students who are suspected of copying homework assignments or of violating the collaboration policies will be automatically referred to the Office of Student Conduct (OSC).  All homework written and programming assignments are run through plagiarism detection software.  The software checks for similarity between assignments submitted this term and in previous terms.  When the software flags assignments as having suspiciously high overlap, we pass the assignments to the OSC to adjudicate whether the collaboration policy was violated.  Students will receive a 0 on the homework for the first offense, and an F in the course if there is a second offense. 
 
 Collaboration policy for written homeworks:
 
@@ -117,8 +120,6 @@ Collaboration policy for programming homeworks:
             course staff. You may NOT post course materials on sites such as
             CourseHero. This infringes upon the copyright of materials authored by
             the course staff.
-
-    Any violation of the collaboration policy will be dealt with severely.
 
 
 Regrade policy for programming homeworks:
