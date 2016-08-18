@@ -15,7 +15,7 @@ Teaching Assistants:
 : [Course staff](staff.html)
 
 Discussion Forum:
-: [Piazza]()
+: [Piazza](http://piazza.com/upenn/fall2016/cis121)
 
 Lectures:
 : Tuesdays and Thursdays at 10:30 AM in Chem 102
