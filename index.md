@@ -37,8 +37,9 @@ Grading:
 : The grading for the course will consist of:
 
     * 55% for homework assignments and the final project
-    * 10% for each of two midterm exams
-    * 20% for the final
+    * 10% for midterm 1
+    * 15% for midterm 2
+    * 15% for the final
     * 5% for attendance of lectures and recitation. 
 
 
