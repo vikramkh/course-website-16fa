@@ -6,7 +6,7 @@
    release_date: 2016-08-30
    due_date: 2016-09-01T23:59:00EDT
 -
-   assignment: Java Warm-Up (Quadtree Compression)
+   assignment: Java Warm-Up (Finger Exercises)
    type: programming
    writeup: content/hws/hw1/hw1.pdf
    zip: content/hws/hw1/hw1.zip
@@ -15,6 +15,13 @@
 -
    assignment: Analysis of Algorithms
    type: written
+   problem_set: content/hws/hw2/hw2.pdf
+   problem_set_zip: content/hws/hw2/hw2_src.zip
+   release_date: 2016-08-30
+   due_date: 2016-09-08T23:59:00EDT
+-
+   assignment: Quadtree Compression
+   type: programming
    problem_set: content/hws/hw2/hw2.pdf
    problem_set_zip: content/hws/hw2/hw2_src.zip
    release_date: 2016-09-06
@@ -46,17 +53,25 @@
    release_date: 2016-10-04
    due_date: 2016-10-13T23:59:00EDT
 -
-   assignment: "Term project: Milestone 2"
-   writeup: content/hws/project/project.pdf
-   zip: content/hws/project/project.zip
-   type: programming
-   release_date: 2016-10-11
-   due_date: 2016-10-20T23:59:00EDT
--
    assignment: Hashing
    writeup: content/hws/hw6/hw6.pdf
    zip: content/hws/hw6/hw6.zip
    type: programming
+   release_date: 2016-10-11
+   due_date: 2016-10-20T23:59:00EDT
+-
+   assignment: "Term project: Milestone 1"
+   writeup: content/hws/project/project.pdf
+   zip: content/hws/project/project.zip
+   type: programming
+   release_date: 2016-10-18
+   due_date: 2016-10-27T23:59:00EDT
+
+-
+   assignment: Graphs and Shortest Paths
+   writeup: 
+   zip: 
+   type: written
    release_date: 2016-10-18
    due_date: 2016-10-27T23:59:00EDT
 -
