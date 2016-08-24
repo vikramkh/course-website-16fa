@@ -1,6 +1,6 @@
 ---
 layout: default
-title: CIS 121—Spring 2016—Data Structures and Algorithms
+title: CIS 121—Fall 2016—Data Structures and Algorithms
 active_tab: main-page
 ---
 
