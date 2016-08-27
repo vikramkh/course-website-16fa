@@ -1,4 +1,4 @@
-# data-structures-and-algorithms
+# course-website-16fa
 
 Website for Penn's Data Structures and Algorithms course (CIS 121 Fall 2016).
 
