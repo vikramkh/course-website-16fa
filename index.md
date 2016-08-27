@@ -24,7 +24,7 @@ Prerequisites:
 : [CIS 120](http://www.seas.upenn.edu/~cis120/) and [CIS 160](http://www.cis.upenn.edu/~cis160/)
 
 Textbook:
-: [Algorithms (4th Edition) by Robert Sedgewick, Kevin Wayne](https://www.amazon.com/Algorithms-4th-Robert-Sedgewick/dp/032157351X/).
+: [Algorithms (4th Edition) by Robert Sedgewick and Kevin Wayne](https://www.amazon.com/Algorithms-4th-Robert-Sedgewick/dp/032157351X/).
 The lectures and the required reading will draw from the textbook. It is available from the Penn Bookstore, as well as various online retailers.
 
 Materials:
@@ -49,12 +49,16 @@ Late submission policy:
     for the final project, which does not have a late day policy. Each student
     has five free, no-strings-attached "late days" in case of extenuating circumstances.
     Homeworks can be submitted at most two days late provided that you have the requisite
-    number of late days.
+    number of late days.  
     If you are out of late days, then you will not be able to submit your homework. One
     "day" is defined as anytime between 1 second and 24 hours after the homework
-    deadline. Late written homeworks can be turned in to Laura Fox in
-    Levine 308. The final project does not have the same late policy; it has its
+    deadline.   The final project does not have the same late policy; it has its
     own late policy, which will be announced with its release.
+
+
+Attendance requirement:
+
+: You are required to attend lectures and recitations for this course.  Your lecture attendance will be tracked by using your response to the clicker quizes.  Clicking in or signing in for another student is considered to be cheating, and will result in both students recieving 0 for attendance.  You are not required to attend lectures on days you are observing religious holidays or doing acadmic conference travel.  You must declare the dates that you will be away on the course policy quiz during the first week of classes.
 
 Cheating policy:
 
