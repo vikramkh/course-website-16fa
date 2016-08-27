@@ -28,7 +28,7 @@ Textbook:
 The lectures and the required reading will draw from the textbook. It is available from the Penn Bookstore, as well as various online retailers.
 
 Materials:
-: We require everyone in the course to have their own clicker.  You can re-use the one that you have from CIS 110 or 120, or you can purchase one from the bookstore if you don't have one.
+: We require everyone in the course to have their own clicker.  You can re-use the one that you have from CIS 110 or 120, or you can purchase one from the bookstore if you don't have one. Please [register your clicker on the Turning Technologies web site](https://account.turningtechnologies.com/account/dashboard/index).
 
 ---
 
@@ -60,7 +60,7 @@ Cheating policy:
 
 : We take cheating very seriously. Students who are suspected of copying homework assignments or of violating the collaboration policies will be automatically referred to the [Office of Student Conduct (OSC)](https://secure.www.upenn.edu/osc/index.html).  All homework written and programming assignments are run through plagiarism detection software.  The software checks for similarity between assignments submitted this term and in previous terms.  When the software flags assignments as having suspiciously high overlap, we pass the assignments to the OSC to adjudicate whether the collaboration policy was violated.  Students will receive a 0 on the homework for the first violation, and an F in the course if there is a second violation. 
 
-Collaboration policy for written homeworks:
+Collaboration policy for written homework:
 
 : You are allowed to discuss solutions to problems in pairs,
     *documenting* who you collaborated with at the top of your assignment. You are
@@ -69,7 +69,7 @@ Collaboration policy for written homeworks:
     You must do that by yourself.
 
 
-Collaboration policy for programming homeworks:
+Collaboration policy for programming homework:
 
 : You are allowed to discuss low-level issues like the meaning of Java
     constructs, or how to use the computing environment. You are allowed to
@@ -104,8 +104,7 @@ Collaboration policy for programming homeworks:
         -   If you find a terminal on which somebody else has logged in and
             forgot to log out, you *must* log them out.
         -   When somebody else is typing a password in front of you *must*
-            look out the window, or at your shoes, or at the picture of Brad
-            Pitt or Angelina Jolie that you carry on your keychain.
+            look out the window or at your shoes.
     -   Use any code downloaded from the Internet or sent to you by email,
         Facebook, text, Twitter, or even scribbled notes passed from hand to
         hand. :)
@@ -123,7 +122,7 @@ Collaboration policy for programming homeworks:
             the course staff.
 
 
-Regrade policy for programming homeworks:
+Regrade policy for programming assignments:
 
 : We allow you to indicate *small errors* (defined below) that you have made,
     which, when fixed, will allow your programs to pass autograder tests. You
@@ -145,7 +144,7 @@ Regrade policy for programming homeworks:
     Regrade emails to individual TAs are NOT guaranteed to be processed.
 
 
-Regrade policy for written homeworks and exams:
+Regrade policy for written homework and exams:
 
 : Each written assignment and each midterm exam will have a regrade request
     deadline that will be posted typically one week after the assignment or exam
