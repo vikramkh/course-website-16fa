@@ -132,12 +132,18 @@
 -
   date: 2016-10-06
   title: No class (Fall Term Break)
+  type: no_lecture
 -
   date: 2016-10-10
   title: Drop deadline
   type: deadline
   highlights:
     - We will make grades for Midterm 1 available by the drop deadline
+-
+  date: 2016-10-11
+  title: Pennsylvania Voter Registration Deadline
+  slides: https://www.pavoterservices.state.pa.us/pages/VoterRegistrationApplication.aspx
+  type: deadline
 -
   date: 2016-10-11
   slides: lectures/11-hash-tables.pdf
@@ -238,6 +244,16 @@
       title: Review chapters 2.4, 3.1-3.5 and 4.1-4.4 of the textbook     
 -
   date: 2016-11-08
+  title: No lecture today (Election Day - go vote!)
+  type: no_lecture
+-
+  date: 2016-11-10
+  title: Withdraw Deadline
+  type: deadline
+  highlights:
+    - We will attempt to make grades for Midterm 2 available by the end of the day
+-
+  date: 2016-11-10
   slides: lectures/16-strings.pdf
   title: Strings
   highlights:
@@ -250,26 +266,9 @@
     -
       title: Chapter 5.1 the textbook
 -
-  date: 2016-11-10
-  title: Withdraw Deadline
-  type: deadline
-  highlights:
-    - We will attempt to make grades for Midterm 2 available by the end of the day
--
-  date: 2016-11-10
-  slides: lectures/17-tries.pdf
-  title: Tries
-  highlights:
-    - R-way Tries
-    - Ternary Search Tries
-    - Character-Based Operations
-  reading:
-    -
-      title: Chapter 5.2 the textbook
--
   date: 2016-11-15
   slides: lectures/17-tries.pdf
-  title: Tries (continued)
+  title: Tries
   highlights:
     - R-way Tries
     - Ternary Search Tries
@@ -301,6 +300,7 @@
 -
   date: 2016-11-24
   title: No class today (Thanksgiving Break)
+  type: no_lecture
 -
   date: 2016-11-29
   title: Regular Expressions
