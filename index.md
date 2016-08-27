@@ -158,5 +158,5 @@ Regrade policy for written homework and exams:
     provided in class. Please consult these carefully before requesting a
     regrade. Please fill out the
     [regrade request form](content/hws/regrade_request_16sp.pdf) and bring it to
-    the course administrator, Laura Fox, in Levine 308, together with the
+    the course administrator, Caitlin Coad, in Levine 308, together with the
     assignment or exam by the regrade deadline.
