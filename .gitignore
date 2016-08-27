@@ -5,7 +5,8 @@ _site/*
 vendor/
 slides/
 
-# Below are records to handle OS X cruft. Adapted from (https://github.com/github/gitignore/blob/master/Global/OSX.gitignore) 
+# Below are records to handle OS X cruft. Adapted from
+# (https://github.com/github/gitignore/blob/master/Global/OSX.gitignore)
 .DS_Store
 .AppleDouble
 .LSOverride
@@ -20,3 +21,6 @@ slides/
 .TemporaryItems
 .Trashes
 .VolumeIcon.icns
+
+# Pycharm
+.idea/
