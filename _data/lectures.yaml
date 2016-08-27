@@ -141,6 +141,11 @@
     - We will make grades for Midterm 1 available by the drop deadline
 -
   date: 2016-10-11
+  title: Pennsylvania Voter Registration Deadline
+  slides: https://www.pavoterservices.state.pa.us/pages/VoterRegistrationApplication.aspx
+  type: deadline
+-
+  date: 2016-10-11
   slides: lectures/11-hash-tables.pdf
   title: Hash Tables
   highlights:
