@@ -36,8 +36,10 @@ The lecture schedule is subject to change as the term progresses.
     {% if lecture.type %}
       {% if lecture.type and lecture.type == 'exam' %}
         class="info" 
-      {% else if lecture.type == 'deadline' %}
+      {% else if lecture.type and lecture.type == 'deadline' %}
         class="warning"
+      {% else if lecture.type and lecture.type == 'no_lecture' %}
+        class="success"
       {% endif %}
     {% endif %}
     >
