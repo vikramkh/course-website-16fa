@@ -66,20 +66,12 @@ Cheating policy:
 
 Collaboration policy for written homework:
 
-: You are allowed to discuss solutions to problems in pairs,
-    *documenting* who you collaborated with at the top of your assignment. You are
-    allowed to ask anyone for LaTeX help (for instance, "How do I center a stack
-    of equations?"). You are **not** allowed to write up the solutions together.
-    You must do that by yourself.
+: You are allowed to discuss solutions to problems in pairs, *documenting* who you collaborated with at the top of your assignment.  You are **not** allowed to write up the solutions together. You must do that by yourself. You are not allowed to show any other students your writeup.  You may have at most one partner per assignment.  You cannot collaborate with one classmate on the first problem, and another classmate on a different problem. It is permissable to ask anyone for LaTeX help (for instance, "How do I center a stack of equations?").  You are allowed to use the textbook, the Internet, the library or any other resources to research your written homework assignments.  However, if you find a solution to the problem you are not allowed to copy it directly or to paraphrase it.  You should attempt to understand it yourself and write it up without looking at the source.  You should also note in your solution where you found the solution. 
 
 
 Collaboration policy for programming homework:
 
-: You are allowed to discuss low-level issues like the meaning of Java
-    constructs, or how to use the computing environment. You are allowed to
-    discuss high-level questions such as what the instructor/lab TA said, the
-    content of the textbook or other general resources. You **not** allowed
-    to...
+: Generally, collaboration is not permitted on the programming assignments. You are allowed to discuss low-level issues like the meaning of Java constructs, or how to use the computing environment. You are allowed to discuss high-level questions such as what the instructor/lab TA said, the content of the textbook or other general resources. You **not** allowed to...
 
     -   Discuss issues directly pertaining to the homework questions or
         their solutions.
