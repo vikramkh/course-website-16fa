@@ -114,9 +114,7 @@ Collaboration policy for programming homework:
             considering.
         -   You may NOT share course materials without the prior approval of the
             course staff. You may NOT post course materials on sites such as
-            CourseHero. This infringes upon the copyright of materials authored by
-            the course staff.
-
+            CourseHero. 
 
 Regrade policy for programming assignments:
 
