@@ -58,7 +58,7 @@ Late submission policy:
 
 Attendance requirement:
 
-: You are required to attend lectures and recitations for this course.  Your lecture attendance will be tracked by using your response to the clicker quizes.  Clicking in or signing in for another student is considered to be cheating, and will result in both students recieving 0 for attendance.  You are not required to attend lectures on days you are observing religious holidays or doing acadmic conference travel.  You must declare the dates that you will be away on the course policy quiz during the first week of classes.
+: You are required to attend lectures and recitations for this course.  Your lecture attendance will be tracked by using your response to the clicker quizes, and your recitation attenadnce will be tracked with sign-in sheets.  Clicking in or signing in for another student is considered to be cheating, and will result in both students recieving 0 for attendance.  You are not required to attend lectures on days you are observing religious holidays or doing acadmic conference travel.  You must declare the dates that you will be away on the course policy quiz during the first week of classes.
 
 Cheating policy:
 
