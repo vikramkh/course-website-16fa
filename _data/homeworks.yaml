@@ -17,7 +17,7 @@
    type: written
    problem_set: content/hws/hw2/hw2.pdf
    problem_set_zip: content/hws/hw2/hw2_src.zip
-   release_date: 2016-09-01
+   release_date: 2016-09-01 
    due_date: 2016-09-08T23:59:00EDT
 -
    assignment: Quadtree Compression
@@ -34,10 +34,10 @@
    release_date: 2016-09-13
    due_date: 2016-09-22T23:59:00EDT
 -
-   assignment: Study for Midterm 1 (9/27)
+   assignment: Study for Midterm 1 (9/29)
    type: in-class exam
    release_date: 2016-09-20
-   due_date: 2016-09-29T12:00:00EDT
+   due_date: 2016-09-29T11:50:00EDT
 -
    assignment: Sorting
    problem_set: content/hws/hw4/hw4.pdf
@@ -78,7 +78,7 @@
    assignment: Study for Midterm 2 (11/3)
    type: in-class exam
    release_date: 2016-10-25
-   due_date: 2016-11-03T12:00:00EDT
+   due_date: 2016-11-03T11:50:00EDT
 -
    assignment: Breadth-First Search and Minimum Spanning Trees
    writeup: content/hws/hw7/hw7.pdf
