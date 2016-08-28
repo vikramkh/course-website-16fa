@@ -18,49 +18,49 @@
    problem_set: content/hws/hw2/hw2.pdf
    problem_set_zip: content/hws/hw2/hw2_src.zip
    release_date: 2016-09-01 
-   due_date: 2016-09-08T23:59:00EDT
+   due_date: 2016-09-15T23:59:00EDT
 -
    assignment: Quadtree Compression
    type: programming
    problem_set: content/hws/hw2/hw2.pdf
    problem_set_zip: content/hws/hw2/hw2_src.zip
-   release_date: 2016-09-06
+   release_date: 2016-09-01
    due_date: 2016-09-15T23:59:00EDT
+-
+   assignment: Sorting
+   problem_set: content/hws/hw4/hw4.pdf
+   problem_set_zip: content/hws/hw4/hw4_src.zip
+   type: written
+   release_date: 2016-09-13
+   due_date: 2016-9-22T23:59:00EDT
 -
    assignment: Dequeues and Dijkstra's "Shunting Yard" Algorithm
    writeup: content/hws/hw3/hw3.pdf
    zip: content/hws/hw3/hw3.zip
    type: programming
    release_date: 2016-09-13
-   due_date: 2016-09-22T23:59:00EDT
+   due_date: 2016-10-06T23:59:00EDT
 -
    assignment: Study for Midterm 1 (9/29)
    type: in-class exam
    release_date: 2016-09-20
    due_date: 2016-09-29T11:50:00EDT
 -
-   assignment: Sorting
-   problem_set: content/hws/hw4/hw4.pdf
-   problem_set_zip: content/hws/hw4/hw4_src.zip
-   type: written
-   release_date: 2016-09-27
-   due_date: 2016-10-05T23:59:00EDT
--
    assignment: Heaps/Priority Queues
    problem_set: content/hws/hw5/hw5.pdf
    problem_set_tex: content/hws/hw5/hw5.tex
    type: written
-   release_date: 2016-10-04
+   release_date: 2016-9-29
    due_date: 2016-10-13T23:59:00EDT
 -
-   assignment: Hashing
+   assignment: Hashing and Tries
    writeup: content/hws/hw6/hw6.pdf
    zip: content/hws/hw6/hw6.zip
    type: programming
    release_date: 2016-10-11
    due_date: 2016-10-20T23:59:00EDT
 -
-   assignment: "Term project: Milestone 1"
+   assignment: "Term project: Milestone 1 (Graph Parsing)"
    writeup: content/hws/project/project.pdf
    zip: content/hws/project/project.zip
    type: programming
@@ -87,19 +87,26 @@
    release_date: 2016-11-01
    due_date: 2016-11-10T23:59:00EST
 -
-   assignment: "Term project: Milestone 2"
+   assignment: "Term project: Milestone 2 (Heaps and Shortest Paths)"
    writeup: content/hws/project/project.pdf
    zip:
    type: programming
    release_date: 2016-11-08
    due_date: 2016-11-17T23:59:00EST
 -
-   assignment: Tries and Boggle
-   writeup: content/hws/hw8/hw8.pdf
-   zip: content/hws/hw8/hw8.zip
+   assignment: "Term Review Written Homework"
+   writeup: 
+   zip:
+   type: written
+   release_date: 2016-11-08
+   due_date: 2016-12-08T23:59:00EST
+-
+   assignment: "Term project: Milestone 3 (Connected Components)"
+   writeup: content/hws/project/project.pdf
+   zip:
    type: programming
    release_date: 2016-11-15
-   due_date: 2016-11-23T23:59:00EST
+   due_date: 2016-11-24T23:59:00EST
 -
    assignment: Compression
    writeup: content/hws/hw9/hw9.pdf
