@@ -10,7 +10,7 @@
    type: programming
    writeup: content/hws/hw1/hw1.pdf
    zip: content/hws/hw1/hw1.zip
-   release_date: 2016-08-30
+   release_date: 2016-09-30
    due_date: 2016-09-08T23:59:00EDT
 -
    assignment: Analysis of Algorithms
@@ -127,5 +127,5 @@
    writeup:
    zip:
    type: in-class exam
-   release_date: TBD
-   due_date: TBD
+   release_date: 2016-12-15T09:00:00EST
+   due_date: 2016-12-15T11:00:00EST
