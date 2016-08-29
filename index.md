@@ -24,7 +24,7 @@ Prerequisites:
 : [CIS 120](http://www.seas.upenn.edu/~cis120/) and [CIS 160](http://www.cis.upenn.edu/~cis160/)
 
 Textbook:
-: [Algorithms (4th Edition) by Robert Sedgewick, Kevin Wayne](https://www.amazon.com/Algorithms-4th-Robert-Sedgewick/dp/032157351X/).
+: [Algorithms (4th Edition) by Robert Sedgewick and Kevin Wayne](https://www.amazon.com/Algorithms-4th-Robert-Sedgewick/dp/032157351X/).
 The lectures and the required reading will draw from the textbook. It is available from the Penn Bookstore, as well as various online retailers.
 
 Materials:
@@ -49,12 +49,16 @@ Late submission policy:
     for the final project, which does not have a late day policy. Each student
     has five free, no-strings-attached "late days" in case of extenuating circumstances.
     Homeworks can be submitted at most two days late provided that you have the requisite
-    number of late days.
+    number of late days.  
     If you are out of late days, then you will not be able to submit your homework. One
     "day" is defined as anytime between 1 second and 24 hours after the homework
-    deadline. Late written homeworks can be turned in to Laura Fox in
-    Levine 308. The final project does not have the same late policy; it has its
+    deadline.   The final project does not have the same late policy; it has its
     own late policy, which will be announced with its release.
+
+
+Attendance requirement:
+
+: You are required to attend lectures and recitations for this course.  Your lecture attendance will be tracked by using your response to the clicker quizes, and your recitation attenadnce will be tracked with sign-in sheets.  Clicking in or signing in for another student is considered to be cheating, and will result in both students recieving 0 for attendance.  You are not required to attend lectures on days you are observing religious holidays or doing acadmic conference travel.  You must declare the dates that you will be away on the course policy quiz during the first week of classes.
 
 Cheating policy:
 
@@ -62,20 +66,12 @@ Cheating policy:
 
 Collaboration policy for written homework:
 
-: You are allowed to discuss solutions to problems in pairs,
-    *documenting* who you collaborated with at the top of your assignment. You are
-    allowed to ask anyone for LaTeX help (for instance, "How do I center a stack
-    of equations?"). You are **not** allowed to write up the solutions together.
-    You must do that by yourself.
+: You are allowed to discuss solutions to problems in pairs, *documenting* who you collaborated with at the top of your assignment.  You are **not** allowed to write up the solutions together. You must do that by yourself. You are not allowed to show any other students your writeup.  You may have at most one partner per assignment.  You cannot collaborate with one classmate on the first problem, and another classmate on a different problem. It is permissable to ask anyone for LaTeX help (for instance, "How do I center a stack of equations?").  You are allowed to use the textbook, the Internet, the library or any other resources to research your written homework assignments.  However, if you find a solution to the problem you are not allowed to copy it directly or to paraphrase it.  You should attempt to understand it yourself and write it up without looking at the source.  You should also note in your solution where you found the solution. 
 
 
 Collaboration policy for programming homework:
 
-: You are allowed to discuss low-level issues like the meaning of Java
-    constructs, or how to use the computing environment. You are allowed to
-    discuss high-level questions such as what the instructor/lab TA said, the
-    content of the textbook or other general resources. You **not** allowed
-    to...
+: Generally, collaboration is not permitted on the programming assignments. You are allowed to discuss low-level issues like the meaning of Java constructs, or how to use the computing environment. You are allowed to discuss high-level questions such as what the instructor/lab TA said, the content of the textbook or other general resources. You **not** allowed to...
 
     -   Discuss issues directly pertaining to the homework questions or
         their solutions.
@@ -118,9 +114,7 @@ Collaboration policy for programming homework:
             considering.
         -   You may NOT share course materials without the prior approval of the
             course staff. You may NOT post course materials on sites such as
-            CourseHero. This infringes upon the copyright of materials authored by
-            the course staff.
-
+            CourseHero. 
 
 Regrade policy for programming assignments:
 

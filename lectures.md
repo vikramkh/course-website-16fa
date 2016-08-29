@@ -16,7 +16,7 @@ The lecture schedule is subject to change as the term progresses.
     <tr>
       <th>Date</th>
       <th>Topic</th>
-      <th>Readings</th>
+      <th>Required Readings</th>
     </tr>
   </thead>
   <tbody>
