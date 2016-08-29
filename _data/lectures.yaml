@@ -1,11 +1,12 @@
 -
   date: 2016-08-30
-  slides: lectures/01-intro-and-union-find.pdf
+  slides: lectures/01-intro-plus-stacks-and-queues.pdf
   title: Stacks and Queues
   highlights:
-    - Resizing Arrays
-    - Applications of Stacks and Queues
     - Welcome to CIS 121
+    - Stacks and Queues
+    - Resizing Arrays
+    - Amortized Analysis
   reading:
     -
       title: Chapter 1.3 in the textbook
