@@ -32,6 +32,10 @@ Materials:
 
 ---
 
+<div class="alert alert-info">
+There is a quiz on the course policies which is due by 11:59pm on Thursday September 1.  You can complete the quiz by filling out this <a href="https://docs.google.com/forms/d/e/1FAIpQLSc7WvRCIInG4CiCt2y8TscGmLhSOp9lRBOYDMQ3P-dAFTCBoQ/viewform">Google form</a>.
+</div>
+
 Grading:
 
 : The grading for the course will consist of:

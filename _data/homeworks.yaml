@@ -1,7 +1,8 @@
 -
    assignment: Quiz on class policies
    type: written
-   writeup: 
+   active: true
+   writeup: https://docs.google.com/forms/d/e/1FAIpQLSc7WvRCIInG4CiCt2y8TscGmLhSOp9lRBOYDMQ3P-dAFTCBoQ/viewform
    zip: 
    release_date: 2016-08-30
    due_date: 2016-09-01T23:59:00EDT
