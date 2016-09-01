@@ -126,7 +126,7 @@ Regrade policy for programming assignments:
     which, when fixed, will allow your programs to pass autograder tests. You
     will need to send an email, by the regrade deadline, which is one week after
     you receive your scores, to
-    [cis121-16sp-staff+regrade@googlegroups.com](mailto:cis121-16sp-staff+regrade@googlegroups.com).
+    [cis121-16fa-staff+regrade@googlegroups.com](mailto:cis121-16fa-staff+regrade@googlegroups.com).
     This email must identify exactly the error in your code and include a
     precise description of the fix that needs to be made. A *small error* is a
     problem whose fix should not require changing more than 1--2 lines of code.
@@ -155,6 +155,6 @@ Regrade policy for written homework and exams:
     reasons. For the written assignments and for the midterms, solutions will be
     provided in class. Please consult these carefully before requesting a
     regrade. Please fill out the
-    [regrade request form](content/hws/regrade_request_16sp.pdf) and bring it to
+    [regrade request form](content/hws/regrade_request_16fa.pdf) and bring it to
     the course administrator, Caitlin Coad, in Levine 308, together with the
     assignment or exam by the regrade deadline.
