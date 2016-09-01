@@ -9,8 +9,9 @@
 -
    assignment: Java Warm-Up (Finger Exercises)
    type: programming
-   writeup: content/hws/hw1/hw1.pdf
-   zip: content/hws/hw1/hw1.zip
+   active: true
+   writeup: content/hws/hw0/hw0.pdf
+   zip: content/hws/hw0/hw0.zip
    release_date: 2016-09-01
    due_date: 2016-09-08T23:59:00EDT
 -

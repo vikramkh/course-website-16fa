@@ -5,14 +5,14 @@ active_tab: homework
 ---
 
 Written homeworks *must* include our [cover
-sheet](content/hws/cover_sheet_16sp.pdf) with the requisite information filled
+sheet](content/hws/cover_sheet_16fa.pdf) with the requisite information filled
 out in order for them to be graded. Written homeworks *must* be typeset in
 LaTeX. Written homeworks must be submitted online.
 
 For your convenience, we have a [LaTeX homework template](content/hws/hw121.cls)
 for you to use.
 
-* [Cover sheet](content/hws/cover_sheet_16sp.pdf)
+* [Cover sheet](content/hws/cover_sheet_16fa.pdf)
 * [hw121.cls](content/hws/hw121.cls)
 * [sample_hw.tex](content/hws/sample_hw.tex)
 * [sample_hw.pdf](content/hws/sample_hw.pdf)
