@@ -33,7 +33,11 @@ Materials:
 ---
 
 <div class="alert alert-info">
-There is a quiz on the course policies which is due by 11:59pm on Thursday September 1.  You can complete the quiz by filling out this <a href="https://docs.google.com/forms/d/e/1FAIpQLSc7WvRCIInG4CiCt2y8TscGmLhSOp9lRBOYDMQ3P-dAFTCBoQ/viewform">Google form</a>.
+The first programming homework assignment <a href="homework.html">has been released</a>. It is due by 11:59pm on Thursday, September 8th.
+</div>
+
+<div class="alert alert-info">
+The first written homework assignment <a href="homework.html">has been released</a>. It must be submitted electonically by 10am on on Thursday, September 15th.  You must also bring a printed copy (stapled, with coversheet) to class on September 15th. 
 </div>
 
 Grading:
