@@ -26,7 +26,7 @@
    type: programming
    problem_set: content/hws/hw2/hw2.pdf
    problem_set_zip: content/hws/hw2/hw2_src.zip
-   release_date: 2016-09-01
+   release_date: 2016-09-06
    due_date: 2016-09-15T23:59:00EDT
 -
    assignment: Sorting
@@ -124,7 +124,7 @@
    release_date: 2016-11-29
    due_date: 2016-12-08T23:59:00EST
 -
-   assignment: Final exam (time date TBD)
+   assignment: Final Exam
    active:
    writeup:
    zip:
