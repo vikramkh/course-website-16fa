@@ -22,7 +22,7 @@ active_tab: labs
         <td>
           <ul class="list-unstyled">
             <li>
-            {% if lab.problems.link %}}
+            {% if lab.problems.link %}
                 <a href="{{ lab.problems.link }}">{{ lab.problems.name }}</a>
             {% else %}
                 {{ lab.problems.name }}

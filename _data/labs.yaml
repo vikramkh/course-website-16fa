@@ -1,6 +1,9 @@
 - date: 2016-09-12
-  name: Introduction to Problem Solving
+  name: Optional Recitations
   problems:
-    name: Coming soon!
-    link:
-
+    name: 160 Review 
+    link: content/labs/reviews/160Review.pdf
+  extra: 
+    name: Files for Java Sessions
+    link: content/labs/reviews/review.zip
+  
