@@ -17,19 +17,19 @@
   highlights:
     - Mathematical Models
     - Order of Growth Classification
-    - Memory Usage
     - Big O, Big Theta, and Big Omega notation
+    - Memory Usage (read the textbook on your own for this section)
   reading:
     -
       title: Chapter 1.4 in the textbook
 -
   date: 2016-09-06
-  slides: lectures/04-intro-to-sorting-and-comparators.pdf
-  title: Elementary Sorts
+  slides: lectures/03-theory-of-algorithms-and-basic-sorting.pdf
+  title: Theory of Algorithms and Elementary Sorts
   highlights:
+    - Big O, Big Theta, and Big Omega notation
     - Selection Sort
     - Insertion Sort
-    - Shuffling
   reading:
     -
       title: Chapter 2.1 in the textbook
