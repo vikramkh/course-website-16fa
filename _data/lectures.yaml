@@ -35,6 +35,18 @@
       title: Chapter 2.1 in the textbook
 -
   date: 2016-09-08
+  slides: lectures/04-intro-to-sorting-and-comparators.pdf
+  title: Elementary Sorts and Sorting in Java
+  highlights:
+    - Selection Sort and Insertion Sort Wrap-up
+    - Sorting in Java
+    - Comparable Interface, compareTo, Comparators
+    - Stability
+  reading:
+    -
+      title: Chapter 2.2 in the textbook
+-
+  date: 2016-09-13
   slides: lectures/05-mergesort.pdf
   title: Mergesort
   highlights:
@@ -46,7 +58,7 @@
     -
       title: Chapter 2.2 in the textbook
 -
-  date: 2016-09-13
+  date: 2016-09-15
   slides: lectures/06-quicksort.pdf
   title: Quicksort
   highlights:
