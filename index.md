@@ -28,7 +28,7 @@ Textbook:
 The lectures and the required reading will draw from the textbook. It is available from the Penn Bookstore, as well as various online retailers.
 
 Materials:
-: We require everyone in the course to have their own clicker.  You can re-use the one that you have from CIS 110 or 120, or you can purchase one from the bookstore if you don't have one. Please [register your clicker on the Turning Technologies web site](https://account.turningtechnologies.com/account/dashboard/index).
+: We require everyone in the course to have their own clicker.  You can re-use the one that you have from CIS 110 or 120, or you can purchase one from the bookstore if you don't have one. 
 
 ---
 
@@ -37,8 +37,14 @@ The first programming homework assignment <a href="homework.html">has been relea
 </div>
 
 <div class="alert alert-info">
-The first written homework assignment <a href="homework.html">has been released</a>. It must be submitted electonically by 10am on on Thursday, September 15th.  You must also bring a printed copy (stapled, with coversheet) to class on September 15th. 
+The first written homework assignment <a href="homework.html">has been released</a>. It must be submitted electonically by 10am on on Thursday, September 15th. <strikethrough>You must also bring a printed copy (stapled, with coversheet) to class on September 15th. </strikethrough>
 </div>
+
+
+<div class="alert alert-info">
+The second programming homework assignment <a href="homework.html">has been released</a>. It is due by 11:59pm on Thursday, September 15th.  Note that this is a very challenging assignment, and it is due on the same day as the first written homework assignment, so start ASAP.
+</div>
+
 
 Grading:
 
