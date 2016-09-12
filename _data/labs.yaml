@@ -1,8 +1,12 @@
 - date: 2016-09-05
   name: Optional Review Recitations
   problems:
-    name: 160 Review 
-    link: content/labs/reviews/review160.pdf
+    - name: 160 Review
+      link: content/labs/reviews/review160.pdf
+    - name: Java Debugging Review
+      link: content/labs/reviews/java_debug.pdf
+    - name: Object-Oriented Design Review
+      link: content/labs/reviews/java_oo.pdf
   extra: 
     name: Files for Java Sessions
     link: content/labs/reviews/review.zip

@@ -5,15 +5,16 @@ active_tab: labs
 ---
 
 <table class="table table-striped">
-  <tbody>
-    
+  <thead>
     <tr>
       <th>Week of</th>
       <th>Name</th>
       <th>Materials</th>
       <th>Solutions</th>
     </tr>
-    
+  </thead>
+  
+  <tbody>
     {% for lab in site.data.labs %}
     
       <tr style="text-align: left">
@@ -21,12 +22,18 @@ active_tab: labs
         <td><span>{{ lab.name }}</span></td>
         <td>
           <ul class="list-unstyled">
-            <li>
-            {% if lab.problems.link %}
-                <a href="{{ lab.problems.link }}">{{ lab.problems.name }}</a>
-            {% else %}
-                {{ lab.problems.name }}
-            </li>
+            {% if lab.problems %}
+              {% for problems in lab.problems %}
+                {% if problems.link %}
+                <li>
+                  <a href="{{ problems.link }}">{{ problems.name }}</a>
+                </li>
+                {% else %}
+                <li>
+                  {{ problems.name }}
+                </li>
+                {% endif %}
+              {% endfor %}
             {% endif %}
             {% if lab.extra %}
               <li><a href="{{ lab.extra.link }}">{{ lab.extra.name }}</a></li>
