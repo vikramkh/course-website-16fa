@@ -10,4 +10,8 @@
   extra: 
     name: Files for Java Sessions
     link: content/labs/reviews/review.zip
-  
+- date: 2016-09-11
+  name: Big-Oh Notation and Recurrences
+  problems:
+    - name: Recitation Guide
+      link: content/labs/big_oh/big_oh.pdf
