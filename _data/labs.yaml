@@ -15,3 +15,4 @@
   problems:
     - name: Recitation Guide
       link: content/labs/big_oh/big_oh.pdf
+  solutions: content/labs/big_oh/big_oh_sols.pdf

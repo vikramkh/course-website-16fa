@@ -37,7 +37,7 @@ The first programming homework assignment <a href="homework.html">has been relea
 </div>
 
 <div class="alert alert-info">
-The first written homework assignment <a href="homework.html">has been released</a>. It must be submitted electonically by 10am on on Thursday, September 15th. <strikethrough>You must also bring a printed copy (stapled, with coversheet) to class on September 15th. </strikethrough>
+The first written homework assignment <a href="homework.html">has been released</a>. It must be submitted electonically by 10am on on Thursday, September 15th. You **do not** need to bring a printed copy to class.
 </div>
 
 
