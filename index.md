@@ -32,9 +32,6 @@ Materials:
 
 ---
 
-<div class="alert alert-info">
-The first programming homework assignment <a href="homework.html">has been released</a>. It is due by 11:59pm on Thursday, September 8th.
-</div>
 
 <div class="alert alert-info">
 The first written homework assignment <a href="homework.html">has been released</a>. It must be submitted electonically by 10am on on Thursday, September 15th. You **do not** need to bring a printed copy to class.
