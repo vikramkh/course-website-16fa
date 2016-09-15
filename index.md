@@ -34,13 +34,9 @@ Materials:
 
 
 <div class="alert alert-info">
-The first written homework assignment <a href="homework.html">has been released</a>. It must be submitted electonically by 10am on on Thursday, September 15th. You **do not** need to bring a printed copy to class.
+HW3 is a written homework assignment on sorting algorithms.  You can <a href="homework.html">download now</a>. It is due before 10:30am on on Thursday, September 22nd. You should submit it via Canvas.
 </div>
 
-
-<div class="alert alert-info">
-The second programming homework assignment <a href="homework.html">has been released</a>. It is due by 11:59pm on Thursday, September 15th.  Note that this is a very challenging assignment, and it is due on the same day as the first written homework assignment, so start ASAP.
-</div>
 
 
 Grading:
