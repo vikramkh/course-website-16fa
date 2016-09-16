@@ -34,7 +34,7 @@ Materials:
 
 
 <div class="alert alert-info">
-HW3 is a written homework assignment on sorting algorithms.  You can <a href="homework.html">download it now</a>. It is due before 10:30am on on Thursday, September 22nd. You should submit it via Canvas.
+HW3 is a written homework assignment on sorting algorithms.  You can <a href="homework.html">download it now</a>. It is due before 10:30am on Thursday, September 22nd. You should submit it via Canvas.
 </div>
 
 
