@@ -41,7 +41,8 @@
    writeup: content/hws/hw4/hw4.pdf
    zip: content/hws/hw4/hw4.zip
    type: programming
-   release_date: 2016-09-15
+   active: true
+   release_date: 2016-09-18
    due_date: 2016-10-05T23:59:00EDT
 -
    assignment: Study for Midterm 1 (9/29)
