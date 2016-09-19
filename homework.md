@@ -48,6 +48,7 @@ for you to use.
               {% if homework.problem_set %}<li><a href="{{ homework.problem_set }}">Problem set</a></li>{% endif %}
               {% if homework.problem_set_zip %}<li><a href="{{ homework.problem_set_zip }}">Problem set (zip)</a></li>{% endif %}
               {% if homework.problem_set_tex %}<li><a href="{{ homework.problem_set_tex }}">Problem set (tex)</a></li>{% endif %}
+              {% if homework.solutions %}<li><a href="{{ homework.solutions }}">Solutions</a></li>{% endif %}
             {% else %}
                <li>Coming soon!</li>
             {% endif %}
