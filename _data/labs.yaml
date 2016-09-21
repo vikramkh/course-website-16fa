@@ -21,4 +21,5 @@
   problems:
     - name: Recitation Guide
       link: content/labs/sorting/sorting.pdf
+  solutions: content/labs/sorting/sorting_sol.pdf
       
