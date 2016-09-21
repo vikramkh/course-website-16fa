@@ -14,6 +14,8 @@
   date: 2016-09-01
   slides: lectures/02-analysis-of-algorithms.pdf
   title: Analysis of Algorithms
+  chalk_talk: lectures/07-asymptotic-analysis-chalk-talk.pdf
+  chalk_talk_title: Asymptotic Analysis
   highlights:
     - Mathematical Models
     - Order of Growth Classification
@@ -51,7 +53,9 @@
 -
   date: 2016-09-13
   slides: lectures/05-mergesort.pdf
+  chalk_talk: lectures/05-mergesort-chalk-talk.pdf
   title: Mergesort
+  chalk_talk_title: number of compares used by mergesort
   highlights:
     - Bottom-up Mergesort
     - Sorting Complexity
@@ -63,6 +67,8 @@
 -
   date: 2016-09-15
   slides: lectures/06-quicksort.pdf
+  chalk_talk: lectures/06-quicksort-chalk-talk.pdf
+  chalk_talk_title: average number of compares used by quicksort
   title: Quicksort
   highlights:
     - Theory of Algorithms
@@ -73,8 +79,10 @@
     -
       title: Chapter 2.3 in the textbook
 -
-  date: 2016-09-15
+  date: 2016-09-20
   slides: lectures/07-sorting-wrapup.pdf
+  chalk_talk: lectures/07-asymptotic-analysis-chalk-talk.pdf
+  chalk_talk_title: Asymptotic Analysis
   title: Sorting wrap up
   highlights:
     - Selection
@@ -84,7 +92,7 @@
     -
       title: Chapter 2.3 in the textbook
 -
-  date: 2016-09-20
+  date: 2016-09-22
   slides: lectures/08-priority-queues.pdf
   title: Priority Queues
   highlights:
@@ -97,7 +105,7 @@
       title: Event-driven simulation slides (bonus materials, not on the exam)
       url: lectures/08-priority-queues-supplemental.pdf
 - 
-  date: 2016-09-22
+  date: 2016-09-27
   slides: lectures/09-symbol-tables-and-binary-trees.pdf
   title: Symbol Table
   highlights:
@@ -112,7 +120,7 @@
       url: lectures/09-symbol-tables-and-binary-trees-supplemental.pdf  
 -
   date: 2016-09-27
-  title: Review Session for Midterm 1
+  title: Option Review Session for Midterm 1 (8-10pm in Wu and Chen)
   highlights:
     - Java Knowledge
     - Analysis of Algorithms

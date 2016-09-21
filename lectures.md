@@ -53,6 +53,8 @@ The lecture schedule is subject to change as the term progresses.
           {{ lecture.title }}
         {% endif %}
 
+
+
 	    {% if lecture.speaker %}
           {% if lecture.speaker_url %}
             by <a href="{{ lecture.speaker_url }}">{{ lecture.speaker }}</a>
@@ -65,8 +67,11 @@ The lecture schedule is subject to change as the term progresses.
 	      <ul>
 	      {% for highlight in lecture.highlights %}	
 	      <span class="text-muted"><li>{{ highlight }}</li></span>
-          {% endfor %}
-          </ul>
+	      {% endfor %}
+	      </ul>
+	    {% endif %}
+        {% if lecture.chalk_talk %}
+	      In class notes on  <a href="{{ lecture.chalk_talk }}">{{ lecture.chalk_talk_title }}</a>
         {% endif %}
       </td>
       <td>
