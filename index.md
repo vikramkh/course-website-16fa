@@ -33,12 +33,13 @@ Materials:
 ---
 
 <div class="alert alert-info">
-HW4, Shunting Yard, has been released. It is a programming assignment and will be due at 11:59 PM on Wednesday, October 5th.
+The first midterm will be on Thursday September 29th (during the class period).   There will be a review session on Tuesday September 27th from 8-10PM in Berger Auditorium in Skirkanich Hall.  You can look over <a href="exam.html">last year's exam questions</a>. 
 </div>
 
 <div class="alert alert-info">
-HW3 is a written homework assignment on sorting algorithms.  You can <a href="homework.html">download it now</a>. It is due before 10:30am on Thursday, September 22nd. You should submit it via Canvas.
+HW4, Shunting Yard, has been released. It is a programming assignment and will be due at 11:59 PM on <b>Wednesday</b>, October 5th.
 </div>
+
 
 
 

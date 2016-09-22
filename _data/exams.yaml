@@ -1,11 +1,15 @@
 - assignment: Midterm 1
   location: TBA
   exam_date: 2016-09-29
-  topics: TBA
+  topics: Java Knowledge, Analysis of Algorithms, Sorting, Symbol Table API, Heaps, Binary Search Trees
   review:
-    date: TBA
-    time: TBA
-    location: TBA
+    date: Tuesday, September 27
+    time: 8-10 PM
+    location: Berger Auditorium in Skirkanich Hall
+  practice:
+    active: true
+    problems: content/exams/mid1/practiceExam1.pdf
+    solutions:
 
 - assignment: Midterm 2
   location: TBA
@@ -15,6 +19,10 @@
     time: TBA
     location: TBA
   topics: TBA
+  practice:
+    active: false
+    problems: 
+    solutions:
 
 - assignment: Final
   location: TBA
@@ -24,3 +32,7 @@
     time: TBA
     location: TBA 
   topics: TBA
+  practice:
+    active: false
+    problems: 
+    solutions:
