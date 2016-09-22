@@ -56,7 +56,9 @@ All exams will be closed-book and closed-notes.
             {% if exam.practice and exam.practice.active %}
               <li><a href="{{ exam.practice.problems }}">Practice Problems</a></li>
               {% if exam.practice.solutions %}
-                <li><a href="{{ exam.practice.solutions }}">Solutions</a></li>
+                {% for sample_solution in exam.practice.solutions %}
+                <li><a href="{{ exam.practice.solutions }}">Sample Solutions</a></li>
+                {% endfor %}
               {% endif %}
             {% else %}
               <li>Coming soon!</li>

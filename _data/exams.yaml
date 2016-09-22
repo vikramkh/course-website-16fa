@@ -10,6 +10,9 @@
     active: true
     problems: content/exams/mid1/practiceExam1.pdf
     solutions:
+      - content/exams/mid1/practiceExam1-sample-solutions1.pdf
+      - content/exams/mid1/practiceExam1-sample-solutions2.pdf
+      - content/exams/mid1/practiceExam1-sample-solutions3.pdf
 
 - assignment: Midterm 2
   location: TBA
