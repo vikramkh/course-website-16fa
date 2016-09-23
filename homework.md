@@ -26,6 +26,7 @@ for you to use.
       <th>Materials</th>
       <th>Release Date</th>
       <th>Due Date</th>
+      <th>Statistics</th>
     </tr>
     {% for homework in site.data.homeworks %}
       <tr style="text-align: left"
@@ -60,6 +61,14 @@ for you to use.
         <!-- Dates -->
         <td>{{ homework.release_date | date: "%a, %b %-d" }}</td>
         <td>{{ homework.due_date | date: "%a, %b %-d" }} by {{ homework.due_date | date: "%I:%M %p" }}</td>
+        <!-- Statistics -->
+        <td>
+          <ul class="list-unstyled">
+            {% if homework.median %}<li>Median: {{homework.median}}</li>{% endif %}
+            {% if homework.mean %}<li>Mean: {{homework.mean}}</li>{% endif %}
+            {% if homework.std %}<li>Standard Dev: {{homework.std}}</li>{% endif %}
+          </ul>
+        </td>
       </tr>
     {% endfor %}
   </tbody>

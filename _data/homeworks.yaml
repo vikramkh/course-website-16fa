@@ -22,6 +22,9 @@
    solutions: content/hws/hw1/hw1_sol.pdf
    release_date: 2016-09-02
    due_date: 2016-09-15T10:30:00EDT
+   median: 84.0
+   mean: 81.7
+   std: 10.5
 -
    assignment: Quadtree Compression
    type: programming
