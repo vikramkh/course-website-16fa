@@ -4,7 +4,7 @@ title: CIS 121 Exams
 active_tab: exams
 ---
 
-All exams will be closed-book and closed-notes.
+All exams will be closed-book.
 
 <table class="table table-striped">
   <thead>
