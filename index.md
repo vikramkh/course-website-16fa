@@ -33,7 +33,7 @@ Materials:
 ---
 
 <div class="alert alert-info">
-The first midterm will be on Thursday September 29th (during the class period).   There will be a review session on Tuesday September 27th from 8-10PM in Berger Auditorium in Skirkanich Hall.  You can look over <a href="exams.html">last year's exam questions</a>. 
+The first midterm will be on Thursday September 29th (during the class period).   There will be a review session on Tuesday September 27th from 8-10PM in Berger Auditorium in Skirkanich Hall.  You can look over <a href="exams.html">last year's exam questions</a>.   All of the material in lectures, the assigned readings in the textbook and in the homework assignments is fair game for the exam.  Be sure to read chapters 1.3-1.5 and 2.1-2.4 and 3.1-3.2 in the textbook.
 </div>
 
 <div class="alert alert-info">
