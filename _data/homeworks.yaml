@@ -40,6 +40,9 @@
    active: true
    release_date: 2016-09-15
    due_date: 2016-9-22T10:30:00EDT
+   median: 80.6
+   mean: 78.1
+   std: 19.2
 -
    assignment: Dequeues and Dijkstra's "Shunting Yard" Algorithm
    writeup: content/hws/hw4/hw4.pdf
