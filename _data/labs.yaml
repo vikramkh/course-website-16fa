@@ -22,4 +22,8 @@
     - name: Recitation Guide
       link: content/labs/sorting/sorting.pdf
   solutions: content/labs/sorting/sorting_sol.pdf
-      
+- date: 2016-09-26
+  name: Heaps
+  problems:
+    - name: Recitation Guide
+      link: content/labs/heaps/heaps.pdf
