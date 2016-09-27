@@ -1,5 +1,9 @@
 - assignment: Midterm 1
-  location: CHEM 102 (A-L), FAGN 116 (M-Q), FAGN 118 (R-T), FAGN 218 (U-Z)
+  location: 
+    - CHEM 102 (A-L)
+    - FAGN 116 (M-Q)
+    - FAGN 118 (R-T)
+    - FAGN 218 (U-Z)
   exam_date: 2016-09-29
   topics: Java Knowledge, Analysis of Algorithms, Sorting, Priority Queues, Heaps, Symbol Table API, Binary Search Trees
   review:
