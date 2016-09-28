@@ -15,13 +15,13 @@
   problems:
     - name: Recitation Guide
       link: content/labs/big_oh/big_oh.pdf
-  solutions: content/labs/big_oh/big_oh_sols.pdf
+  solutions: protected_content/labs/big_oh/big_oh_sols.pdf
 - date: 2016-09-19
   name: Sorting
   problems:
     - name: Recitation Guide
       link: content/labs/sorting/sorting.pdf
-  solutions: content/labs/sorting/sorting_sol.pdf
+  solutions: protected_content/labs/sorting/sorting_sols.pdf
 - date: 2016-09-26
   name: Heaps
   problems:
