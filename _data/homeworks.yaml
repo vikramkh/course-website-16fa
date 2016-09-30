@@ -66,7 +66,8 @@
    problem_set: content/hws/hw5/hw5.pdf
    problem_set_tex: content/hws/hw5/hw5.tex
    type: written
-   release_date: 2016-9-29
+   active: true
+   release_date: 2016-9-30
    due_date: 2016-10-13T10:30:00EDT
 -
    assignment: Hashing and Tries
