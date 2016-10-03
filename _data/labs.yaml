@@ -28,3 +28,8 @@
     - name: Recitation Guide
       link: content/labs/heaps/heaps.pdf
   solutions: protected_content/labs/heaps/heaps_sols.pdf
+- date: 2016-10-03
+  name: Binary Search Trees
+  problems:
+    - name: Recitation Guide
+      link: content/labs/binary_search_trees/binary_search_trees.pdf
