@@ -14,6 +14,7 @@ All exams will be closed-book.
       <th>Location</th>
       <th>Information</th>
       <th>Practice Problems</th>
+      <th>Solutions</th>
     </tr>
   </thead>
   
