@@ -65,6 +65,16 @@ All exams will be closed-book.
             {% endif %}
           </ul>
         </td>
+
+        <td>
+          <ul class="list-unstyled">
+            {% if exam.solutions %}
+              <li><a href="{{ exam.solutions }}">Exam Solutions</a></li>
+            {% else %}
+              <li>Coming soon!</li>
+            {% endif %}
+          </ul>
+        </td>
       </tr>
     {% endfor %}
     

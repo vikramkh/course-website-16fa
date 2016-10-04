@@ -17,6 +17,7 @@
       - content/exams/mid1/practiceExam1-sample-solutions1.pdf
       - content/exams/mid1/practiceExam1-sample-solutions2.pdf
       - content/exams/mid1/practiceExam1-sample-solutions3.pdf
+  solutions: protected_content/exams/mid1/midterm1_sols.pdf
 
 - assignment: Midterm 2
   location: TBA
