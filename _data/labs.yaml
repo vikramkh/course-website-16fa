@@ -33,3 +33,4 @@
   problems:
     - name: Recitation Guide
       link: content/labs/binary_search_trees/binary_search_trees.pdf
+  solutions: protected_content/labs/binary_search_trees/binary_search_trees_soln.pdf
