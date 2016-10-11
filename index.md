@@ -33,7 +33,7 @@ Materials:
 ---
 
 <div class="alert alert-info">
-HW5, Heaps and Priority Queues, has been released. It is a written assignment and will be due at 10:30 AM on <b>Thursday, October 13th</b>. Submission format is TBD.
+HW5, Heaps and Priority Queues, has been released. It is a written assignment and will be due at 10:30 AM on <b>Thursday, October 13th</b>. Submission will be online through Gradescope only.
 </div>
 
 
