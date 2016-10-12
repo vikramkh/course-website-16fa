@@ -39,3 +39,4 @@
   problems:
     - name: Recitation Guide
       link: content/labs/balanced_bsts/balanced_bsts.pdf
+  solutions: protected_content/labs/balanced_bsts/balanced_bsts_sols.pdf
