@@ -31,6 +31,9 @@ Materials:
 : We require everyone in the course to have their own clicker.  You can re-use the one that you have from CIS 110 or 120, or you can purchase one from the bookstore if you don't have one. 
 
 ---
+<div class"alert alert-info">
+HW6, Hashing and Tries, has been released. It is a programming assignment and will be due at midnight on <b>Thursday, October 20th</b>.
+</div>
 
 <div class="alert alert-info">
 HW5, Heaps and Priority Queues, has been released. It is a written assignment and will be due at 10:30 AM on <b>Thursday, October 13th</b>. Submission will be online through Gradescope only.
