@@ -186,7 +186,7 @@
       url: lectures/11-hash-tables-applications.pdf
 -
   date: 2016-10-13
-  slides: lectures/17-tries.pdf
+  slides: lectures/12-tries.pdf
   title: Tries
   highlights:
     - R-way Tries
@@ -197,7 +197,7 @@
       title: Chapter 5.2 the textbook
 -
   date: 2016-10-18
-  slides: lectures/12-undirected-graphs.pdf
+  slides: lectures/13-undirected-graphs.pdf
   title: Undirected Graphs
   highlights:
     - Intro to Graphs
@@ -211,7 +211,7 @@
       title: Chapter 4.1 in the textbook
 -
   date: 2016-10-20
-  slides: lectures/13-directed-graphs.pdf
+  slides: lectures/14-directed-graphs.pdf
   title: Directed Graphs
   highlights:
     - Intro to Digraphs
@@ -223,7 +223,7 @@
       title: Chapter 4.2 in the textbook
 -
   date: 2016-10-25
-  slides: lectures/14-minimum-spanning-trees.pdf
+  slides: lectures/15-minimum-spanning-trees.pdf
   title: Minimum Spanning Trees
   highlights:
     - Greedy Algorithm for MSTs
@@ -236,7 +236,7 @@
       title: Chapter 4.3 in the textbook, plus Chapter 1.5 on Union-Find
 -
   date: 2016-10-27
-  slides: lectures/15-shortest-paths.pdf
+  slides: lectures/16-shortest-paths.pdf
   title: Shortest Paths
   highlights:
     - Properties of Shortest Paths
@@ -285,7 +285,7 @@
     - We will attempt to make grades for Midterm 2 available by the end of the day
 -
   date: 2016-11-10
-  slides: lectures/16-strings.pdf
+  slides: lectures/17-strings.pdf
   title: Strings
   highlights:
     - Key-Indexed Counting
