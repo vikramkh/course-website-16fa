@@ -76,6 +76,7 @@
    assignment: Hashing and Tries
    writeup: content/hws/hw6/hw6.pdf
    zip: content/hws/hw6/hw6.zip
+   extra_file: content/hws/hw6/jamm.jar
    type: programming
    active: true
    release_date: 2016-10-11

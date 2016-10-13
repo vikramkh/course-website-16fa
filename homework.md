@@ -46,6 +46,7 @@ for you to use.
             {% if homework.active %}
               {% if homework.writeup %}<li><a href="{{ homework.writeup }}">Write-up</a></li>{% endif %}
               {% if homework.zip %}<li><a href="{{ homework.zip }}">Files (zip)</a></li>{% endif %}
+              {% if homework.extra_file %}<li><a href="{{ homework.extra_file }}">extra files</a></li>{% endif %}
               {% if homework.problem_set %}<li><a href="{{ homework.problem_set }}">Problem set</a></li>{% endif %}
               {% if homework.problem_set_zip %}<li><a href="{{ homework.problem_set_zip }}">Problem set (zip)</a></li>{% endif %}
               {% if homework.problem_set_tex %}<li><a href="{{ homework.problem_set_tex }}">Problem set (tex)</a></li>{% endif %}
