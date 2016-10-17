@@ -40,3 +40,8 @@
     - name: Recitation Guide
       link: content/labs/balanced_bsts/balanced_bsts.pdf
   solutions: protected_content/labs/balanced_bsts/balanced_bsts_sols.pdf
+- date: 2016-10-17
+  name: Hashing and Tries
+  problems:
+    - name: Recitation Guide
+      link: content/labs/hashing_and_tries/hashing_and_tries.pdf
