@@ -68,10 +68,14 @@
 -
    assignment: Heaps/Priority Queues
    problem_set: content/hws/hw5/hw5.pdf
+   solutions: protected_content/hws/hw5/hw5_sols.pdf
    type: written
    active: true
    release_date: 2016-9-30
    due_date: 2016-10-13T10:30:00EDT
+   median: 82.5
+   mean: 80.5
+   std: 10.4
 -
    assignment: Hashing and Tries
    writeup: content/hws/hw6/hw6.pdf
