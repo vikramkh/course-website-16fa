@@ -32,6 +32,10 @@ Materials:
 
 ---
 <div class="alert alert-info">
+HW7, Graphs and Shortest Paths, has been released. It is a written assignment and will be due by 10:30 AM on <b>Thursday, October 27th</b>. Submission will be through Gradescope only.
+</div>
+
+<div class="alert alert-info">
 HW6, Hashing and Tries, has been released. It is a programming assignment and will be due at midnight on <b>Thursday, October 20th</b>.
 </div>
 
