@@ -89,9 +89,11 @@
    assignment: "Term project: Milestone 1 (Graph Parsing)"
    writeup: content/hws/project/project.pdf
    zip: content/hws/project/project.zip
+   extra_file: content/hws/project/project-sources.jar
    type: programming
-   release_date: 2016-10-18
-   due_date: 2016-10-27T23:59:00EDT
+   active: true
+   release_date: 2016-10-19
+   due_date: 2016-11-1T23:59:00EDT
 
 -
    assignment: Graphs and Shortest Paths
