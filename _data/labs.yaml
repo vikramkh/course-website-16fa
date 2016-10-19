@@ -45,3 +45,4 @@
   problems:
     - name: Recitation Guide
       link: content/labs/hashing_and_tries/hashing_and_tries.pdf
+  solutions: protected_content/labs/hashing_and_tries/hashing_and_tries_sols.pdf
