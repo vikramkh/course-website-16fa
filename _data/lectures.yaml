@@ -10,6 +10,9 @@
   reading:
     -
       title: Chapter 1.3 in the textbook
+    -
+      title: Amortized analysis tutorial
+      url: content/review_sessions/amortized_analysis/amortized_analysis.pdf
 -
   date: 2016-09-01
   slides: lectures/02-analysis-of-algorithms.pdf
