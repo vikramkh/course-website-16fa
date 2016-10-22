@@ -32,7 +32,7 @@ Materials:
 
 ---
 <div class="alert alert-info">
-The final project has been released. Milestone 1 will be due by midnight on <b>Wednesday, October 19</b>.
+The final project has been released. Milestone 1 will be due by midnight on <b>Tuesday, November 1</b>.
 </div>
 
 <div class="alert alert-info">
