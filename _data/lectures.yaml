@@ -226,6 +226,18 @@
       title: Chapter 4.2 in the textbook
 -
   date: 2016-10-25
+  slides: lectures/16-shortest-paths.pdf
+  title: Shortest Paths
+  highlights:
+    - Properties of Shortest Paths
+    - Dijkstra's Algorithm
+    - Edge-Weighted Directed Acyclic Graphs
+    - Negative Weights
+  reading:
+    -
+      title: Chapter 4.4 in the textbook
+-
+  date: 2016-10-27
   slides: lectures/15-minimum-spanning-trees.pdf
   title: Minimum Spanning Trees
   highlights:
@@ -237,18 +249,6 @@
   reading:
     -
       title: Chapter 4.3 in the textbook, plus Chapter 1.5 on Union-Find
--
-  date: 2016-10-27
-  slides: lectures/16-shortest-paths.pdf
-  title: Shortest Paths
-  highlights:
-    - Properties of Shortest Paths
-    - Dijkstra's Algorithm
-    - Edge-Weighted Directed Acyclic Graphs
-    - Negative Weights
-  reading:
-    -
-      title: Chapter 4.4 in the textbook
 -
   date: 2016-11-01
   title: Review session for Midterm 2
