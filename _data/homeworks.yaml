@@ -8,6 +8,7 @@
    due_date: 2016-09-01T23:59:00EDT
 -
    assignment: Java Warm-Up (Finger Exercises)
+   number: 0
    type: programming
    active: true
    writeup: content/hws/hw0/hw0.pdf
@@ -20,6 +21,7 @@
 
 -
    assignment: Analysis of Algorithms
+   number: 1
    type: written
    active: true
    problem_set: content/hws/hw1/hw1.pdf
@@ -31,6 +33,7 @@
    std: 10.5
 -
    assignment: Quadtree Compression
+   number: 2
    type: programming
    active: true
    writeup: content/hws/hw2/hw2.pdf
@@ -42,6 +45,7 @@
    std: 27.8
 -
    assignment: Sorting
+   number: 3
    problem_set: content/hws/hw3/hw3.pdf
    solutions: content/hws/hw3/hw3_sol.pdf
    type: written
@@ -53,6 +57,7 @@
    std: 19.2
 -
    assignment: Dequeues and Dijkstra's "Shunting Yard" Algorithm
+   number: 4
    writeup: content/hws/hw4/hw4.pdf
    zip: content/hws/hw4/hw4.zip
    type: programming
@@ -70,6 +75,7 @@
    due_date: 2016-09-29T11:50:00EDT
 -
    assignment: Heaps/Priority Queues
+   number: 5
    problem_set: content/hws/hw5/hw5.pdf
    solutions: protected_content/hws/hw5/hw5_sols.pdf
    type: written
@@ -81,6 +87,7 @@
    std: 10.4
 -
    assignment: Hashing and Tries
+   number: 6
    writeup: content/hws/hw6/hw6.pdf
    zip: content/hws/hw6/hw6.zip
    extra_file: content/hws/hw6/jamm.jar
@@ -100,6 +107,7 @@
 
 -
    assignment: Graphs and Shortest Paths
+   number: 7
    problem_set: content/hws/hw7/hw7.pdf
    type: written
    active: true
@@ -112,6 +120,7 @@
    due_date: 2016-11-03T11:50:00EDT
 -
    assignment: Breadth-First Search and Minimum Spanning Trees
+   number: 8
    writeup: content/hws/hw7/hw7.pdf
    zip: content/hws/hw7/hw7.zip
    type: programming
@@ -126,6 +135,7 @@
    due_date: 2016-11-17T23:59:00EST
 -
    assignment: "Term Review Written Homework"
+   number: 9
    writeup: 
    zip:
    type: written
@@ -140,6 +150,7 @@
    due_date: 2016-11-23T23:59:00EST
 -
    assignment: Compression
+   number: 10
    writeup: content/hws/hw9/hw9.pdf
    zip: content/hws/hw9/hw9.zip
    type: programming
