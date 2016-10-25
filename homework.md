@@ -21,6 +21,7 @@ for you to use.
 <table class="table table-striped">
   <tbody>
     <tr>
+      <th>#</th>
       <th>Name</th>
       <th>Type</th>
       <th>Materials</th>
@@ -35,7 +36,14 @@ for you to use.
         {% endif %}
       >
         <!-- Homework Name -->
-        <td><span>{{ homework.assignment }}</span></td>
+        <td>
+            {% if homework.number %}
+               hw{{ homework.number }}
+            {% endif %}
+        </td>
+        <td>
+            <span>{{ homework.assignment }}</span>
+        </td>
         <!-- Type -->
         <td>
           <span>{{ homework.type }}</span>

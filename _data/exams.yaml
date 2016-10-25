@@ -5,7 +5,14 @@
     - FAGN 118 (R-T)
     - FAGN 218 (U-Z)
   exam_date: 2016-09-29
-  topics: Java Knowledge, Analysis of Algorithms, Sorting, Priority Queues, Heaps, Symbol Table API, Binary Search Trees
+  topics:
+    - Java Knowledge
+    - Analysis of Algorithms
+    - Sorting
+    - Priority Queues
+    - Heaps
+    - Symbol Table API
+    - Binary Search Trees
   review:
     date: Tuesday, September 27
     time: 8-10 PM
@@ -20,13 +27,24 @@
   solutions: protected_content/exams/mid1/midterm1_sols.pdf
 
 - assignment: Midterm 2
-  location: TBA
+  location:
+    - CHEM 102 (A-L)
+    - FAGN 116 (M-Q)
+    - FAGN 118 (R-T)
+    - FAGN 218 (U-Z)
   exam_date: 2016-11-03
   review:
     date: Tuesday, November 1
     time: 8-10 PM
     location: Wu & Chen Auditorium (Levine 101)
-  topics: TBA
+  topics:
+    - Binary search trees
+    - Hash tables
+    - Tries
+    - Graphs
+    - Shortest path algorithms
+    - Minimum spanning trees
+    - TB ch. 3.1-3.5, 4.1-4.4, 1.5 (Union-Find)
   practice:
     active: false
     problems: 
