@@ -27,7 +27,11 @@
   solutions: protected_content/exams/mid1/midterm1_sols.pdf
 
 - assignment: Midterm 2
-  location: TBA
+  location:
+    - CHEM 102 (A-L)
+    - FAGN 116 (M-Q)
+    - FAGN 118 (R-T)
+    - FAGN 218 (U-Z)
   exam_date: 2016-11-03
   review:
     date: Tuesday, November 1
