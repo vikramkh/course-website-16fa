@@ -51,4 +51,4 @@
   problems:
     - name: Recitation Guide
       link: content/labs/graphs/graphs.pdf
-  solutions: content/labs/graphs/graphs_sols.pdf
+  solutions: protected_content/labs/graphs/graphs_sols.pdf
